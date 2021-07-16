@@ -1,0 +1,11 @@
+$font-primary    : "Titillium Web";
+$font-secondary  : "Roboto";
+
+body {
+  font-family: $font-primary;
+}
+.section__title {
+  font: 700 1.5em $font-primary;
+  color: $blue-dark;
+  text-align: center;
+}

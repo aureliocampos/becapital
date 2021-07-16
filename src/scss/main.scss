@@ -1,0 +1,51 @@
+@import "./partials/base";
+@import "./modules/modules";
+
+
+.header {
+  background-color: $blue-dark;
+  padding: 12px 18px;
+  border-bottom: 3px solid $orange;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 128px;
+    height: auto;
+  }
+}
+
+.section__posts {
+  margin-top: 3.5em;
+  .section__title {
+    margin-bottom: 4em;
+  }
+}
+
+.posts {
+  &__item {
+    padding: 0 2.125em;
+    margin-bottom: 1.625em;
+  }
+  &__figure {
+    margin-bottom: 1.125em;
+  }
+  &__image {
+    border-radius: 0.625rem;
+  }
+  &__title {
+    font: 600 0.875em $font-primary;
+    color: $blue-dark;
+    text-align: center;
+    line-height: 21px;
+    margin-bottom: 0.4375rem;
+  }
+  &__excerpt {
+    font: 300 0.6875em $font-primary;
+    color: $black;
+    text-align: center;
+    line-height: 16px;
+  }
+}

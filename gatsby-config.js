@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "becapital",
+    siteUrl: "https://www.be.capital/",
+    title: "BeCapital",
+    description: "Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos.",
+    author: "Aurélio Campos"
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -30,5 +32,26 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000, // Defaults to 100
+        collectionTypes: [`articles`, `user`]
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Titillium+Web\:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700`,
+          `Roboto\:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900` // you can also specify font weights and styles
+        ],
+
+        
+        display: 'swap'
+      }
+    }
   ],
 };
+

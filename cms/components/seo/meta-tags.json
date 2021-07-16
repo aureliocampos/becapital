@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_seo_meta_tags",
+  "info": {
+    "name": "MetaTags",
+    "icon": "chart-bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "string"
+    }
+  }
+}
