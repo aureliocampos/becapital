@@ -22,7 +22,7 @@ const ArticleTemplate = ({ data }) => {
         </header>
         <section className="article__main">
           <h1 className="article__title">{data.strapiArticles.title}</h1>
-          <time>leitura de 3 min</time>
+          <time>leitura de 4 min</time>
           <p className="article__excerpt">{data.strapiArticles.Excerpt}</p>
           <div className="article__content">{data.strapiArticles.Content}</div>
 
