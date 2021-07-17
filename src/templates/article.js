@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 import Header from "../pages/components/Header";
@@ -7,6 +7,7 @@ import Header from "../pages/components/Header";
 const ArticleTemplate = ({ data }) => {
 
   const image = getImage(data.strapiArticles.Image.localFile)
+
   return(
     <>
       <Header/>
@@ -22,9 +23,9 @@ const ArticleTemplate = ({ data }) => {
         </header>
         <section className="article__main">
           <h1 className="article__title">{data.strapiArticles.title}</h1>
-          <time>leitura de 4 min</time>
           <p className="article__excerpt">{data.strapiArticles.Excerpt}</p>
-          <div className="article__content">{data.strapiArticles.Content}</div>
+          <time>leitura de 4 min</time>
+          <div className="article__content editor__style--default" dangerouslySetInnerHTML={{__html: data.strapiArticles.Content}} />
 
         </section>
       </article>
