@@ -19,16 +19,16 @@
     "slug": {
       "type": "uid"
     },
-    "Date": {
+    "date": {
       "type": "date"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
-    "Excerpt": {
+    "excerpt": {
       "type": "text"
     },
-    "Image": {
+    "thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

@@ -19,19 +19,45 @@ exports.createPages = ({ actions, graphql }) => {
     {
       allStrapiArticles {
         edges {
+          previous {
+            title
+            slug
+            thumbnail {
+              localFile {
+                childImageSharp {
+                  gatsbyImageData
+                }
+              }
+            }
+            excerpt
+          }
           node {
             slug
+          }
+          next {
+            title
+            slug
+            thumbnail {
+              localFile {
+                childImageSharp {
+                  gatsbyImageData
+                }
+              }
+            }
+            excerpt
           }
         }
       }
     }
     `).then(result => {
-    result.data.allStrapiArticles.edges.forEach(({ node }) => {
+    result.data.allStrapiArticles.edges.forEach(({ node, next, previous }) => {
       createPage({
         path: `/blog/${node.slug}`,
         component: path.resolve(`src/templates/article.js`),
         context: {
           slug: node.slug,
+          next,
+          previous,
         },
       })
     })

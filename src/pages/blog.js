@@ -5,6 +5,7 @@ import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 import Header from "./components/Header";
 
 const Blog = ({ data }) => {
+
   return(
     <>
       <Header/>
@@ -21,9 +22,9 @@ const Blog = ({ data }) => {
           <ul className="posts__items">
           {data.allStrapiArticles.edges.map( article => {
 
-            const { strapiId, slug, title, Excerpt, Image} = article.node;
+            const { strapiId, slug, title, thumbnail, excerpt} = article.node;
 
-            const image = getImage(Image.localFile);
+            const image = getImage(thumbnail.localFile);
 
             return (
               <li key={strapiId} className="posts__item">
@@ -37,7 +38,7 @@ const Blog = ({ data }) => {
                       imgClassName="posts__image" 
                     />
                     <h2 className="posts__title">{title}</h2>
-                    <p className="posts__excerpt">{Excerpt}</p>
+                    <p className="posts__excerpt">{excerpt}</p>
                   </article>
                 </Link>
               </li>
@@ -59,9 +60,9 @@ export const pageQuery = graphql`
         node {
           strapiId
           title
-          Excerpt
+          excerpt
           slug
-          Image {
+          thumbnail {
             localFile {
               childImageSharp {
                 gatsbyImageData
