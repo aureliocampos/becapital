@@ -1,20 +1,9 @@
 @import "./partials/base";
 @import "./modules/modules";
+@import "./components/components";
 
-
-.header {
-  background-color: $blue-dark;
-  padding: 12px 18px;
-  border-bottom: 3px solid $orange;
-  &__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  &__logo {
-    width: 128px;
-    height: auto;
-  }
+body.hidden {
+  overflow: hidden;
 }
 .section__posts {
   margin-top: 3.5em;
@@ -22,7 +11,6 @@
     margin-bottom: 4em;
   }
 }
-
 .posts {
   &__item {
     padding: 0 2.125em;
@@ -49,6 +37,41 @@
   }
 }
 
+.single-article {
+  &__main {
+    padding: 0 1.25em;
+  }
+  &__figure {
+    height: 203px;
+  }
+  &__title {
+    font-size: 1.3125em;
+    font-weight: 700;
+    color: $blue-dark;
+    line-height: 1.5625rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1.875rem auto 1.25rem auto;
+  }
+  &__excerpt {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.125em;
+    line-height: 1.3125rem;
+    text-align: center;
+    margin-bottom: 0.4375rem; /* 7px */
+  }
+  &__time-read {
+    display: block;
+    font-weight: 300;
+    font-size: 0.625em;
+    line-height: 0.75rem;
+    text-align: center;
+  }
+  &__content {
+    margin: 2rem 0 3rem 0;
+  }
+}
 .more-articles {
   &__items {
     display: flex;

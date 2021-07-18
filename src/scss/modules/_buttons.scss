@@ -1,0 +1,15 @@
+.button__primary {
+  width: max-content;
+  height: auto;
+  font: 700 1em $font-secondary;
+  color: $orange;
+  padding: 7px 22px;
+  border: 1px solid $orange;
+  border-radius: 7px; 
+}
+
+.header__button_cta {
+  position: absolute;
+  top: 580px;
+  height: 4em;
+}

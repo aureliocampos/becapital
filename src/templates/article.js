@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-import Header from "../pages/components/Header";
+import Header from "../pages/components/Header/Header";
 
 const ArticleTemplate = ({ data, pageContext }) => {
 

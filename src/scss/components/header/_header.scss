@@ -1,0 +1,136 @@
+
+.header.active {
+  &:after {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background: rgb(0 0 0 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: $blue-dark;
+  padding: 12px 18px;
+  border-bottom: 3px solid $orange;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 128px;
+    height: auto;
+  }
+  &__menu {
+    position: fixed;
+    top: 0;
+    right: -50rem;
+    width: 81%;
+    height: 100vh;
+    padding: 1.25rem 0 0 2rem;
+    background-color: #1A4A71;
+    z-index: 1;
+    border-right: 9px solid #FF6746;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: right 0.3s ease-in-out;
+    &:after {
+      content: '';
+      display: block;
+      width: 9px;
+      height: 100vh;
+      box-shadow: 0 0 4px 1px #ff6746;
+      position: absolute;
+      top: 0;
+      right: -9px;
+    }
+    &_nav {
+      position: relative;
+    }
+    &_items {
+      position: absolute;
+      top: 125px;
+    }
+    &_item {
+      position: relative;
+      margin: 1.25rem 0;
+      &_children {
+        position: relative;
+      }
+      &_current {
+        position: relative;
+      }
+    }
+    &_link {
+      font: 700 26px $font-primary;
+      color: $white;
+      line-height: 40px;
+    }
+  }
+  &__menu.active {
+    right: 0;
+  }
+  &__submenu {
+    &_items {
+      margin: 15px 0 15px 1.25rem;
+    }
+    &_item {
+      margin: 1.25rem 0;
+    }
+    &_link {
+      font: 400 13px $font-primary;
+      color: $white;
+      line-height: 1.25rem;
+    }
+  }
+}
+.burguer__container {
+  position: relative;
+  top: -2px;
+  left: 0;
+  width: 31px;
+  height: 31px;
+  transition: all 0.3s ease-in-out;
+  span {
+    display: block;
+    height: 4px;
+    background-color: $orange;
+    box-shadow: 0px 0px 4px 1px #FF6746;
+    border-radius: 5px;
+    margin: 6px 0 0 auto;
+    &:first-of-type {
+      width: 12px;
+    }
+    &:nth-of-type(2){
+      width: 18px;
+    }
+    &:last-of-type {
+      width: 24px;
+    }
+  }
+}
+.burguer__container.active {
+  left: -220px;
+  z-index: 2;
+  span {
+    margin: 6px auto 0 0;
+  }
+  @media (max-width: 320px) {
+    left: -180px;
+  }
+  @media (min-width: 325px) and (max-width:360px) {
+    left: -209px;
+  }
+  @media (min-width: 400px) {
+    left: -252px;
+  }
+  @media (min-width: 640px){
+    left: -435px;
+  }
+}

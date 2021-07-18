@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 const Blog = ({ data }) => {
 
