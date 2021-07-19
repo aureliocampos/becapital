@@ -1,0 +1,25 @@
+.banner {
+  &__content {
+    position: relative;
+  }
+  &__primary {
+    height: 100vh;
+    &-description {
+      position: absolute;
+      bottom: 115px;
+      padding: 0 2.5rem;
+    }
+  }
+  &__title {
+    font: 700 2.4375em $font-primary;
+    color: $white;
+    line-height: 105.6%;
+  }
+  &__subtitle {
+    width: 75%;
+    font: 600 0.75em $font-primary;
+    color: $white;
+    line-height: 138.5%;
+    margin-bottom: 2rem;
+  }
+}

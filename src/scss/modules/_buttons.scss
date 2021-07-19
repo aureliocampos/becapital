@@ -1,15 +1,21 @@
-.button__primary {
+.button {
+  display: block;
   width: max-content;
   height: auto;
   font: 700 1em $font-secondary;
-  color: $orange;
+  text-transform: uppercase;
   padding: 7px 22px;
-  border: 1px solid $orange;
   border-radius: 7px; 
 }
+.button__primary {
+  background-color: transparent;
+  color: $orange;
+  border: 1px solid $orange;
+}
 
-.header__button_cta {
-  position: absolute;
-  top: 580px;
-  height: 4em;
+.button__secondary {
+  background-color: $orange;
+  color: $white;
+  border: 1px solid $orange;
+  box-shadow: 0px 0px 4px 1px $orange;
 }

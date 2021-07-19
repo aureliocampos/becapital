@@ -19,6 +19,7 @@
   z-index: 1;
   transition: all 0.3s ease-in-out;
   &__content {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,15 +32,16 @@
     position: fixed;
     top: 0;
     right: -50rem;
-    width: 81%;
+    width: 80%;
     height: 100vh;
-    padding: 1.25rem 0 0 2rem;
+    padding: 0.675rem 0 0 2rem;
     background-color: #1A4A71;
     z-index: 1;
     border-right: 9px solid #FF6746;
+    border-radius: 1rem 0px 0px 1rem;
     overflow-y: scroll;
     overflow-x: hidden;
-    transition: right 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     &:after {
       content: '';
       display: block;
@@ -52,25 +54,28 @@
     }
     &_nav {
       position: relative;
-    }
-    &_items {
-      position: absolute;
-      top: 125px;
+      margin: 6.25rem 0 2.625rem 0;
     }
     &_item {
       position: relative;
       margin: 1.25rem 0;
-      &_children {
-        position: relative;
-      }
-      &_current {
-        position: relative;
-      }
     }
     &_link {
       font: 700 26px $font-primary;
       color: $white;
       line-height: 40px;
+    }
+    &_link[aria-current="page"] {
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 80%;
+        background: $orange;
+        position: absolute;
+        left: -2rem;
+        top: 3px;
+      }
     }
   }
   &__menu.active {
@@ -90,12 +95,14 @@
     }
   }
 }
+
+
 .burguer__container {
-  position: relative;
-  top: -2px;
-  left: 0;
-  width: 31px;
-  height: 31px;
+  position: fixed;
+  top: 8px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
   transition: all 0.3s ease-in-out;
   span {
     display: block;
@@ -116,21 +123,10 @@
   }
 }
 .burguer__container.active {
-  left: -220px;
+  position: initial;
   z-index: 2;
+  transition: all 0.3s ease-in-out;
   span {
     margin: 6px auto 0 0;
-  }
-  @media (max-width: 320px) {
-    left: -180px;
-  }
-  @media (min-width: 325px) and (max-width:360px) {
-    left: -209px;
-  }
-  @media (min-width: 400px) {
-    left: -252px;
-  }
-  @media (min-width: 640px){
-    left: -435px;
   }
 }
