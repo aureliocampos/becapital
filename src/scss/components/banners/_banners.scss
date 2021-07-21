@@ -2,18 +2,19 @@
   &__content {
     position: relative;
   }
-  &__primary {
+  &__figure {
     height: 100vh;
-    &-description {
-      position: absolute;
-      bottom: 115px;
-      padding: 0 2.5rem;
-    }
+  }
+  &__image {
+    object-position: 80%;
   }
   &__title {
     font: 700 2.4375em $font-primary;
     color: $white;
     line-height: 105.6%;
+    @include tablet {
+      font-size: 56px;
+    }
   }
   &__subtitle {
     width: 75%;
@@ -21,5 +22,42 @@
     color: $white;
     line-height: 138.5%;
     margin-bottom: 2rem;
+    @include tablet {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 300;
+      text-align: justify;
+    }
+  }
+
+  &__primary {
+    height: 100vh;
+    &-description {
+      position: absolute;
+      bottom: 115px;
+      padding: 0 2.5rem;
+      @include tablet {
+        top: 120px;
+        left: 20px;
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+      }
+      @include tablet-landscape {
+        left: 90px;
+      }
+      @include notebook {
+        left: 120px;
+      }
+    }
+  }
+}
+
+.banner--blog {
+  .banner__figure {
+    height: auto;
+  }
+  @include tablet {
+    display: none;
   }
 }

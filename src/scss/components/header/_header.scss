@@ -18,11 +18,23 @@
   border-bottom: 3px solid $orange;
   z-index: 1;
   transition: all 0.3s ease-in-out;
+  @include notebook {
+    border: none;
+  }
   &__content {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include tablet {
+      gap: 104px;
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    @include notebook {
+      gap: 162px;
+      max-width: 1114px;
+    }
   }
   &__logo {
     width: 128px;
@@ -52,18 +64,50 @@
       top: 0;
       right: -9px;
     }
+    @include tablet {
+      position: initial;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+      border: none;
+      overflow: auto;
+      &:after {
+        display: none;
+      }
+    }
     &_nav {
       position: relative;
       margin: 6.25rem 0 2.625rem 0;
+      @include tablet {
+        margin: 0;
+      }
+    }
+    &_items {
+      @include tablet {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+      }
+      @include notebook {
+        gap: 77px;
+      }
     }
     &_item {
       position: relative;
       margin: 1.25rem 0;
+      @include tablet {
+        margin: 0;
+      }
     }
     &_link {
       font: 700 26px $font-primary;
       color: $white;
       line-height: 40px;
+      @include tablet {
+        font-size: 15px;
+      }
     }
     &_link[aria-current="page"] {
       &:before {
@@ -76,12 +120,20 @@
         left: -2rem;
         top: 3px;
       }
+      @include tablet {
+        &:before {
+          display: none;
+        }
+      }
     }
   }
   &__menu.active {
     right: 0;
   }
   &__submenu {
+    @include tablet {
+      display: none;
+    }
     &_items {
       margin: 15px 0 15px 1.25rem;
     }
@@ -104,6 +156,9 @@
   width: 30px;
   height: 30px;
   transition: all 0.3s ease-in-out;
+  @include tablet {
+    display: none;
+  }
   span {
     display: block;
     height: 4px;

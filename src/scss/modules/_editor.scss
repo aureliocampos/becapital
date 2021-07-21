@@ -3,6 +3,10 @@
   font-size: 14px;
   text-align: justify;
   line-height: 20px;
+  @include notebook {
+    font-size: 20px;
+    line-height: 148%;
+  }
   p,li {
     margin: 1em 0;
   }

@@ -10,7 +10,7 @@ const Blog = ({ data }) => {
     <>
       <Header/>
       
-      <section className="banner banner__secondary">
+      <section className="banner banner__secondary banner--blog">
         <div className="banner__content">
           <StaticImage src="../images/banner_blog.png" alt="Banner image" className="banner__figure" imgClassName="banner__image"/>
         </div>
