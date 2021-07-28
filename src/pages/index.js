@@ -1,12 +1,17 @@
 import React from "react";
 import { StaticImage} from "gatsby-plugin-image";
 
-import Header from "./components/Header/Header";
+import Layout from "./components/Layout";
+import SlideServices from "./components/Slides/SlidesServices";
+import SectionLogos from "./components/SectionLogos";
+import CardBlog from "./components/Cards/CardBlog";
+import SlideTestimony from "./components/Slides/SlideTestimony";
 
 const Home = () => {
   return(
-    <>
-      <Header/>
+    <Layout 
+      pageName="home"
+    >
       <section className="banner banner__primary">
         <div className="banner__content">
           <StaticImage src="../images/banner_home_desktop_2x.jpg" alt="Banner image" className="banner__figure" imgClassName="banner__image banner__image-background"/>
@@ -19,13 +24,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="section">
-        <div className="section__container">
-          <h2 className="section__title">Seja BeCapital</h2>
-          <p className="section__subtitle">Um portfólio de serviços e produtos para quem quer transformar o sonho em meta.</p>
-        </div>
-      </section>
-    </>
+      <SlideServices />
+      <SectionLogos />
+      <SlideTestimony />
+      <CardBlog />
+    </Layout>
   )
 }
 

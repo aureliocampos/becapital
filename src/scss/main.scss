@@ -14,6 +14,12 @@ body.hidden {
     margin-bottom: 4em;
   }
 }
+.section__posts--more {
+  margin-top: 4em;
+  .section__title {
+    margin-bottom: 1em;
+  }
+}
 .posts {
   &__items {
     @include tablet {
@@ -181,5 +187,280 @@ body.hidden {
       font-style: italic;
       line-height: 21px;
     }
+  }
+}
+
+
+/* Slide de Serviços */
+
+.section__slide-services {
+  overflow: hidden;
+}
+.slide-services {
+  &__article {
+    padding: 44px 27px;
+    box-shadow: 0px 0px 21.6476px rgba(0, 0, 0, 0.14);
+    border-radius: 24px;
+  }
+  &__title {
+    font: 700 0.9375em $font-primary;
+    line-height: 154.19%;
+    color: $blue-dark;
+    margin: 1.25rem 0;
+  }
+  &__text {
+    font: 400 0.625em $font-secondary;
+    line-height: 15px;
+    text-align: justify;
+  }
+  &__link {
+    display: block;
+    font: 400 0.625em $font-secondary;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: $blue-medium;
+    margin-top: 2rem;
+  }
+  .slick-slide {
+    filter: blur(1px);
+    transform: scale(0.9);
+    transition: 300ms;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 500px;
+      margin: 0 0.5em;
+    }
+  }
+  .slick-slide.slick-active.slick-center.slick-current {
+    transform: scale(1.125);
+    filter: blur(0);
+  }
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+}
+.slick-slider {
+  padding: 4em 0;
+  @include tablet {
+    max-width: 400px;
+    margin: 0 auto;
+    .slick-list {
+      overflow: initial;
+    }
+  }
+  @include notebook {
+    overflow: hidden;
+  }
+  .slick-dots {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    height: 0;
+  }
+}
+.slick-dots li {
+  margin: 0 auto;
+}
+.slick-dots li button {
+  border: 0;
+  background: #fff;
+  display: block;
+  height: auto;
+  width: auto;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 100%;
+  border: 2px solid #EA5E45;
+  box-sizing: border-box;
+}
+.slick-dots li button:before {
+  display: none;
+}
+li.slick-active button {
+  background: #EA5E45;
+  padding: 5px;
+}
+
+/* Logos de Consorcio */
+.section__logos {
+  display: none;
+  background: rgba(26, 74, 115, 0.15);
+  border-radius: 18px;
+  max-width: 545px;
+  margin: 0 auto;
+  @include tablet {
+    display: block;
+  }
+}
+.logos {
+  &__items {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 4em;
+    padding: 15px 104px;
+    background: rgba(26, 74, 115, 0.15);
+    border-radius: 18px;
+  }
+  &__item {
+
+  }
+}
+
+
+/* Seção de testemunho de clientes BeCapital */
+.section__testimonies {
+  .button__container {
+    max-width: max-content;
+    margin: 0 auto;
+  }
+  .slick-slider {
+    padding-bottom: 0;
+    .slick-dots {
+      top: 0;
+    }
+  }
+}
+
+.testimonies {
+  &__items {
+    padding: 0 1em;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+    padding: 8px 24px 9px 34px;
+    background: $blue-dark;
+    border-radius: 6.68985px;
+    &--sub {
+      display: flex;
+      align-items: center;
+    }
+    span {
+      margin-left: 1.125em;
+    }
+  }
+  &__figure {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+  }
+  &__name {
+    font: 700 0.75em $font-primary;
+    color: currentColor;
+  }
+  &__description {
+    font: 300 0.5625em $font-primary;
+    color: currentColor;
+  }
+}
+.testimonies__text--site {
+  background-image: url('../images/chat_becapital_background.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  font-family: Titillium Web;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 7px 12px;
+  width: 180px;
+  margin-left: auto;
+}
+.testimonies__text--client {
+  position: relative;
+  width: 261px;
+  padding: 14px 12px;
+  font-family: Titillium Web;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: justify;
+  border: 2px solid  $blue-dark;
+  margin-left: 14px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  &:before {
+    display: block;
+    content: '';
+
+    background-image: url('../images/slice_chat_1x.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    position: absolute;
+    top: -3px;
+    left: -14px;
+    width: 14px;
+    height: 13px;
+  }
+}
+
+
+/* Página Somos BeCapital */
+.section__text--somos {
+  margin-top: 3.5em;
+  padding: 0 1.25em;
+  .section__title {
+    margin-bottom: 1.5rem;
+  }
+  .section__subtitle {
+    text-align: justify;
+    margin: 1em 0;
+    strong {
+      color: $orange;
+    }
+  }
+}
+
+/* Caards do diretores */
+.directors{
+  &__items {
+    padding-left: 1.25em;
+  }
+  &__information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    color: $blue-dark;
+    margin-top: 11px;
+  }
+  &__name {
+    font-family: Roboto;
+    font-size: 18px;
+    color: currentColor;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__job {
+    font-family: Roboto;
+    font-size: 10px;
+    color: currentColor;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;    
   }
 }

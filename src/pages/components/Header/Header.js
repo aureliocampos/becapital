@@ -11,7 +11,7 @@ export default function Header() {
   const toggleClass = () => {
     setActive(!isActive);
 
-    document.querySelector('body').classList.toggle('hidden');
+    // document.querySelector('body').classList.toggle('hidden');
     document.querySelector('.header').classList.toggle('active');
   };
 

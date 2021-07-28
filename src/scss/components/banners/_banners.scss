@@ -49,6 +49,9 @@
       @include notebook {
         left: 120px;
       }
+      @include desktop {
+        left: 390px;
+      }
     }
   }
 }
