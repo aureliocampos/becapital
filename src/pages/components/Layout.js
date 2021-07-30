@@ -7,9 +7,9 @@ export default function Layout({ children }, props ) {
   return (
     <>
       <Header/>
-      <main className={`${ props.pageName }`}>
-        {children}
-      </main>
+        <main className={`${ props.pageName }`}>
+          {children}
+        </main>
       <Footer/>
     </>
   )

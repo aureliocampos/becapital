@@ -4,11 +4,9 @@ import Layout from "./components/Layout";
 import DirectorsSlide from "./components/Slides/DirectorsSlide";
 import CardSupport from "./components/Cards/CardSupport";
 
-const Somos = ({ data }) => {
+const Somos = () => {
   return(
     <Layout>
-
-
       <section className="banner banner__secondary banner--somos">
         <div className="banner__content">
           <StaticImage src="../images/somos_becapital_banner_1.5x.jpg" alt="Banner Somos BeCapital" className="banner__figure" imgClassName="banner__image"/>
@@ -19,10 +17,8 @@ const Somos = ({ data }) => {
           </div>
         </div>
       </section>
-
       <DirectorsSlide/>
       <CardSupport />
-
       <section className="section cta-contact">
         <div className="section__container">
           <h2 className="section__title">Invista com a BeCapital</h2>

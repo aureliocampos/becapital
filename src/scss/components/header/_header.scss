@@ -128,9 +128,16 @@
       font: 700 26px $font-primary;
       color: $white;
       line-height: 40px;
+      svg {
+        display: none;
+        margin: 2px 2px 2px 5px;
+      }
       @include tablet {
         font-size: 13px;
         cursor: pointer;
+        svg {
+          display: initial;
+        }
       }
       @include notebook {
         display: block;

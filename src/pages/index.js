@@ -19,7 +19,7 @@ const Home = () => {
             <h1 className="banner__title">Faça seu planejamento financeiro agora</h1>
             <p className="banner__subtitle">Nosso orientador financeiro te ajudará a encontrar o título mais adequado para você atingir seu objetivo. </p>
             <div className="button__container">
-              <a href="#asd" className="button button__secondary">Simule seu investimento</a>
+              <a href="https://conteudo.be.capital/quero-investir-becapital"  target="_blank" rel="noopener noreferrer" className="button button__secondary">Simule seu investimento</a>
             </div>
           </div>
         </div>

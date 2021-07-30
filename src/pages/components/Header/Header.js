@@ -61,28 +61,25 @@ export default function Header() {
                   onKeyDown={menuDropDown}
                   role="button"
                   tabIndex="0" 
-                >Seja BeCapital</span>
+                >Seja BeCapital <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#EA5E45"/>
+                </svg>
+                </span>
                 <nav className={openDropdown ? 'header__submenu active': 'header__submenu'}>
                   <ul className="header__submenu_items">
                     <li className="header__submenu_item">
-                      <a href="/asdas" className="header__submenu_link">
-                        Consórcio Imobiliário
-                      </a>
+                      <Link to="/consorcio-imobiliario/" className="header__submenu_link" getProps={isCurrent}>Consórcio Imobiliário</Link>
+                    </li>
+                    <li className="header__submenu_item">
+                      <Link to="/seguro-de-vida/" className="header__submenu_link" getProps={isCurrent}>Seguro de Vida</Link>
                     </li>
                     <li className="header__submenu_item">
                       <a href="/asdas" className="header__submenu_link">
-                        Seguro de Vida
+                      <Link to="/plano-de-saude/" className="header__submenu_link" getProps={isCurrent}>Plano de Saúde</Link>
                       </a>
                     </li>
                     <li className="header__submenu_item">
-                      <a href="/asdas" className="header__submenu_link">
-                        Plano de Saúde
-                      </a>
-                    </li>
-                    <li className="header__submenu_item">
-                      <a href="/asdas" className="header__submenu_link">
-                        Câmbio
-                      </a>
+                      <Link to="/cambio/" className="header__submenu_link" getProps={isCurrent}>Câmbio</Link>
                     </li>
                   </ul>
                 </nav>
@@ -97,7 +94,7 @@ export default function Header() {
             </ul>
           </nav>
           <div className="button__container header__button_cta">
-            <a href="#asd" className="button button__primary">Login</a>
+            <a href="https://app.be.capital/#/auth" target="_blank" rel="noopener noreferrer" className="button button__primary">Login</a>
           </div>
         </div>
       </div>

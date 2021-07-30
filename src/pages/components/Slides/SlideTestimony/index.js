@@ -83,7 +83,7 @@ export default class SlideTestimony extends Component {
                 </Slider>
               </ul>
             <div className="button__container">
-              <a href="#asd" className="button button__secondary">Quero Investir</a>
+              <a href="https://conteudo.be.capital/quero-investir-becapital" className="button button__secondary" target="_blank" rel="noopener noreferrer">Quero Investir</a>
             </div>
           </div>
         </section>

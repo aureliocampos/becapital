@@ -21,6 +21,28 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "subBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-services.sub-banner-services"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-tags"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

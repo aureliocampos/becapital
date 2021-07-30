@@ -63,5 +63,52 @@ exports.createPages = ({ actions, graphql }) => {
     })
   });
 
-  return getArticles;
+  
+  const getServices = makeRequest(graphql, `
+    {
+      allStrapiServices {
+        edges {
+          node {
+            title
+            strapiId
+            content
+            slug
+            subBanner {
+              image {
+                localFile {
+                  childImageSharp {
+                    gatsbyImageData
+                  }
+                }
+              }
+              sectionTitle
+              text
+            }
+            thumbnail {
+              localFile {
+                childImageSharp {
+                  gatsbyImageData
+                }
+              }
+            }
+            metaTags {
+              Description
+            }
+          }
+        }
+      }
+    }
+    `).then(result => {
+    result.data.allStrapiServices.edges.forEach(({ node }) => {
+      createPage({
+        path: `${node.slug}`,
+        component: path.resolve(`src/templates/service.js`),
+        context: {
+          slug: node.slug,
+        },
+      })
+    })
+  });
+
+  return getArticles, getServices;
 };
