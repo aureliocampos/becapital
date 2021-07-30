@@ -10,15 +10,43 @@ export default class DirectorsSlide extends Component {
       centerMode: true,
       focusOnSelect: true,
       centerPadding: 30,
-      slidesToShow: 1,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      initialSlide: 0,
       speed: 500,
       dots: false,
       arrows: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            touchMove: false,
+            centerPadding: 0,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            touchMove: false,
+            centerPadding: 0,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return(
-      <section className="section">
+      <section className="section section__directors">
         <div className="section__container">
-         
+         <h2 className="section__title">Somos BeCapital</h2>
+         <p className="section__subtitle--b">A BeCapital é resultado de uma nova maneira de pensar e agir no mercado de capitais como um todo.           </p>
           <div className="directors__items">
             <Slider {...settings}>
               <article className="directors__item">

@@ -9,7 +9,7 @@ export default class SlideTestimony extends Component {
     const settings = {
       infinite: true,
       touchMove: true,
-      centerPadding: 0,
+      centerPadding: 30,
       slidesToShow: 1,
       slidesToScroll: 1,
       speed: 500,

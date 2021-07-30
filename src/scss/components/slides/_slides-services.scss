@@ -1,0 +1,69 @@
+/* Slide de Serviços */
+.section__slide-services {
+  overflow: hidden;
+  @include notebook {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+}
+.slide-services {
+  &__article {
+    padding: 44px 27px;
+    box-shadow: 0px 0px 21.6476px rgba(0, 0, 0, 0.14);
+    border-radius: 24px;
+    height: 383px;
+    cursor: pointer;
+    @include notebook {
+      height: 415px;
+    }
+  }
+  &__title {
+    font: 700 0.9375em $font-primary;
+    line-height: 154.19%;
+    color: $blue-dark;
+    margin: 1.25rem 0;
+  }
+  &__text {
+    font: 400 0.625em $font-secondary;
+    line-height: 15px;
+    text-align: justify;
+  }
+  &__link {
+    display: block;
+    font: 400 0.625em $font-secondary;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: $blue-medium;
+    margin-top: 2rem;
+  }
+  .slick-slide {
+    filter: blur(1px);
+    transform: scale(0.9);
+    transition: 300ms;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 500px;
+      margin: 0 0.5em;
+    }
+  }
+  .slick-slide.slick-active.slick-center.slick-current {
+    transform: scale(1.125);
+    filter: blur(0);
+  }
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+
+}
+.section__slide-services {
+  .slick-slider {
+    @include notebook {
+      overflow: initial;
+    }
+  }
+}
+

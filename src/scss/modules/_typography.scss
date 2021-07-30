@@ -24,3 +24,16 @@ body {
     font-size: 18px;
   }
 }
+.section__subtitle--b {
+  display: none;
+  font: 300 1.5em $font-primary;
+  font-style: italic;
+  color: $blue-dark;
+  line-height: 26px;
+  text-align: center;
+  @include tablet {
+    display: block;
+    max-width: 588px;
+    margin: 0 auto;
+  }
+}

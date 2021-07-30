@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-import Header from "../pages/components/Header/Header";
+import Layout from "../components/Layout";
 
 const ArticleTemplate = ({ data, pageContext }) => {
 
@@ -10,8 +10,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
   const { next, previous } = pageContext;
 
   return(
-    <>
-      <Header/>
+    <Layout>
       <article className="post__single single-article">
         <header className="single-article__header">
           <GatsbyImage 
@@ -75,7 +74,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
           </ul>
         </div>
       </section>
-    </>
+    </Layout>
   )
 }
 

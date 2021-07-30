@@ -6,14 +6,20 @@ import "../../../scss/main.scss";
 
 export default function Header() {
 
-  const [isActive, setActive] = useState(false)
+  const [isActive, setActive ] = useState(false)
+  const [openDropdown, setDropdown] = useState(false)
 
   const toggleClass = () => {
     setActive(!isActive);
 
-    // document.querySelector('body').classList.toggle('hidden');
     document.querySelector('.header').classList.toggle('active');
   };
+
+  const menuDropDown = () => {
+    if(window.matchMedia("(min-width: 700px)").matches) {
+      setDropdown(!openDropdown)
+    }
+  }
 
   const isCurrent = ({ current }) => {
     return current ? { className: "header__menu_link_current" } : {}
@@ -22,9 +28,11 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__content">
-        <StaticImage src="../../../images/logo_becapital_2x.png" alt="logo BeCapital" 
-        className="header__logo"
-        />
+        <Link to="/">
+          <StaticImage src="../../../images/logo_becapital_2x.png" alt="logo BeCapital" 
+          className="header__logo"
+          />
+        </Link>
         <div className={isActive ? 'header__menu active': 'header__menu'}>
           <div 
             className={isActive ? 'burguer__container active': 'burguer__container'}
@@ -42,9 +50,19 @@ export default function Header() {
               <li className="header__menu_item">
                 <Link to="/" className="header__menu_link" getProps={isCurrent}>Home</Link>
               </li>
-              <li className="header__menu_item header__menu_item_children">
-                <a href="/asd" className="header__menu_link">Seja BeCapital</a>
-                <nav className="header__submenu">
+              <li className="header__menu_item">
+                <Link to="/somos-becapital/" className="header__menu_link" getProps={isCurrent}>Somos BeCapital</Link>
+              </li>
+
+              <li className="header__menu_item">
+                <span
+                  className={openDropdown ? 'header__menu_link--children active': 'header__menu_link--children'}
+                  onClick={menuDropDown} 
+                  onKeyDown={menuDropDown}
+                  role="button"
+                  tabIndex="0" 
+                >Seja BeCapital</span>
+                <nav className={openDropdown ? 'header__submenu active': 'header__submenu'}>
                   <ul className="header__submenu_items">
                     <li className="header__submenu_item">
                       <a href="/asdas" className="header__submenu_link">
@@ -69,11 +87,12 @@ export default function Header() {
                   </ul>
                 </nav>
               </li>
+
               <li className="header__menu_item">
                 <Link to="/blog/" className="header__menu_link" getProps={isCurrent}>Blog</Link>
               </li>
               <li className="header__menu_item">
-                <a href="#asd" className="header__menu_link">Carreiras</a>
+              <Link to="/carreiras/" className="header__menu_link" getProps={isCurrent}>Carreiras</Link>
               </li>
             </ul>
           </nav>

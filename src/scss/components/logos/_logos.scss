@@ -1,0 +1,26 @@
+
+/* Logos de Consorcio */
+.section__logos {
+  display: none;
+  background: rgba(26, 74, 115, 0.15);
+  border-radius: 18px;
+  max-width: 545px;
+  margin: 0 auto;
+  @include tablet {
+    display: block;
+  }
+}
+.logos {
+  &__items {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 4em;
+    padding: 15px 104px;
+    background: rgba(26, 74, 115, 0.15);
+    border-radius: 18px;
+  }
+  &__item {
+
+  }
+}
