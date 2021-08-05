@@ -1,0 +1,145 @@
+.section__advantage {
+  margin-top: 4rem;
+  .section__title mark {
+    background: transparent;
+    color: $orange;
+    margin-bottom: 3rem;
+  }
+}
+.advantage {
+  &__items {
+    @include tablet {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 1221px;
+      margin: 0 auto;
+    }
+  }
+  &__item {
+    position: relative;
+    width: 224px;
+    box-shadow: 0px 0px 28.174px rgb(26 74 115 / 15%);
+    border-radius: 17.2494px;
+    padding: 27px;
+    margin: 0 auto 44px auto;
+    @include tablet {
+      margin-bottom: 0;
+    }
+    @include notebook {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: 391px;
+      padding: 47px;
+    }
+    .gatsby-image-wrapper {
+      margin-bottom: 30px;
+    }
+    &:first-of-type {
+      .gatsby-image-wrapper {
+        width: 50px;
+        @include notebook {
+          width: auto;
+        }
+      }
+    }
+    &:nth-of-type(2) {
+      .gatsby-image-wrapper {
+        width: 105px;
+        @include notebook {
+          width: auto;
+        }
+      }
+    }
+    &:last-of-type {
+      .gatsby-image-wrapper {
+        width: 27px;
+        @include notebook {
+          width: auto;
+        }
+      }
+    }
+  }
+  &__button {
+    text-align: center;
+  }
+  &__title {
+    font: 400 1em $font-primary;
+    line-height: 110.6%;
+    text-align: center;
+    color: #3F3F3F;
+    @include notebook {
+      font-size: 28.2894px;
+    }
+  }
+}
+
+.advantage__slide-custom {
+  display: none;
+  .slick-slider {
+    position: relative;
+    padding: 0;
+    .slick-prev {
+      left: 0px;
+      z-index: 5;
+      top: 210px;
+      @include desktop {
+        left: 15px;
+        z-index: 5;
+        top: 250px;
+      }
+      &:before {
+        content: '';
+      }
+    }
+    .slick-next{
+      right: 23px;
+      z-index: 5;
+      top: 210px;
+      @include desktop {
+        right: 35px;
+        z-index: 5;
+        top: 250px;
+      }
+      &:before {
+        content: '';
+      }
+    }
+  }
+}
+.advantage__item.active {
+  .advantage__slide-custom {
+    @include notebook {
+      display: block;
+      position: absolute;
+
+    }
+  }
+  #float1 {
+    .advantage__slide-custom {
+      left: -50px;
+      bottom: -120px;
+      height: auto;
+      width: 250px;
+      z-index: 4;
+      @include desktop {
+        left: -130px;
+        bottom: -130px;
+      }
+    }
+  }
+  #float2 {
+    .advantage__slide-custom {
+      right: -30px;
+      bottom: -250px;
+      height: auto;
+      width: 250px;
+      z-index: 4;
+      @include desktop {
+        width: 290px;
+        right: -180px;
+        bottom: -300px;
+      }
+    }
+  }
+}

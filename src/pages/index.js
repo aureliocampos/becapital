@@ -3,7 +3,7 @@ import { StaticImage} from "gatsby-plugin-image";
 
 import Layout from "./components/Layout";
 import SlideServices from "./components/Slides/SlidesServices";
-import SectionLogos from "./components/SectionLogos";
+// import SectionLogos from "./components/SectionLogos";
 import CardBlog from "./components/Cards/CardBlog";
 import SlideTestimony from "./components/Slides/SlideTestimony";
 
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </section>
       <SlideServices />
-      <SectionLogos />
+      {/* <SectionLogos /> */}
       <SlideTestimony />
       <CardBlog />
     </Layout>

@@ -2,9 +2,6 @@
 /* Seção de testemunho de clientes BeCapital */
 .section__testimonies {
   margin-top: 70px;
-  @include tablet {
-    margin-top: 160px;
-  }
   .button__container {
     max-width: max-content;
     margin: 0 auto;
@@ -15,17 +12,47 @@
       top: 0;
     }
   }
+  .slick-list {
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .slick-arrow {
+    display: none;
+    @include tablet {
+      display: block;
+    }
+  }
+  .slick-prev {
+    left: 40px;
+    @include notebook {
+      left: 340px;
+    }
+    @include desktop {
+      left: 600px
+    }
+  }
+  .slick-next {
+    right: 40px;
+    @include notebook {
+      right: 340px;
+    }
+    @include desktop {
+      right: 600px
+    }
+  }
 }
 .testimonies {
   &__items {
     position: relative;
     overflow: hidden;
     padding: 0 1em;
-    .slick-slider {
-      @include tablet {
-        max-width: 516px;
-        overflow: hidden;
-      }
+
+  }
+  &__card {
+    @include tablet {
+      width: 400px;
+      margin: 0 auto;
     }
   }
   &__header {

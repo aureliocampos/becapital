@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "./components/Layout";
 import { StaticImage} from "gatsby-plugin-image";
+import AdvantageClub from "./components/Advantage";
 
 const Carreiras = () => {
 
@@ -52,11 +53,33 @@ const Carreiras = () => {
               </div>
           </div>
           <div className="terms__video">
-            <StaticImage src="../images/placeholder_video.png" alt="Placeholder do video de marking off" />
-            <p className="terms__subtitle"><a href="#asd">clique aqui</a> e veja o making of</p>
+            <iframe width="1206" height="678" src="https://www.youtube.com/embed/a5ApMPYlENI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p className="terms__subtitle"><a href="/asd/">clique aqui</a> e veja o making of</p>
           </div>
         </div>
       </section>
+      <section className="section section__career">
+        <h2 className="section__title">Entre para o time</h2>
+        <div className="section__container">
+          <div className="career__items">
+            <div className="career__item">
+              <a href="/modificar/" className="career__button">
+                <StaticImage src="../images/job-choose-cadidate.png" alt="Botão Carreiras na BeCapital" />
+                <h3 className="career__title">Carreiras na BeCapital</h3>
+              </a>
+              <p className="career__text">confira as vagas disponíveis hoje</p>
+            </div>
+            <div className="career__item">
+              <a href="/modificar/" className="career__button">
+                <StaticImage src="../images/task-checklist-write.png" alt="Botão como fazer parte do time BeCapital" />
+                <h3 className="career__title">Como fazer parte?</h3>
+              </a>
+              <p className="career__text">caso não tenha a vaga pra você, deixe seu currículo aqui</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <AdvantageClub/>
     </Layout>
   )
 }

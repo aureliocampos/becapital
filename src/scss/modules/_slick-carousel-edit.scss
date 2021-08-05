@@ -5,9 +5,8 @@ body.hidden {
   }
 }
 .slick-slider {
-  padding: 4em 0;
+  padding: 8em 0 4em 0;
   @include tablet {
-    max-width: 400px;
     margin: 0 auto;
     .slick-list {
       overflow: initial;

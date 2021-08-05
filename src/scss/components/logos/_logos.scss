@@ -2,25 +2,32 @@
 /* Logos de Consorcio */
 .section__logos {
   display: none;
-  background: rgba(26, 74, 115, 0.15);
+
   border-radius: 18px;
   max-width: 545px;
   margin: 0 auto;
   @include tablet {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
   }
 }
 .logos {
   &__items {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
-    gap: 4em;
-    padding: 15px 104px;
+    gap: 1.5em;
+    width: max-content;
+    padding: 15px 35px;
     background: rgba(26, 74, 115, 0.15);
     border-radius: 18px;
   }
   &__item {
-
+    width: 85px;
+    text-align: center;
   }
 }
