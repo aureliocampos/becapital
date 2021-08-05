@@ -1,54 +1,57 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+<p>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## 🚀 Start BeCapital
 
-2.  **Start developing.**
+  
 
-    Navigate into your new site’s directory and start it up.
+1.  **Clone o repositório**
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Certifique-se de ter instalado em sua máquina o git.
 
-3.  **Open the code and start customizing!**
+```shell
 
-    Your site is now running at http://localhost:8000!
+# create a new Gatsby site using the minimal starter
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+git clone https://github.com/aureliocampos/becapital.git
 
-4.  **Learn more**
+```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+2.  **Iniciando o Strapi**
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+A partir do diretório raiz, navegue até "/cms/" e execute o comando start/develop.
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```shell
+// diretório raiz: dir/cms
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+cd cms
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+npm run develop
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
 
-## 🚀 Quick start (Gatsby Cloud)
+3.  **Iniciando Gatsby**
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+Em seguida, inicie o gatsby a partir do diretório raiz.
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+```shell
+// diretório raiz: dir/ ou /
+npm run develop
+
+  ```
+
+4.  **Outros comando Gatsby**  
+
+```shell
+// criar build para produção
+
+npm run build
+  ```
+
+```shell
+// visualizar build de produção, em um servidor local.
+
+npm run serve
+  ```
