@@ -3,7 +3,8 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from 'gatsby'
 import SubMenu from './SubMenu';
 
-import "../../../scss/fonts/font.scss";
+import "../../../scss/fonts/trasandina/font.scss";
+import "../../../scss/fonts/roboto/font.scss";
 import "../../../scss/main.scss";
 
 
@@ -27,6 +28,7 @@ const Header = () => {
   }
 
   return (
+    <>
     <header className="header">
       <div className="header__content">
         <Link to="/">
@@ -91,6 +93,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </>
   )
 }
 

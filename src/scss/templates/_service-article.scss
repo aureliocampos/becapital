@@ -117,11 +117,15 @@
   }
   .form__container {
     @include tablet {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
       max-width: 600px;
       margin: 0 auto;
     }
     @include notebook {
       max-width: 1143px;
+      justify-content: space-around;
     }
   }
   .form__description {
@@ -166,6 +170,15 @@
       @include notebook {
         width: 170px;
       }
+    }
+  }
+  .form__embed {
+    margin-top: 64px;
+    @include tablet {
+      width: 80%;
+    }
+    @include notebook {
+      width: 479px;
     }
   }
 }
