@@ -43,6 +43,18 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "partnerLogos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

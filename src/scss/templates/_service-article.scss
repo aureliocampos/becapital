@@ -30,14 +30,14 @@
     }
     .description__text {
       width: 50%;
-      font-family: Titillium Web;
+      font-family: Trasandina;
       font-style: italic;
       font-weight: 200;
       font-size: 27.9024px;
       line-height: 33px;
       color: #1A4A71;
       @include notebook {
-        width: 360px;
+        width: 45%;
         font-size: 73px;
         line-height: 96.1%;
       }
@@ -47,7 +47,7 @@
     max-width: 640px;
     padding: 0 1.5em;
     margin: 42px auto;
-    font-family: Titillium Web;
+    font-family: Trasandina;
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
@@ -67,6 +67,105 @@
     justify-content: center;
     .button {
       font-size: 14px;
+    }
+  }
+  &__partner {
+    margin: 42px 0;
+    @include tablet {
+      margin: 98px 0;
+    }
+    &-title {
+      font: 700 12px $font-primary;
+      text-align: center;
+      line-height: 150.1%;
+      letter-spacing: 0.185em;
+      color: rgba(26, 74, 115, 0.5);
+      @include tablet {
+        font-size: 18px;
+      }
+      @include notebook {
+        font-size: 22px;
+      }
+    }
+    &-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2em;
+      background: rgba(26, 74, 115, 0.15);
+      padding: 12px 0;
+      margin-top: 10px;
+      @include tablet {
+        gap: 6em;
+        padding: 24px 0;
+        margin-top: 21px;
+      }
+    }
+    &-figure {
+      width: 60%;
+      @include tablet {
+        width: 100%;
+      }
+    }
+  }
+}
+.section__form {
+  .section__title {
+    @include notebook {
+      margin: 185px 0 74px 0;
+    }
+  }
+  .form__container {
+    @include tablet {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    @include notebook {
+      max-width: 1143px;
+    }
+  }
+  .form__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      width: 50%;
+    }
+    @include notebook {
+      width: 518px;
+    }
+    &-text {
+      width: 208px;
+      @include tablet {
+        width: 100%;
+      }
+      .form__description-paragraph {
+        font: 400 13px $font-primary;
+        font-style: italic;
+        line-height: 19px;
+        color: $blue-dark;
+        margin: 1em 0;
+        @include tablet {
+          font-size: 19px;
+          line-height: 130.6%;
+        }
+        @include notebook {
+          font-size: 34px;
+        }
+      }
+    }
+    &-figure {
+      width: 65px;
+      @include tablet {
+        width: 120px;
+      }
+      @include notebook {
+        width: 170px;
+      }
     }
   }
 }

@@ -3,14 +3,19 @@ import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 import Layout from "../pages/components/Layout";
+import Seo from "../pages/components/SEO";
 
 const ArticleTemplate = ({ data, pageContext }) => {
 
   const image = getImage(data.strapiArticles.thumbnail.localFile)
   const { next, previous } = pageContext;
 
+  // const content = document.querySelector('.single-article__content').innerText.split(' ').length;
+  // const readingTimeEstimated = Math.ceil(content / 200);
+
   return(
     <Layout>
+      <Seo title={data.strapiArticles.title}  description={data.strapiArticles.MetaTags.Description} />
       <article className="post__single single-article">
         <header className="single-article__header">
           <GatsbyImage 
@@ -24,7 +29,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
         <section className="single-article__main">
           <h1 className="single-article__title">{data.strapiArticles.title}</h1>
           <p className="single-article__excerpt">{data.strapiArticles.excerpt}</p>
-          <time className="single-article__time-read">leitura de 4 min</time>
+          {/* <time className="single-article__time-read" time={`00:0${readingTimeEstimated}`}>leitura de {readingTimeEstimated} min</time> */}
           <div className="single-article__content editor__style--default" dangerouslySetInnerHTML={{__html: data.strapiArticles.content}} />
 
         </section>
@@ -92,6 +97,9 @@ export const query = graphql`
             gatsbyImageData
           }
         }
+      }
+      MetaTags {
+        Description
       }
     }
   }

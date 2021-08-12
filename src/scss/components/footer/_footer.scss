@@ -27,6 +27,9 @@
       color: $white;
     }
   }
+  &__logo {
+    width: 120px;
+  }
 }
 .footer__section {
   border-bottom: 2px solid #4A6379;
@@ -107,5 +110,10 @@
         width: 130%;
       }
      }
+  }
+}
+.width200 {
+  @include notebook {
+    width: 200%;
   }
 }

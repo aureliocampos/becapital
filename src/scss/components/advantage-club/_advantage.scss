@@ -23,6 +23,9 @@
     padding: 27px;
     margin: 0 auto 44px auto;
     @include tablet {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
       margin-bottom: 0;
     }
     @include notebook {

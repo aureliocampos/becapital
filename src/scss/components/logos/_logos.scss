@@ -31,3 +31,27 @@
     text-align: center;
   }
 }
+
+
+.section__midia {
+  display: none;
+  margin-top: 120px;
+  @include notebook {
+    display: block;
+  }
+  .section__title {
+    margin-bottom: 74px;
+  }
+  .section__container {
+    background: rgba(108, 108, 108, 0.2);
+    .logos__items {
+      gap: 170px;
+      background: none;
+      padding: 50px;
+      margin: 0 auto;
+      .logos__item {
+        width: auto;
+      }
+    }
+  }
+}

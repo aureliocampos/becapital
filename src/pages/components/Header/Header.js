@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { StaticImage } from "gatsby-plugin-image";
-import { Link } from 'gatsby';
+import { Link } from 'gatsby'
+import SubMenu from './SubMenu';
 
+import "../../../scss/fonts/font.scss";
 import "../../../scss/main.scss";
 
-export default function Header() {
+
+const Header = () => {
 
   const [isActive, setActive ] = useState(false)
   const [openDropdown, setDropdown] = useState(false)
@@ -14,13 +17,11 @@ export default function Header() {
 
     document.querySelector('.header').classList.toggle('active');
   };
-
   const menuDropDown = () => {
     if(window.matchMedia("(min-width: 700px)").matches) {
       setDropdown(!openDropdown)
     }
   }
-
   const isCurrent = ({ current }) => {
     return current ? { className: "header__menu_link_current" } : {}
   }
@@ -30,7 +31,10 @@ export default function Header() {
       <div className="header__content">
         <Link to="/">
           <StaticImage src="../../../images/logo_becapital_2x.png" alt="logo BeCapital" 
-          className="header__logo"
+          className="header__logo header__logo--mobile"
+          />
+           <StaticImage src="../../../images/logo_2_becapital_1x.png" alt="logo BeCapital" 
+          className="header__logo header__logo--desktop"
           />
         </Link>
         <div className={isActive ? 'header__menu active': 'header__menu'}>
@@ -66,22 +70,7 @@ export default function Header() {
                 </svg>
                 </span>
                 <nav className={openDropdown ? 'header__submenu active': 'header__submenu'}>
-                  <ul className="header__submenu_items">
-                    <li className="header__submenu_item">
-                      <Link to="/consorcio-imobiliario/" className="header__submenu_link" getProps={isCurrent}>Consórcio Imobiliário</Link>
-                    </li>
-                    <li className="header__submenu_item">
-                      <Link to="/seguro-de-vida/" className="header__submenu_link" getProps={isCurrent}>Seguro de Vida</Link>
-                    </li>
-                    <li className="header__submenu_item">
-                      <a href="/asdas" className="header__submenu_link">
-                      <Link to="/plano-de-saude/" className="header__submenu_link" getProps={isCurrent}>Plano de Saúde</Link>
-                      </a>
-                    </li>
-                    <li className="header__submenu_item">
-                      <Link to="/cambio/" className="header__submenu_link" getProps={isCurrent}>Câmbio</Link>
-                    </li>
-                  </ul>
+                 <SubMenu/>
                 </nav>
               </li>
 
@@ -89,7 +78,10 @@ export default function Header() {
                 <Link to="/blog/" className="header__menu_link" getProps={isCurrent}>Blog</Link>
               </li>
               <li className="header__menu_item">
-              <Link to="/carreiras/" className="header__menu_link" getProps={isCurrent}>Carreiras</Link>
+                <Link to="/carreiras/" className="header__menu_link" getProps={isCurrent}>Carreiras</Link>
+              </li>
+              <li className="header__menu_item">
+                <a href="https://becapitalresearch.com/" className="header__menu_link header__menu_link--italic">Research</a>
               </li>
             </ul>
           </nav>
@@ -101,3 +93,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header;

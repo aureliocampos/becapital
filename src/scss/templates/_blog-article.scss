@@ -24,6 +24,9 @@
     text-align: center;
     text-transform: uppercase;
     margin: 1.875rem auto 1.25rem auto;
+    @include notebook {
+      margin-bottom: 1.75rem; 
+    }
   }
   &__excerpt {
     font: 400 1.125em $font-primary;
@@ -31,6 +34,9 @@
     line-height: 1.3125rem;
     text-align: center;
     margin-bottom: 0.4375rem; /* 7px */
+    @include notebook {
+      margin-bottom: 1.25rem; 
+    }
   }
   &__time-read {
     display: block;
@@ -38,6 +44,9 @@
     font-size: 0.625em;
     line-height: 0.75rem;
     text-align: center;
+    @include notebook {
+      font-size: 1em;
+    }
   }
   &__content {
     margin: 2rem 0 3rem 0;

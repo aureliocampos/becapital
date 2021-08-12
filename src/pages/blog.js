@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-
+import Seo from "./components/SEO";
 import Layout from "./components/Layout";
 
 import BannerSecondary from "./components/Banners/BannerSecondary";
@@ -10,6 +10,10 @@ const Blog = ({ data }) => {
 
   return(
     <Layout>
+      <Seo
+        title="Blog"
+        description="Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos."
+      />
       <BannerSecondary>
         <StaticImage src="../images/banner_blog.png" alt="Banner do Blog" className="banner__figure" imgClassName="banner__image"/>
       </BannerSecondary>

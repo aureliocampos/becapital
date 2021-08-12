@@ -16,10 +16,14 @@
       margin-top: 162px;
     }
     .values__article {
-      @include notebook {
+      @include tablet {
         display: flex;
         flex-direction: row-reverse;
         position: relative;
+        .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure {
+          width: 70%;
+          margin-right: 24px;
+        }
         .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
           content: '';
           display: block;
@@ -30,12 +34,55 @@
           left: 0;
           backdrop-filter: blur(3px);
         }
+        .values__description {
+          position: absolute;
+          left: 24px;
+          top: 20%;
+        }
+      }
+      @include notebook {
+        .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
+          content: '';
+          display: block;
+          width: 22%;
+          height: 82%;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          backdrop-filter: blur(3px);
+        }
+        .values__description {
+          left: 20px;
+          top: 60px;
+        }
       }
     }
     &:nth-of-type(2n) {
       .values__article {
-        @include notebook {
+        @include tablet {
           flex-direction: row;
+          .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure {
+            width: 70%;
+            margin-left: 24px;
+          }
+          .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
+            content: '';
+            display: block;
+            width: 22%;
+            height: 82%;
+            position: absolute;
+            top: 60px;
+            left: auto;
+            right: 0;
+            backdrop-filter: blur(3px);
+          }
+          .values__description {
+            right: 24px;
+            top: 20%;
+            left: auto;
+          }
+        }
+        @include notebook {
           .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
             content: '';
             display: block;
@@ -122,6 +169,12 @@
     top: -250px;
     left: 20px;
     z-index: -1;
+    @include tablet {
+      position: absolute;
+      top: -250px;
+      left: 50px;
+      z-index: -2;
+    }
     @include notebook {
       position: absolute;
       top: -220px;
@@ -132,6 +185,9 @@
   .values__terms-text {
     width: 261px;
     margin-left: auto;
+    @include tablet {
+      margin-left: 120px;
+    }
     @include notebook {
       width: 100%;
       margin-left: 150px;
@@ -177,17 +233,17 @@
   width: 340px;
   height: 192px;
   margin: 52px auto;
-  iframe {
-    width: 100%;
-    height: 100%;
-  }
   @include tablet {
     width: 700px;
-    height: auto;
+    height: 400px;
   }
   @include notebook {
     width: 1206px;
     height: 678px;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
   }
   .gatsby-image-wrapper {
     width: 100%;

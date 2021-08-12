@@ -2,15 +2,23 @@ import React from "react";
 import Layout from "./components/Layout";
 import { StaticImage} from "gatsby-plugin-image";
 import AdvantageClub from "./components/Advantage";
+import PeoplesBecapital from "./components/Peoples";
+import SlidesValuesBecapital from "./components/Slides/SlidesValues";
+import WordsEffect from "./components/WordsEffect";
+import Seo from "./components/SEO";
 
 const Carreiras = () => {
 
   return(
     <Layout>
+      <Seo
+        title="Carreiras"
+        description="Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos."
+      />
       <section className="banner banner__secondary banner--carreiras">
         <div className="banner__content">
           <div className="banner__text">
-            <h2 className="section__title">Ser BeCapital é <mark>ser você</mark></h2>
+            <h2 className="section__title">Ser BeCapital é <WordsEffect /></h2> 
             <p className="section__subtitle">Conheça o Jeito <strong>Be</strong> de trabalhar, viver e compartilhar</p>
           </div>
           <StaticImage src="../images/banner_carreiras_4x.png" alt="Banner Somos BeCapital" className="banner__figure" imgClassName="banner__image" objectFit="contain" loading="eager" />
@@ -58,19 +66,20 @@ const Carreiras = () => {
           </div>
         </div>
       </section>
+      <SlidesValuesBecapital />
       <section className="section section__career">
         <h2 className="section__title">Entre para o time</h2>
         <div className="section__container">
           <div className="career__items">
             <div className="career__item">
-              <a href="/modificar/" className="career__button">
+              <a href="https://linktr.ee/rhbe" className="career__button" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../images/job-choose-cadidate.png" alt="Botão Carreiras na BeCapital" />
                 <h3 className="career__title">Carreiras na BeCapital</h3>
               </a>
               <p className="career__text">confira as vagas disponíveis hoje</p>
             </div>
             <div className="career__item">
-              <a href="/modificar/" className="career__button">
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y6n2Qln7RUaT8Hnrpa__QzyS7CobnhNJlt7veeNqQ9NURVZIQUtDM1FVUk0zNjVNQ1ZLSE1QN0NQTS4u" className="career__button" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../images/task-checklist-write.png" alt="Botão como fazer parte do time BeCapital" />
                 <h3 className="career__title">Como fazer parte?</h3>
               </a>
@@ -80,6 +89,7 @@ const Carreiras = () => {
         </div>
       </section>
       <AdvantageClub/>
+      <PeoplesBecapital />
     </Layout>
   )
 }

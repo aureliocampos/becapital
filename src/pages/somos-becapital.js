@@ -3,10 +3,15 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "./components/Layout";
 import DirectorsSlide from "./components/Slides/DirectorsSlide";
 import CardSupport from "./components/Cards/CardSupport";
+import Seo from "./components/SEO";
 
 const Somos = () => {
   return(
     <Layout>
+      <Seo
+        title="Somos BeCapital"
+        description="Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos."
+      />
       <section className="banner banner__secondary banner--somos">
         <div className="banner__content">
           <StaticImage src="../images/somos_becapital_banner_1.5x.jpg" alt="Banner Somos BeCapital" className="banner__figure" imgClassName="banner__image"/>

@@ -39,7 +39,7 @@ export default function CardBlog() {
 
                 return (
                   <li key={strapiId} className="posts__item">
-                    <Link to={slug}>
+                    <Link to={`/blog/${slug}`}>
                       <article className="posts__article">
                         <GatsbyImage 
                           image={image}

@@ -1,12 +1,20 @@
 const path = require(`path`)
 
+siteMetadata = {
+  title: "BeCapital",
+  description: "Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos.",
+  siteUrl: "https://www.be.capital/", 
+  siteLanguage: "pt-BR",
+  siteLocale: "pt_br",
+  authorName: "Aurélio Campos - Team BeCapital",
+  twitterUsername: "@BeResearch_",
+  favicon: "./src/images/favicon.png",
+  backgroundColor: `#1A4A73`,
+  themeColor: `#FF6746` 
+}
+
 module.exports = {
-  siteMetadata: {
-    siteUrl: "https://www.be.capital/",
-    title: "BeCapital",
-    description: "Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos.",
-    author: "Aurélio Campos"
-  },
+  siteMetadata: siteMetadata,
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
@@ -46,7 +54,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Titillium+Web\:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700`,
+          // `Titillium+Web\:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700`,
           `Roboto\:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900` // you can also specify font weights and styles
         ],        
         display: 'swap'
@@ -63,6 +71,19 @@ module.exports = {
         plugins: [],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `BeCapital`,
+        short_name: `BeCapital`,
+        start_url: `/`,
+        background_color:siteMetadata.backgroundColor,
+        theme_color: siteMetadata.themeColor,
+        display: `standalone`,
+        icon: siteMetadata.favicon
+      },
+    },
+    `gatsby-plugin-offline`
   ],
 };
 

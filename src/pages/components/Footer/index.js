@@ -1,14 +1,17 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
+import InvestimentosMenu from "./InvestimentosMenu";
 
 const Footer = () => {
   return(
+    <>
     <footer className="footer">
       <div className="footer__container">
         <section className="footer__section footer__section--header">
           <div className="footer__section--container">
             <StaticImage src="../../../images/logo_becapital_2x.png" alt="logo BeCapital" 
-            className="header__logo"
+            className="footer__logo"
             />
             <p className="footer__title footer--andress">Av. Rio Branco, 108 | 8º andar - Centro - Rio de Janeiro - RJ</p>
             <a href="mailto:imprensa@be.capital" className="footer__link">imprensa@be.capital</a>
@@ -18,41 +21,19 @@ const Footer = () => {
           <div className="footer__section--container">
             <div className="footer__section--column">
               <h3 className="footer__title">Investimentos</h3>
-              <ul className="footer__menu">
-                <li className="menu__item">
-                    <a href="#Simulador Financeiro" className="menu__link">Simulador Financeiro</a>
-                  </li>
-                <li className="menu__item">
-                    <a href="#1" className="menu__link">Crédito</a>
-                  </li>
-                <li className="menu__item">
-                    <a href="#2" className="menu__link">Câmbio</a>
-                  </li>
-                <li className="menu__item">
-                    <a href="#2" className="menu__link">Seguros</a>
-                  </li>
-                <li className="menu__item">
-                    <a href="#2" className="menu__link">Consórcio</a>
-                  </li>
-                <li className="menu__item">
-                    <a href="#2" className="menu__link">Plano de Saúde</a>
-                  </li>
-                <li className="menu__item">
-                  <a href="#2" className="menu__link">Casa de Análise</a>
-                </li>
-              </ul>
+              <InvestimentosMenu />
             </div>
             <div className="footer__section--column">
               <h3 className="footer__title">Conteúdos</h3>
               <ul className="footer__menu">
                 <li className="menu__item">
-                  <a href="#Simulador Financeiro" className="menu__link">Canal no Youtube</a>
+                  <a href="https://www.youtube.com/channel/UCLImIm6777cZiGmjaRuFcwQ?view_as=subscriber" className="menu__link" target="_blank" rel="noopener noreferrer">Canal no Youtube</a>
                 </li>
                 <li className="menu__item">
                   <a href="#1" className="menu__link">Grupo no Telegram</a>
                 </li>
                 <li className="menu__item">
-                  <a href="#2" className="menu__link">Blog</a>
+                  <Link to="/blog/" className="menu__link">Blog</Link>
                 </li>
               </ul>
             </div>
@@ -60,13 +41,13 @@ const Footer = () => {
               <h3 className="footer__title">Nossa Empresa</h3>
               <ul className="footer__menu">
                 <li className="menu__item">
-                  <a href="#Simulador Financeiro" className="menu__link">A BeCapital</a>
+                  <Link to="/somos-becapital/" className="menu__link">A BeCapital</Link>
+                </li>
+                <li className="menu__item width200">
+                  <span className="menu__link">Fale com a Beca - Atendimento da BeCapital</span>
                 </li>
                 <li className="menu__item">
-                  <a href="#1" className="menu__link">Fale com a Beca - Atendimento da BeCapital</a>
-                </li>
-                <li className="menu__item">
-                  <a href="#2" className="menu__link">Página de Carreiras</a>
+                  <Link to="/carreiras/" className="menu__link">Página de Carreiras</Link>
                 </li>
               </ul>
             </div>
@@ -82,17 +63,20 @@ const Footer = () => {
               <h3 className="footer__title">Siga a BeCapital</h3>
               <ul className="footer__social social__menu">
                 <li className="social__item">
-                  <a href="#facebook" className="social__link">
+                  <a href="https://www.instagram.com/becapital.oficial/" className="social__link"
+                  target="_blank" rel="noopener noreferrer">
                   <StaticImage src="../../../images/icon_instagram.png" alt="Logo Instagram"/>
                   </a>
                 </li>
                 <li className="social__item">
-                  <a href="#facebook" className="social__link">
+                  <a href="https://www.youtube.com/channel/UCLImIm6777cZiGmjaRuFcwQ?view_as=subscriber" className="social__link"
+                  target="_blank" rel="noopener noreferrer">
                   <StaticImage src="../../../images/icon_youtube.png" alt="Logo Youtube"/>
                   </a>
                 </li>
                 <li className="social__item">
-                  <a href="#facebook" className="social__link">
+                  <a href="https://www.linkedin.com/company/71399542/" className="social__link"
+                  target="_blank" rel="noopener noreferrer">
                   <StaticImage src="../../../images/icon_linkedin.png" alt="Logo Linkedin" />
                   </a>
                 </li>
@@ -114,6 +98,9 @@ const Footer = () => {
         </section>
       </div>
     </footer>
+    {/* <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script> */}
+    </>
+
   )
 }
 

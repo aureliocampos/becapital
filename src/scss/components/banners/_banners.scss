@@ -107,12 +107,31 @@
   margin-top: 3.25em;
   padding: 0 1.25rem;
   .banner__content {
+    .section__title mark {
+      &:after {
+        font-weight: 100;
+      }
+    }
+    @include tablet {
+      display: flex;
+      align-items: center;
+      gap: 74px;
+    }
     @include notebook {
       display: flex;
       justify-content: space-between;
       align-items: center;
       max-width: 1221px;
       margin: 0 auto;
+    }
+  }
+  .banner__figure {
+    height: auto;
+    @include tablet {
+      width: 80%;
+    }
+    @include notebook {
+      width: auto;
     }
   }
   .banner__text {
@@ -147,7 +166,7 @@
     display: none;
     @include notebook {
       display: block;
-      width: 655px;
+      width: 715px;
       height: auto;
     }
   }
