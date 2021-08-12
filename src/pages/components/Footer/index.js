@@ -30,7 +30,7 @@ const Footer = () => {
                   <a href="https://www.youtube.com/channel/UCLImIm6777cZiGmjaRuFcwQ?view_as=subscriber" className="menu__link" target="_blank" rel="noopener noreferrer">Canal no Youtube</a>
                 </li>
                 <li className="menu__item">
-                  <a href="#1" className="menu__link">Grupo no Telegram</a>
+                  <a href="https://t.me/becapitalresearch" className="menu__link" target="_blank" rel="noopener noreferrer">Grupo no Telegram</a>
                 </li>
                 <li className="menu__item">
                   <Link to="/blog/" className="menu__link">Blog</Link>
