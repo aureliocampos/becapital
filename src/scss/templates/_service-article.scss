@@ -89,22 +89,31 @@
     }
     &-items {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
+      flex-wrap: wrap;
       gap: 2em;
+      padding: 2em;
       background: rgba(26, 74, 115, 0.15);
-      padding: 12px 0;
+      padding: 2em;
       margin-top: 10px;
       @include tablet {
-        gap: 6em;
-        padding: 24px 0;
+        justify-content: center;
+        gap: 4em;
+        padding: 4em;
         margin-top: 21px;
       }
+      @include notebook {
+        justify-content: center;
+        gap: 6em;
+        padding: 2em;
+      }
     }
-    &-figure {
-      width: 60%;
+    &-item {
+      width: 25%;
+      text-align: center;
       @include tablet {
-        width: 100%;
+        width: auto;
       }
     }
   }

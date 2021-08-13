@@ -11,18 +11,12 @@ import "../../../scss/main.scss";
 const Header = () => {
 
   const [isActive, setActive ] = useState(false)
-  const [openDropdown, setDropdown] = useState(false)
 
   const toggleClass = () => {
     setActive(!isActive);
 
     document.querySelector('.header').classList.toggle('active');
   };
-  const menuDropDown = () => {
-    if(window.matchMedia("(min-width: 700px)").matches) {
-      setDropdown(!openDropdown)
-    }
-  }
   const isCurrent = ({ current }) => {
     return current ? { className: "header__menu_link_current" } : {}
   }
@@ -60,18 +54,11 @@ const Header = () => {
                 <Link to="/somos-becapital/" className="header__menu_link" getProps={isCurrent}>Somos BeCapital</Link>
               </li>
 
-              <li className="header__menu_item">
-                <span
-                  className={openDropdown ? 'header__menu_link--children active': 'header__menu_link--children'}
-                  onClick={menuDropDown} 
-                  onKeyDown={menuDropDown}
-                  role="button"
-                  tabIndex="0" 
-                >Seja BeCapital <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#EA5E45"/>
-                </svg>
+              <li className="header__menu_item header__menu_item--children" role="button" >
+                <span className='header__menu_link--children'>Seja BeCapital <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#EA5E45"/></svg>
                 </span>
-                <nav className={openDropdown ? 'header__submenu active': 'header__submenu'}>
+                <nav className='header__submenu'>
                  <SubMenu/>
                 </nav>
               </li>
@@ -83,7 +70,7 @@ const Header = () => {
                 <Link to="/carreiras/" className="header__menu_link" getProps={isCurrent}>Carreiras</Link>
               </li>
               <li className="header__menu_item">
-                <a href="https://becapitalresearch.com/" className="header__menu_link header__menu_link--italic">Research</a>
+                <a href="https://becapitalresearch.com/" target="_blank" rel="noopener noreferrer" className="header__menu_link header__menu_link--italic">Research</a>
               </li>
             </ul>
           </nav>

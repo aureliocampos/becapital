@@ -81,31 +81,11 @@ export default class AdvantageClub extends Component {
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />
   }
-
-  const addClassActive = (event) => {
-    if (event.target.className === "advantage__item") {
-      event.target.classList.add('active')
-    }
-  }
-
-  const removeClassActive = () => {
-    const actives = document.querySelectorAll('.advantage__item.active')
-    
-    actives.forEach(item => item.classList.remove('active'))
-  }
   return(
     <section className="section section__advantage">
       <h2 className="section__title">Conheça o Clu<mark>Be</mark> de vantagens!</h2>
       <div className="advantage__items">
-        <div 
-          className="advantage__item"
-          onMouseOver={addClassActive}
-          onFocus={addClassActive}
-          onMouseLeave={removeClassActive}
-          role="button"
-          tabindex="0"
-          aria-controls="float1"
-        >
+        <div className="advantage__item">
           <div className="advantage__button">
             <StaticImage src="../../../images/discount-coupon.png" alt="Ícone de Descontos em restaurantes e cursos" />
             <h3 className="advantage__title">Descontos em restaurantes e cursos</h3>
@@ -124,15 +104,7 @@ export default class AdvantageClub extends Component {
             <h3 className="advantage__title">Modo #BeFit ativado para qualidade de vida e bem-estar!</h3>
           </div>
         </div>
-        <div 
-          className="advantage__item"
-          onMouseOver={addClassActive}
-          onFocus={addClassActive}
-          onMouseLeave={removeClassActive}
-          role="button"
-          tabindex="0"
-          aria-controls="float2"
-        >
+        <div className="advantage__item">
           <div className="advantage__button">
             <StaticImage src="../../../images/beoffice.png" alt="Ícone de Descontos em restaurantes e cursos" />
             <h3 className="advantage__title">BeOffice<br/>

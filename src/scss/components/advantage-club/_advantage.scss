@@ -45,6 +45,14 @@
           width: auto;
         }
       }
+      @include notebook {
+        &:hover {
+          .advantage__slide-custom {
+            display: block;
+            position: absolute;
+          }
+        }
+      }
     }
     &:nth-of-type(2) {
       .gatsby-image-wrapper {
@@ -59,6 +67,13 @@
         width: 27px;
         @include notebook {
           width: auto;
+        }
+      }
+      @include notebook {
+        &:hover {
+          .advantage__slide-custom {
+            display: block ;
+          }
         }
       }
     }
@@ -86,11 +101,6 @@
       left: 0px;
       z-index: 5;
       top: 210px;
-      @include desktop {
-        left: 15px;
-        z-index: 5;
-        top: 250px;
-      }
       &:before {
         content: '';
       }
@@ -99,50 +109,27 @@
       right: 23px;
       z-index: 5;
       top: 210px;
-      @include desktop {
-        right: 35px;
-        z-index: 5;
-        top: 250px;
-      }
       &:before {
         content: '';
       }
     }
   }
-}
-.advantage__item.active {
-  .advantage__slide-custom {
-    @include notebook {
-      display: block;
-      position: absolute;
 
-    }
-  }
-  #float1 {
-    .advantage__slide-custom {
-      left: -50px;
-      bottom: -120px;
-      height: auto;
-      width: 250px;
-      z-index: 4;
-      @include desktop {
-        left: -130px;
-        bottom: -130px;
-      }
-    }
-  }
-  #float2 {
-    .advantage__slide-custom {
-      right: -30px;
-      bottom: -250px;
-      height: auto;
-      width: 250px;
-      z-index: 4;
-      @include desktop {
-        width: 290px;
-        right: -180px;
-        bottom: -300px;
-      }
-    }
-  }
+}
+
+#float1 {
+  position: absolute;
+  bottom: 40px;
+  left: -50px;
+  height: auto;
+  width: 250px;
+  z-index: 4;
+}
+#float2 {
+  position: absolute;
+  right: -50px;
+  bottom: -250px;
+  height: auto;
+  width: 250px;
+  z-index: 4;
 }

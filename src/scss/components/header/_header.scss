@@ -58,7 +58,7 @@
     right: -50rem;
     width: 80%;
     height: 100vh;
-    padding: 0.675rem 0 0 2rem;
+    padding: 0.675rem 0 1rem 2rem;
     background-color: #1A4A71;
     z-index: 1;
     border-right: 9px solid #FF6746;
@@ -281,5 +281,64 @@
   transition: all 0.3s ease-in-out;
   span {
     margin: 6px auto 0 0;
+  }
+}
+
+
+.header__menu_item.header__menu_item--children {
+  position: relative;
+  @include tablet {
+    &:focus {
+      .header__submenu {
+        position: absolute;
+        top: 57px;
+        left: -30px;
+        display: block;
+        width: max-content;
+        height: max-content;
+        background: $blue-dark;
+        border-top: 3px solid $orange;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        .header__submenu_items {
+          margin: 0;
+          padding: 1rem 1.5rem;
+          .header__submenu_item {
+            margin: 0;
+            .header__submenu_link {
+              display: block;
+              padding: 0.5em 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include notebook {
+    &:hover {
+      .header__submenu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        display: block;
+        width: max-content;
+        height: max-content;
+        background: $blue-dark;
+        border-top: 3px solid $orange;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        .header__submenu_items {
+          margin: 0;
+          padding: 1rem 1.5rem;
+          .header__submenu_item {
+            margin: 0;
+            .header__submenu_link {
+              display: block;
+              padding: 0.5em 0;
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -23,7 +23,7 @@ const SubMenu = () => (
    render={data => (
     <ul className="header__submenu_items">
         <li className="header__submenu_item">
-          <a href="https://maquinadossonhos.be.capital/" className="header__submenu_link">Planejamento Financeiro</a>
+          <a href="https://maquinadossonhos.be.capital/" target="_blank" rel="noopener noreferrer"  className="header__submenu_link">Planejamento Financeiro</a>
         </li>
       {data.allStrapiServices.edges.map((page) => (
         <li className="header__submenu_item" key={page.node.id}>

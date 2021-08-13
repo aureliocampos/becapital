@@ -24,16 +24,6 @@
           width: 70%;
           margin-right: 24px;
         }
-        .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
-          content: '';
-          display: block;
-          width: 22%;
-          height: 82%;
-          position: absolute;
-          top: 60px;
-          left: 0;
-          backdrop-filter: blur(3px);
-        }
         .values__description {
           position: absolute;
           left: 24px;
@@ -41,16 +31,6 @@
         }
       }
       @include notebook {
-        .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
-          content: '';
-          display: block;
-          width: 22%;
-          height: 82%;
-          position: absolute;
-          top: 60px;
-          left: 0;
-          backdrop-filter: blur(3px);
-        }
         .values__description {
           left: 20px;
           top: 60px;
@@ -65,17 +45,6 @@
             width: 70%;
             margin-left: 24px;
           }
-          .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
-            content: '';
-            display: block;
-            width: 22%;
-            height: 82%;
-            position: absolute;
-            top: 60px;
-            left: auto;
-            right: 0;
-            backdrop-filter: blur(3px);
-          }
           .values__description {
             right: 24px;
             top: 20%;
@@ -83,17 +52,6 @@
           }
         }
         @include notebook {
-          .gatsby-image-wrapper.gatsby-image-wrapper-constrained.values__figure:after {
-            content: '';
-            display: block;
-            width: 22%;
-            height: 82%;
-            position: absolute;
-            top: 60px;
-            left: auto;
-            right: 0;
-            backdrop-filter: blur(3px);
-          }
           .values__description {
             right: 20px;
             top: 60px;
@@ -125,7 +83,6 @@
       max-width: 483px;
       margin: 0;
       padding: 75px;
-      opacity: 0.85;
     }
     hr {
       border-color: $orange;
