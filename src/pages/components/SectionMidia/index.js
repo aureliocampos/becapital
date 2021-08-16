@@ -9,13 +9,19 @@ export default function SectionMidia() {
       <div className="section__container">
         <ul className="logos__items">
           <li className="logos__item">
-            <StaticImage src="../../../images/logo_r7_1x.png" alt="Logo portal R7" />
+            <a href="https://virtz.r7.com/criancas-com-deficiencia-ganham-festa-do-hamburguer-em-ong-08062021" target="_blank" rel="noopener noreferrer">
+              <StaticImage src="../../../images/logo_r7_1x.png" alt="Logo portal R7" />
+            </a>
           </li>
           <li className="logos__item">
-            <StaticImage src="../../../images/logo_forbes_1x.png" alt="Logo Forbes" />
+            <a href="https://forbes.com.br/forbes-money/2021/07/ipos-impulsionam-flippers-conheca-estrategias-e-riscos-da-pratica/" target="_blank" rel="noopener noreferrer">
+              <StaticImage src="../../../images/logo_forbes_1x.png" alt="Logo Forbes" />
+            </a>
           </li>
           <li className="logos__item">
-            <StaticImage src="../../../images/logo_abc_1x.png" alt="Logo ABC da Comunicação" />
+            <a href="https://www.abcdacomunicacao.com.br/becapital-lanca-campanha-digital-que-incentiva-as-pessoas-a-realizarem-seus-sonhos/" target="_blank" rel="noopener noreferrer">
+              <StaticImage src="../../../images/logo_abc_1x.png" alt="Logo ABC da Comunicação" />
+            </a>
           </li>
         </ul>
       </div>

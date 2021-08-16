@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5em;
-    width: max-content;
+    max-width: auto;
     padding: 15px 35px;
     background: rgba(26, 74, 115, 0.15);
     border-radius: 18px;
@@ -45,12 +45,14 @@
   .section__container {
     background: rgba(108, 108, 108, 0.2);
     .logos__items {
-      gap: 170px;
+      gap: 40px;
+      flex-wrap: wrap;
+      max-width: 1114px;
       background: none;
       padding: 50px;
       margin: 0 auto;
       .logos__item {
-        width: auto;
+        width: 30%;
       }
     }
   }

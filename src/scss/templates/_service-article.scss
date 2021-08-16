@@ -26,16 +26,24 @@
       margin: 0 auto;
     }
     figure {
-      width: 50%;
+      display: none;
+      @include tablet {
+        display: block;
+        width: 50%;
+      }
     }
     .description__text {
-      width: 50%;
-      font-family: Trasandina;
+      width: 100%;
+      font: 200 27.9024px $font-primary;
       font-style: italic;
-      font-weight: 200;
-      font-size: 27.9024px;
+      text-align: center;
+      padding: 0 1.5em;
       line-height: 33px;
-      color: #1A4A71;
+      color: $blue-dark;
+      @include tablet {
+        width: 50%;
+        text-align: left;
+      }
       @include notebook {
         width: 45%;
         font-size: 73px;
@@ -89,7 +97,7 @@
     }
     &-items {
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       gap: 2em;

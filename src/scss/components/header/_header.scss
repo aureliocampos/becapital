@@ -314,12 +314,12 @@
       }
     }
   }
-  @include notebook {
+  @include tablet {
     &:hover {
       .header__submenu {
         position: absolute;
-        top: 80px;
-        left: 0;
+        top: 58px;
+        left: -30px;
         display: block;
         width: max-content;
         height: max-content;
@@ -327,6 +327,10 @@
         border-top: 3px solid $orange;
         border-bottom-left-radius: 18px;
         border-bottom-right-radius: 18px;
+        @include notebook {
+          top: 80px;
+          left: 0;
+        }
         .header__submenu_items {
           margin: 0;
           padding: 1rem 1.5rem;

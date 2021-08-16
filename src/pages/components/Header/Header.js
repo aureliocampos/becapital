@@ -54,7 +54,7 @@ const Header = () => {
                 <Link to="/somos-becapital/" className="header__menu_link" getProps={isCurrent}>Somos BeCapital</Link>
               </li>
 
-              <li className="header__menu_item header__menu_item--children" role="button" >
+              <li className="header__menu_item header__menu_item--children">
                 <span className='header__menu_link--children'>Seja BeCapital <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 5L0.401925 0.5L5.59808 0.5L3 5Z" fill="#EA5E45"/></svg>
                 </span>

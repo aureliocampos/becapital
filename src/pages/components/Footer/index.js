@@ -44,7 +44,7 @@ const Footer = () => {
                   <Link to="/somos-becapital/" className="menu__link">A BeCapital</Link>
                 </li>
                 <li className="menu__item width200">
-                  <span className="menu__link">Fale com a Beca - Atendimento da BeCapital</span>
+                  <a href="https://api.whatsapp.com/send?phone=5521965431886&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20planejamento%20financeiro.%20O%20que%20devo%20fazer%3F%20Poderia%20me%20ajudar%3F" className="menu__link"> Fale com a Beca - Atendimento da BeCapital </a>
                 </li>
                 <li className="menu__item">
                   <Link to="/carreiras/" className="menu__link">Página de Carreiras</Link>
