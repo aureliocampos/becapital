@@ -80,7 +80,7 @@ export default class DirectorsSlide extends Component {
                     <h2 className="directors__name">Calebe Vieira</h2>
                     <p className="directors__job">CAO, Diretor Comercial</p>
                   </div>
-                  <a href="https://www.linkedin.com/in/calebevieira//" target="_blank" rel="noopener noreferrer" className="directors__social">
+                  <a href="https://www.linkedin.com/in/calebevieira/" target="_blank" rel="noopener noreferrer" className="directors__social">
                     <StaticImage src="../../../../images/logo_linkedin.png" alt="logo do linkedin" />
                   </a>
                 </footer>

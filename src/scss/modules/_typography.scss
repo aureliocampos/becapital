@@ -20,7 +20,7 @@ body {
   color: $black;
   padding: 0 1.5em;
   @include notebook {
-    max-width: 365px;
+    max-width: 380px;
     margin: 0 auto;
     font-size: 18px;
   }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 function SampleNextArrow(props) {
   const { className, onClick } = props;
@@ -74,8 +75,8 @@ export default class CenterMode extends Component {
 
                   </span>
                   <h2 className="slide-services__title">Consórcio Imobiliário</h2>
-                  <p className="slide-services__text">Ter um plano de saúde é a alternativa mais eficaz na redução dos seus custos. Você não vai desembolsar toda vez que precisar fazer um exame, uma consulta ou até uma cirurgia mais complexa. Nossos planos apresentam diferentes coberturas para te atender de acordo com as suas necessidades. E o melhor: trabalhamos com as principais empresas do mercado.</p>
-                  <a href="/slide-test/" className="slide-services__link">saiba mais</a>
+                  <p className="slide-services__text">Ao adquirir um consórcio, você planeja a aquisição do seu imóvel sem precisar se descapitalizar por completo. Você se une a um grupo de pessoas que têm o mesmo objetivo que o seu, criando um formato de “poupança”, ou seja, cada um compra uma cota e paga em parcelas mensais, sem juros. Ao ser contemplado, você pode resgatar o valor integral necessário para a sua aquisição.</p>
+                  <Link to="/consorcio-imobiliario/" className="slide-services__link">saiba mais</Link>
                 </article>
                 <section className="section section__logos">
                   <div className="section__container">
@@ -106,7 +107,7 @@ export default class CenterMode extends Component {
                   </span>
                   <h2 className="slide-services__title">Câmbio</h2>
                   <p className="slide-services__text">Se você vai viajar pra fora do país, ou receber e realizar um pagamento internacional, conte com a BeCapital na sua bagagem. Realizamos operações de câmbio para pessoas física e jurídica, com taxas e condições competitivas no mercado. Atuamos com envio de remessas para o exterior e venda de moedas. Trabalhamos com todas elas! Então, para qualquer lugar que você for, estaremos sempre com você.</p>
-                  <a href="/slide-test/" className="slide-services__link">saiba mais</a>
+                  <Link to="/cambio/" className="slide-services__link">saiba mais</Link>
                 </article>
                 <section className="section section__logos">
                   <div className="section__container">
@@ -137,7 +138,7 @@ export default class CenterMode extends Component {
                   </span>
                   <h2 className="slide-services__title">Planejamento Financeiro</h2>
                   <p className="slide-services__text">Qual é o seu objetivo de vida hoje? O que você deseja alcançar? Seja o que for, o nosso time desenvolve todas as etapas necessárias para você conseguir conquistar o que você quer. Sabemos, porém, que essa trajetória envolve a possibilidade de imprevistos. Eles são aquela parte turbulenta do sonho. E como resolvê-los? A BeCapital existe para planejar, executar e transformar os seus sonhos em conquistas concretas.</p>
-                  <a href="/slide-test/" className="slide-services__link">saiba mais</a>
+                  <a href="https://maquinadossonhos.be.capital/" target="_blank" rel="noopener noreferrer" className="slide-services__link">saiba mais</a>
                 </article>
                 <section className="section section__logos">
                   <div className="section__container">
@@ -155,6 +156,9 @@ export default class CenterMode extends Component {
                   </div>
                 </section>
               </div>
+
+              {/*  Está seção foi comentada porque o página ainda não existe.
+              
               <div className="slide-services__custom-item">
                 <article className="slide-services__article">
                   <span className="slide-services__icon">
@@ -177,7 +181,7 @@ export default class CenterMode extends Component {
                       </svg>
                   </span>
                   <h2 className="slide-services__title">Crédito</h2>
-                  <p className="slide-services__text">Oferecemos crédito pessoal com taxas super competitivas. Fácil de adquirir e simples de pagar, o valor cai direto em sua conta pra você como quiser!</p>
+                  <p className="slide-services__text">Oferecemos crédito pessoal com taxas super competitivas. Fácil de adquirir e simples de pagar, o valor cai direto em sua conta pra você usar como quiser!</p>
                   <a href="/slide-test/" className="slide-services__link">saiba mais</a>
                 </article>
                 <section className="section section__logos">
@@ -189,7 +193,8 @@ export default class CenterMode extends Component {
                     </ul>
                   </div>
                 </section>
-              </div>
+              </div> */}
+
               <div className="slide-services__custom-item">
                 <article className="slide-services__article">
                   <span className="slide-services__icon">
@@ -210,7 +215,7 @@ export default class CenterMode extends Component {
                   </span>
                   <h2 className="slide-services__title">Plano de Saúde</h2>
                   <p className="slide-services__text">Ter um plano de saúde é a alternativa mais eficaz na redução dos seus custos. Você não vai desembolsar toda vez que precisar fazer um exame, uma consulta ou até uma cirurgia mais complexa. Nossos planos apresentam diferentes coberturas para te atender de acordo com as suas necessidades. E o melhor: trabalhamos com as principais empresas do mercado.</p>
-                  <a href="/slide-test/" className="slide-services__link">saiba mais</a>
+                  <Link to="/plano-de-saude/" className="slide-services__link">saiba mais</Link>
                 </article>
                 <section className="section section__logos">
                   <div className="section__container">
@@ -244,8 +249,8 @@ export default class CenterMode extends Component {
                       </svg>
                   </span>
                   <h2 className="slide-services__title">Seguro de Vida</h2>
-                  <p className="slide-services__text">O seguro de vida é a sua blindagem patrimonial, ou seja, qualquer dano que aconteça com você, em sua vida, o seguro estará lá para proteger o que você conquistou estará lá para proteger o que mais importa.</p>
-                  <a href="/slide-test/" className="slide-services__link">saiba mais</a>
+                  <p className="slide-services__text">O seguro de vida é a sua blindagem patrimonial, ou seja, qualquer dano que aconteça com você, em sua vida, o seguro estará lá para proteger o que você conquistou e o que mais importa.</p>
+                  <Link to="/seguro-de-vida/" className="slide-services__link">saiba mais</Link>
                 </article>
                 <section className="section section__logos">
                   <div className="section__container">
@@ -275,8 +280,6 @@ export default class CenterMode extends Component {
                   </div>
                 </section>
               </div>
-
-
           </Slider>
           </div>
         </section>
