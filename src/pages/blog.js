@@ -69,7 +69,8 @@ const Blog = () => {
         <StaticImage src="../images/banner_blog.png" alt="Banner do Blog" className="banner__figure" imgClassName="banner__image"/>
       </BannerSecondary>
       <section className="section section__posts">
-        <h1 className="section__title">Papo Investidor</h1>
+        <h1 className="section__title">Blog</h1>
+        <p className="section__subtitle">Investimos em informação pra você investir em você. Toda semana, um novo artigo sobre educação financeira e investimentos</p>
         <div className="section__content posts posts--grid">
           <ul className="posts__items">
 
@@ -104,7 +105,7 @@ const Blog = () => {
           {hasMore ? (
               <button onClick={handleLoadMore} className="button button__tertiary">MAIS ARTIGOS</button>
             ) : (
-              <p>No more results</p>
+              <p></p>
             )}
         </div>
       </section>

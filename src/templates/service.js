@@ -5,7 +5,6 @@ import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image';
 import Layout from "../pages/components/Layout";
 import Seo from "../pages/components/SEO";
 import FormRdStation from "../pages/components/Form";
-// import MonitoringCodeFormHooks from "../pages/components/Form/MonitoringFormHooks";
 
 const ServicesTemplate = ({ data }) => {
 

@@ -6,6 +6,13 @@
   .section__title {
     margin: 47px 0;
   }
+  .icon-quote {
+    width: 31px;
+    height: auto;
+    @include notebook {
+      width: 48px;
+    }
+  }
 }
 .peoples {
   &__grid {
@@ -26,6 +33,7 @@
     border-radius: 27.3606px;
     @include tablet {
       max-width: 513px;
+      height: max-content;
     }
     .peoples__image--card-primary{
       z-index: -1;
@@ -34,11 +42,11 @@
       background: #FFFFFF;
       border-radius: 27.3606px;
       padding: 25px 28px;
-      margin-top: -20px;
+      margin-top: -40px;
       @include notebook {
         border-radius: 44px;
-        padding: 40px;
-        margin-top: -50px;
+        padding: 40px 48px 72px 48px;
+        margin-top: -60px;
       }
     }
     .peoples__paragraph {
@@ -71,7 +79,7 @@
     }
   }
   &__card--secondary {
-    margin: 44px 0;
+    margin-bottom: 44px;
     .peoples__description {
       position: relative;
       background: #F5F5F5;
@@ -144,4 +152,5 @@
       }
     }
   }
+
 }

@@ -15,7 +15,10 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")),
-  "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))
+  "component---src-pages-blog-js": preferDefault(__webpack_require__(/*! ./src/pages/blog.js */ "./src/pages/blog.js")),
+  "component---src-pages-carreiras-js": preferDefault(__webpack_require__(/*! ./src/pages/carreiras.js */ "./src/pages/carreiras.js")),
+  "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")),
+  "component---src-templates-service-js": preferDefault(__webpack_require__(/*! ./src/templates/service.js */ "./src/templates/service.js"))
   }
 
 
@@ -30,6 +33,39 @@ exports.ssrComponents = {
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#0868a8","images":{"fallback":{"src":"/static/741818f8456f16c7e22d75bdd12fd513/3df5b/logo_caixa_1x.png","srcSet":"/static/741818f8456f16c7e22d75bdd12fd513/cb631/logo_caixa_1x.png 23w,\\n/static/741818f8456f16c7e22d75bdd12fd513/a8daf/logo_caixa_1x.png 45w,\\n/static/741818f8456f16c7e22d75bdd12fd513/3df5b/logo_caixa_1x.png 90w","sizes":"(min-width: 90px) 90px, 100vw"},"sources":[{"srcSet":"/static/741818f8456f16c7e22d75bdd12fd513/7a211/logo_caixa_1x.webp 23w,\\n/static/741818f8456f16c7e22d75bdd12fd513/fdca5/logo_caixa_1x.webp 45w,\\n/static/741818f8456f16c7e22d75bdd12fd513/c7288/logo_caixa_1x.webp 90w","type":"image/webp","sizes":"(min-width: 90px) 90px, 100vw"}]},"width":90,"height":37}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1044568156.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1044568156.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f89898","images":{"fallback":{"src":"/static/7df182797a00d21dc3784bbc10e374f3/19b99/icon_invista_agora.png","srcSet":"/static/7df182797a00d21dc3784bbc10e374f3/a0373/icon_invista_agora.png 43w,\\n/static/7df182797a00d21dc3784bbc10e374f3/559e8/icon_invista_agora.png 85w,\\n/static/7df182797a00d21dc3784bbc10e374f3/19b99/icon_invista_agora.png 170w","sizes":"(min-width: 170px) 170px, 100vw"},"sources":[{"srcSet":"/static/7df182797a00d21dc3784bbc10e374f3/f4afd/icon_invista_agora.webp 43w,\\n/static/7df182797a00d21dc3784bbc10e374f3/8f0cc/icon_invista_agora.webp 85w,\\n/static/7df182797a00d21dc3784bbc10e374f3/5376c/icon_invista_agora.webp 170w","type":"image/webp","sizes":"(min-width: 170px) 170px, 100vw"}]},"width":170,"height":170}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1072432378.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1072432378.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/6405da5241643a39622b7569e3ba39f5/ca41a/logo_press_1x.png","srcSet":"/static/6405da5241643a39622b7569e3ba39f5/c00c5/logo_press_1x.png 41w,\\n/static/6405da5241643a39622b7569e3ba39f5/13bec/logo_press_1x.png 82w,\\n/static/6405da5241643a39622b7569e3ba39f5/ca41a/logo_press_1x.png 164w","sizes":"(min-width: 164px) 164px, 100vw"},"sources":[{"srcSet":"/static/6405da5241643a39622b7569e3ba39f5/9d0fa/logo_press_1x.webp 41w,\\n/static/6405da5241643a39622b7569e3ba39f5/2d752/logo_press_1x.webp 82w,\\n/static/6405da5241643a39622b7569e3ba39f5/fdd36/logo_press_1x.webp 164w","type":"image/webp","sizes":"(min-width: 164px) 164px, 100vw"}]},"width":164,"height":60}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1166260721.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1166260721.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#184878","images":{"fallback":{"src":"/static/e00ea60fece8b24b46e198eec2145ef9/06753/image_receber_todos_full.png","srcSet":"/static/e00ea60fece8b24b46e198eec2145ef9/46201/image_receber_todos_full.png 82w,\\n/static/e00ea60fece8b24b46e198eec2145ef9/0549a/image_receber_todos_full.png 165w,\\n/static/e00ea60fece8b24b46e198eec2145ef9/06753/image_receber_todos_full.png 329w","sizes":"(min-width: 329px) 329px, 100vw"},"sources":[{"srcSet":"/static/e00ea60fece8b24b46e198eec2145ef9/9375f/image_receber_todos_full.webp 82w,\\n/static/e00ea60fece8b24b46e198eec2145ef9/dae8b/image_receber_todos_full.webp 165w,\\n/static/e00ea60fece8b24b46e198eec2145ef9/4fbf4/image_receber_todos_full.webp 329w","type":"image/webp","sizes":"(min-width: 329px) 329px, 100vw"}]},"width":329,"height":351}');
 
 /***/ }),
 
@@ -55,17 +91,6 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/147100514.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/147100514.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/390b6054a72cd7b7e6559f7bc599b33a/88208/icon_youtube.png","srcSet":"/static/390b6054a72cd7b7e6559f7bc599b33a/47ee7/icon_youtube.png 6w,\\n/static/390b6054a72cd7b7e6559f7bc599b33a/86ee2/icon_youtube.png 13w,\\n/static/390b6054a72cd7b7e6559f7bc599b33a/88208/icon_youtube.png 25w","sizes":"(min-width: 25px) 25px, 100vw"},"sources":[{"srcSet":"/static/390b6054a72cd7b7e6559f7bc599b33a/eee53/icon_youtube.webp 6w,\\n/static/390b6054a72cd7b7e6559f7bc599b33a/68795/icon_youtube.webp 13w,\\n/static/390b6054a72cd7b7e6559f7bc599b33a/2fa99/icon_youtube.webp 25w","type":"image/webp","sizes":"(min-width: 25px) 25px, 100vw"}]},"width":25,"height":25}');
-
-/***/ }),
-
 /***/ "./.cache/caches/gatsby-plugin-image/1511892689.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1511892689.json ***!
@@ -77,6 +102,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1552545735.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1552545735.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/85d12a3ebaf062e436f2773b69f5815e/4d86a/job-choose-cadidate.png","srcSet":"/static/85d12a3ebaf062e436f2773b69f5815e/02e54/job-choose-cadidate.png 27w,\\n/static/85d12a3ebaf062e436f2773b69f5815e/5c41f/job-choose-cadidate.png 54w,\\n/static/85d12a3ebaf062e436f2773b69f5815e/4d86a/job-choose-cadidate.png 107w","sizes":"(min-width: 107px) 107px, 100vw"},"sources":[{"srcSet":"/static/85d12a3ebaf062e436f2773b69f5815e/22a8c/job-choose-cadidate.webp 27w,\\n/static/85d12a3ebaf062e436f2773b69f5815e/aad98/job-choose-cadidate.webp 54w,\\n/static/85d12a3ebaf062e436f2773b69f5815e/cac1f/job-choose-cadidate.webp 107w","type":"image/webp","sizes":"(min-width: 107px) 107px, 100vw"}]},"width":107,"height":110}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/159302358.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/159302358.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#184878","images":{"fallback":{"src":"/static/844454603b3b4036814ccbbe56608173/06753/image_luz_camera_acao_full.png","srcSet":"/static/844454603b3b4036814ccbbe56608173/46201/image_luz_camera_acao_full.png 82w,\\n/static/844454603b3b4036814ccbbe56608173/0549a/image_luz_camera_acao_full.png 165w,\\n/static/844454603b3b4036814ccbbe56608173/06753/image_luz_camera_acao_full.png 329w","sizes":"(min-width: 329px) 329px, 100vw"},"sources":[{"srcSet":"/static/844454603b3b4036814ccbbe56608173/9375f/image_luz_camera_acao_full.webp 82w,\\n/static/844454603b3b4036814ccbbe56608173/dae8b/image_luz_camera_acao_full.webp 165w,\\n/static/844454603b3b4036814ccbbe56608173/4fbf4/image_luz_camera_acao_full.webp 329w","type":"image/webp","sizes":"(min-width: 329px) 329px, 100vw"}]},"width":329,"height":351}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1631393484.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1631393484.json ***!
@@ -85,6 +132,17 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/59618c56a4aa5b134c4ed2d181707345/a00e8/logo_amil.png","srcSet":"/static/59618c56a4aa5b134c4ed2d181707345/fe886/logo_amil.png 27w,\\n/static/59618c56a4aa5b134c4ed2d181707345/21a7d/logo_amil.png 54w,\\n/static/59618c56a4aa5b134c4ed2d181707345/a00e8/logo_amil.png 107w","sizes":"(min-width: 107px) 107px, 100vw"},"sources":[{"srcSet":"/static/59618c56a4aa5b134c4ed2d181707345/0dac4/logo_amil.webp 27w,\\n/static/59618c56a4aa5b134c4ed2d181707345/cd85a/logo_amil.webp 54w,\\n/static/59618c56a4aa5b134c4ed2d181707345/93ea7/logo_amil.webp 107w","type":"image/webp","sizes":"(min-width: 107px) 107px, 100vw"}]},"width":107,"height":44}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1795765734.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1795765734.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/b9a8d08fe53d9799e50cf0dfa6616be9/708d6/foto_excelencia_e_qualidade_full.jpg","srcSet":"/static/b9a8d08fe53d9799e50cf0dfa6616be9/5dac0/foto_excelencia_e_qualidade_full.jpg 166w,\\n/static/b9a8d08fe53d9799e50cf0dfa6616be9/79f18/foto_excelencia_e_qualidade_full.jpg 331w,\\n/static/b9a8d08fe53d9799e50cf0dfa6616be9/708d6/foto_excelencia_e_qualidade_full.jpg 662w","sizes":"(min-width: 662px) 662px, 100vw"},"sources":[{"srcSet":"/static/b9a8d08fe53d9799e50cf0dfa6616be9/6cd14/foto_excelencia_e_qualidade_full.webp 166w,\\n/static/b9a8d08fe53d9799e50cf0dfa6616be9/1f351/foto_excelencia_e_qualidade_full.webp 331w,\\n/static/b9a8d08fe53d9799e50cf0dfa6616be9/b6dd8/foto_excelencia_e_qualidade_full.webp 662w","type":"image/webp","sizes":"(min-width: 662px) 662px, 100vw"}]},"width":662,"height":443}');
 
 /***/ }),
 
@@ -110,6 +168,17 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e85848"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2223858755.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2223858755.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2a3f437088d8f3ea2809a6f258e6996b/f34b4/task-checklist-write.png","srcSet":"/static/2a3f437088d8f3ea2809a6f258e6996b/96a18/task-checklist-write.png 31w,\\n/static/2a3f437088d8f3ea2809a6f258e6996b/d0bd8/task-checklist-write.png 61w,\\n/static/2a3f437088d8f3ea2809a6f258e6996b/f34b4/task-checklist-write.png 122w","sizes":"(min-width: 122px) 122px, 100vw"},"sources":[{"srcSet":"/static/2a3f437088d8f3ea2809a6f258e6996b/97054/task-checklist-write.webp 31w,\\n/static/2a3f437088d8f3ea2809a6f258e6996b/5c7f4/task-checklist-write.webp 61w,\\n/static/2a3f437088d8f3ea2809a6f258e6996b/2b40c/task-checklist-write.webp 122w","type":"image/webp","sizes":"(min-width: 122px) 122px, 100vw"}]},"width":122,"height":122}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/2286822092.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/2286822092.json ***!
@@ -129,6 +198,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/9811897d81cdaa1d7c68735a895911c7/bcafc/qrcode.png","srcSet":"/static/9811897d81cdaa1d7c68735a895911c7/058bd/qrcode.png 37w,\\n/static/9811897d81cdaa1d7c68735a895911c7/bebdb/qrcode.png 75w,\\n/static/9811897d81cdaa1d7c68735a895911c7/bcafc/qrcode.png 149w","sizes":"(min-width: 149px) 149px, 100vw"},"sources":[{"srcSet":"/static/9811897d81cdaa1d7c68735a895911c7/77b1a/qrcode.webp 37w,\\n/static/9811897d81cdaa1d7c68735a895911c7/15caa/qrcode.webp 75w,\\n/static/9811897d81cdaa1d7c68735a895911c7/1258c/qrcode.webp 149w","type":"image/webp","sizes":"(min-width: 149px) 149px, 100vw"}]},"width":149,"height":192}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2542273403.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2542273403.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e8f8f8","images":{"fallback":{"src":"/static/70fbaabd907e6151a174761aee455fb3/162f0/foto_resultado_de_alta_performance_full.jpg","srcSet":"/static/70fbaabd907e6151a174761aee455fb3/7aea7/foto_resultado_de_alta_performance_full.jpg 511w,\\n/static/70fbaabd907e6151a174761aee455fb3/b8b23/foto_resultado_de_alta_performance_full.jpg 1022w,\\n/static/70fbaabd907e6151a174761aee455fb3/162f0/foto_resultado_de_alta_performance_full.jpg 2043w","sizes":"(min-width: 2043px) 2043px, 100vw"},"sources":[{"srcSet":"/static/70fbaabd907e6151a174761aee455fb3/11859/foto_resultado_de_alta_performance_full.webp 511w,\\n/static/70fbaabd907e6151a174761aee455fb3/13d9a/foto_resultado_de_alta_performance_full.webp 1022w,\\n/static/70fbaabd907e6151a174761aee455fb3/aaf08/foto_resultado_de_alta_performance_full.webp 2043w","type":"image/webp","sizes":"(min-width: 2043px) 2043px, 100vw"}]},"width":2043,"height":1359}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2667919101.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2667919101.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#184878","images":{"fallback":{"src":"/static/00a0100188e46b8e088498a616d3f69a/8de0a/image_beclioteca_full.png","srcSet":"/static/00a0100188e46b8e088498a616d3f69a/3c987/image_beclioteca_full.png 83w,\\n/static/00a0100188e46b8e088498a616d3f69a/79888/image_beclioteca_full.png 166w,\\n/static/00a0100188e46b8e088498a616d3f69a/8de0a/image_beclioteca_full.png 332w","sizes":"(min-width: 332px) 332px, 100vw"},"sources":[{"srcSet":"/static/00a0100188e46b8e088498a616d3f69a/ad51a/image_beclioteca_full.webp 83w,\\n/static/00a0100188e46b8e088498a616d3f69a/a8b71/image_beclioteca_full.webp 166w,\\n/static/00a0100188e46b8e088498a616d3f69a/2c850/image_beclioteca_full.webp 332w","type":"image/webp","sizes":"(min-width: 332px) 332px, 100vw"}]},"width":332,"height":351}');
 
 /***/ }),
 
@@ -154,6 +245,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2962295881.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2962295881.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/8e70908d3e1b00c304e81f14197af1c3/15e42/foto_mylena_santos.png","srcSet":"/static/8e70908d3e1b00c304e81f14197af1c3/88208/foto_mylena_santos.png 25w,\\n/static/8e70908d3e1b00c304e81f14197af1c3/e9fba/foto_mylena_santos.png 50w,\\n/static/8e70908d3e1b00c304e81f14197af1c3/15e42/foto_mylena_santos.png 100w","sizes":"(min-width: 100px) 100px, 100vw"},"sources":[{"srcSet":"/static/8e70908d3e1b00c304e81f14197af1c3/2fa99/foto_mylena_santos.webp 25w,\\n/static/8e70908d3e1b00c304e81f14197af1c3/dbc4a/foto_mylena_santos.webp 50w,\\n/static/8e70908d3e1b00c304e81f14197af1c3/d8057/foto_mylena_santos.webp 100w","type":"image/webp","sizes":"(min-width: 100px) 100px, 100vw"}]},"width":100,"height":100}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2980252819.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2980252819.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/4af0f753ca8f9248fd729f03d88a419b/4186d/logo_susep_1x.png","srcSet":"/static/4af0f753ca8f9248fd729f03d88a419b/c405a/logo_susep_1x.png 31w,\\n/static/4af0f753ca8f9248fd729f03d88a419b/30f8f/logo_susep_1x.png 63w,\\n/static/4af0f753ca8f9248fd729f03d88a419b/4186d/logo_susep_1x.png 125w","sizes":"(min-width: 125px) 125px, 100vw"},"sources":[{"srcSet":"/static/4af0f753ca8f9248fd729f03d88a419b/f7fac/logo_susep_1x.webp 31w,\\n/static/4af0f753ca8f9248fd729f03d88a419b/fa57b/logo_susep_1x.webp 63w,\\n/static/4af0f753ca8f9248fd729f03d88a419b/fae7d/logo_susep_1x.webp 125w","type":"image/webp","sizes":"(min-width: 125px) 125px, 100vw"}]},"width":125,"height":48}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3022791011.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3022791011.json ***!
@@ -162,6 +275,17 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/5ec4145fe9f33bbca49c948659bb5bee/84126/logo_mongeral_aegon.png","srcSet":"/static/5ec4145fe9f33bbca49c948659bb5bee/51847/logo_mongeral_aegon.png 12w,\\n/static/5ec4145fe9f33bbca49c948659bb5bee/7820b/logo_mongeral_aegon.png 24w,\\n/static/5ec4145fe9f33bbca49c948659bb5bee/84126/logo_mongeral_aegon.png 47w","sizes":"(min-width: 47px) 47px, 100vw"},"sources":[{"srcSet":"/static/5ec4145fe9f33bbca49c948659bb5bee/73620/logo_mongeral_aegon.webp 12w,\\n/static/5ec4145fe9f33bbca49c948659bb5bee/bbe1e/logo_mongeral_aegon.webp 24w,\\n/static/5ec4145fe9f33bbca49c948659bb5bee/bf51a/logo_mongeral_aegon.webp 47w","type":"image/webp","sizes":"(min-width: 47px) 47px, 100vw"}]},"width":47,"height":41}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3045283503.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3045283503.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/14abf3ee12d34185d5c2e1390903cc00/e7982/banner_blog.png","srcSet":"/static/14abf3ee12d34185d5c2e1390903cc00/69378/banner_blog.png 188w,\\n/static/14abf3ee12d34185d5c2e1390903cc00/069b9/banner_blog.png 375w,\\n/static/14abf3ee12d34185d5c2e1390903cc00/e7982/banner_blog.png 750w","sizes":"(min-width: 750px) 750px, 100vw"},"sources":[{"srcSet":"/static/14abf3ee12d34185d5c2e1390903cc00/b7223/banner_blog.webp 188w,\\n/static/14abf3ee12d34185d5c2e1390903cc00/4f2e7/banner_blog.webp 375w,\\n/static/14abf3ee12d34185d5c2e1390903cc00/8dcf0/banner_blog.webp 750w","type":"image/webp","sizes":"(min-width: 750px) 750px, 100vw"}]},"width":750,"height":386}');
 
 /***/ }),
 
@@ -176,6 +300,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/3065505624.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3065505624.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#184878","images":{"fallback":{"src":"/static/4af037f20cec915b276704a2f1c7645b/8de0a/image_troca_copartilhar_full.png","srcSet":"/static/4af037f20cec915b276704a2f1c7645b/3c987/image_troca_copartilhar_full.png 83w,\\n/static/4af037f20cec915b276704a2f1c7645b/79888/image_troca_copartilhar_full.png 166w,\\n/static/4af037f20cec915b276704a2f1c7645b/8de0a/image_troca_copartilhar_full.png 332w","sizes":"(min-width: 332px) 332px, 100vw"},"sources":[{"srcSet":"/static/4af037f20cec915b276704a2f1c7645b/ad51a/image_troca_copartilhar_full.webp 83w,\\n/static/4af037f20cec915b276704a2f1c7645b/a8b71/image_troca_copartilhar_full.webp 166w,\\n/static/4af037f20cec915b276704a2f1c7645b/2c850/image_troca_copartilhar_full.webp 332w","type":"image/webp","sizes":"(min-width: 332px) 332px, 100vw"}]},"width":332,"height":351}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3155191525.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3155191525.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/1176c5f6cbd1769f781ed867cff95c64/02f51/image_descount_hover.png","srcSet":"/static/1176c5f6cbd1769f781ed867cff95c64/bea98/image_descount_hover.png 114w,\\n/static/1176c5f6cbd1769f781ed867cff95c64/45b76/image_descount_hover.png 229w,\\n/static/1176c5f6cbd1769f781ed867cff95c64/02f51/image_descount_hover.png 457w","sizes":"(min-width: 457px) 457px, 100vw"},"sources":[{"srcSet":"/static/1176c5f6cbd1769f781ed867cff95c64/31322/image_descount_hover.webp 114w,\\n/static/1176c5f6cbd1769f781ed867cff95c64/ca537/image_descount_hover.webp 229w,\\n/static/1176c5f6cbd1769f781ed867cff95c64/0f380/image_descount_hover.webp 457w","type":"image/webp","sizes":"(min-width: 457px) 457px, 100vw"}]},"width":457,"height":264}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3212115792.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3212115792.json ***!
@@ -184,6 +330,50 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2c65688fc22f45c85c525f09b1887329/ea2bd/logo_prudential.png","srcSet":"/static/2c65688fc22f45c85c525f09b1887329/81912/logo_prudential.png 14w,\\n/static/2c65688fc22f45c85c525f09b1887329/2c5f7/logo_prudential.png 28w,\\n/static/2c65688fc22f45c85c525f09b1887329/ea2bd/logo_prudential.png 56w","sizes":"(min-width: 56px) 56px, 100vw"},"sources":[{"srcSet":"/static/2c65688fc22f45c85c525f09b1887329/21539/logo_prudential.webp 14w,\\n/static/2c65688fc22f45c85c525f09b1887329/888a0/logo_prudential.webp 28w,\\n/static/2c65688fc22f45c85c525f09b1887329/5844b/logo_prudential.webp 56w","type":"image/webp","sizes":"(min-width: 56px) 56px, 100vw"}]},"width":56,"height":49.99999999999999}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3296995490.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3296995490.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e8e8e8","images":{"fallback":{"src":"/static/c82c715e3665c21ddf3fdaaf26f7598c/2afb1/imagem_de_alvo_card_missao_4x.jpg","srcSet":"/static/c82c715e3665c21ddf3fdaaf26f7598c/5fe2c/imagem_de_alvo_card_missao_4x.jpg 375w,\\n/static/c82c715e3665c21ddf3fdaaf26f7598c/04295/imagem_de_alvo_card_missao_4x.jpg 750w,\\n/static/c82c715e3665c21ddf3fdaaf26f7598c/2afb1/imagem_de_alvo_card_missao_4x.jpg 1500w","sizes":"(min-width: 1500px) 1500px, 100vw"},"sources":[{"srcSet":"/static/c82c715e3665c21ddf3fdaaf26f7598c/8918d/imagem_de_alvo_card_missao_4x.webp 375w,\\n/static/c82c715e3665c21ddf3fdaaf26f7598c/d4396/imagem_de_alvo_card_missao_4x.webp 750w,\\n/static/c82c715e3665c21ddf3fdaaf26f7598c/b5bfe/imagem_de_alvo_card_missao_4x.webp 1500w","type":"image/webp","sizes":"(min-width: 1500px) 1500px, 100vw"}]},"width":1500,"height":1100}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3372862731.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3372862731.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/b7abbc6ee9452391e10d4e176bcb9897/55f1c/logo_gympass.png","srcSet":"/static/b7abbc6ee9452391e10d4e176bcb9897/36b49/logo_gympass.png 46w,\\n/static/b7abbc6ee9452391e10d4e176bcb9897/618e9/logo_gympass.png 93w,\\n/static/b7abbc6ee9452391e10d4e176bcb9897/55f1c/logo_gympass.png 185w","sizes":"(min-width: 185px) 185px, 100vw"},"sources":[{"srcSet":"/static/b7abbc6ee9452391e10d4e176bcb9897/49a0f/logo_gympass.webp 46w,\\n/static/b7abbc6ee9452391e10d4e176bcb9897/599c8/logo_gympass.webp 93w,\\n/static/b7abbc6ee9452391e10d4e176bcb9897/eb4fe/logo_gympass.webp 185w","type":"image/webp","sizes":"(min-width: 185px) 185px, 100vw"}]},"width":185,"height":35}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3382444784.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3382444784.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#c8b8b8","images":{"fallback":{"src":"/static/ee453afc5c6ad631221adbce8896d648/9fd90/foto_autonomia_com_responsabilidade_full.jpg","srcSet":"/static/ee453afc5c6ad631221adbce8896d648/b1f6d/foto_autonomia_com_responsabilidade_full.jpg 511w,\\n/static/ee453afc5c6ad631221adbce8896d648/71e42/foto_autonomia_com_responsabilidade_full.jpg 1022w,\\n/static/ee453afc5c6ad631221adbce8896d648/9fd90/foto_autonomia_com_responsabilidade_full.jpg 2043w","sizes":"(min-width: 2043px) 2043px, 100vw"},"sources":[{"srcSet":"/static/ee453afc5c6ad631221adbce8896d648/f79f9/foto_autonomia_com_responsabilidade_full.webp 511w,\\n/static/ee453afc5c6ad631221adbce8896d648/4f657/foto_autonomia_com_responsabilidade_full.webp 1022w,\\n/static/ee453afc5c6ad631221adbce8896d648/22ba3/foto_autonomia_com_responsabilidade_full.webp 2043w","type":"image/webp","sizes":"(min-width: 2043px) 2043px, 100vw"}]},"width":2043,"height":1362}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3391317925.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3391317925.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/81f260d830bb40f434b439d9efe08ace/0454c/banner_carreiras_4x_v2.jpg","srcSet":"/static/81f260d830bb40f434b439d9efe08ace/e492f/banner_carreiras_4x_v2.jpg 656w,\\n/static/81f260d830bb40f434b439d9efe08ace/271df/banner_carreiras_4x_v2.jpg 1312w,\\n/static/81f260d830bb40f434b439d9efe08ace/0454c/banner_carreiras_4x_v2.jpg 2624w","sizes":"(min-width: 2624px) 2624px, 100vw"},"sources":[{"srcSet":"/static/81f260d830bb40f434b439d9efe08ace/93654/banner_carreiras_4x_v2.webp 656w,\\n/static/81f260d830bb40f434b439d9efe08ace/06af3/banner_carreiras_4x_v2.webp 1312w,\\n/static/81f260d830bb40f434b439d9efe08ace/cfd34/banner_carreiras_4x_v2.webp 2624w","type":"image/webp","sizes":"(min-width: 2624px) 2624px, 100vw"}]},"width":2624,"height":2355}');
 
 /***/ }),
 
@@ -209,6 +399,17 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/3613412705.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3613412705.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e85848","images":{"fallback":{"src":"/static/eaa2d799be91cfc0472b1d2fe0377fb0/88208/icon_youtube_orange.png","srcSet":"/static/eaa2d799be91cfc0472b1d2fe0377fb0/47ee7/icon_youtube_orange.png 6w,\\n/static/eaa2d799be91cfc0472b1d2fe0377fb0/86ee2/icon_youtube_orange.png 13w,\\n/static/eaa2d799be91cfc0472b1d2fe0377fb0/88208/icon_youtube_orange.png 25w","sizes":"(min-width: 25px) 25px, 100vw"},"sources":[{"srcSet":"/static/eaa2d799be91cfc0472b1d2fe0377fb0/eee53/icon_youtube_orange.webp 6w,\\n/static/eaa2d799be91cfc0472b1d2fe0377fb0/68795/icon_youtube_orange.webp 13w,\\n/static/eaa2d799be91cfc0472b1d2fe0377fb0/2fa99/icon_youtube_orange.webp 25w","type":"image/webp","sizes":"(min-width: 25px) 25px, 100vw"}]},"width":25,"height":25}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3647830063.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3647830063.json ***!
@@ -217,6 +418,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/ff44d273d22bc438de4fc9d4d33bb992/62659/logo_forbes_1x.png","srcSet":"/static/ff44d273d22bc438de4fc9d4d33bb992/0f9e1/logo_forbes_1x.png 44w,\\n/static/ff44d273d22bc438de4fc9d4d33bb992/1f872/logo_forbes_1x.png 87w,\\n/static/ff44d273d22bc438de4fc9d4d33bb992/62659/logo_forbes_1x.png 174w","sizes":"(min-width: 174px) 174px, 100vw"},"sources":[{"srcSet":"/static/ff44d273d22bc438de4fc9d4d33bb992/70c8a/logo_forbes_1x.webp 44w,\\n/static/ff44d273d22bc438de4fc9d4d33bb992/65c01/logo_forbes_1x.webp 87w,\\n/static/ff44d273d22bc438de4fc9d4d33bb992/c6165/logo_forbes_1x.webp 174w","type":"image/webp","sizes":"(min-width: 174px) 174px, 100vw"}]},"width":174,"height":46}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3687290802.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3687290802.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e85848","images":{"fallback":{"src":"/static/88cd10ac409b693c61b6456a06ecb1e8/65c53/beoffice.png","srcSet":"/static/88cd10ac409b693c61b6456a06ecb1e8/e80b2/beoffice.png 14w,\\n/static/88cd10ac409b693c61b6456a06ecb1e8/a2f7b/beoffice.png 27w,\\n/static/88cd10ac409b693c61b6456a06ecb1e8/65c53/beoffice.png 54w","sizes":"(min-width: 54px) 54px, 100vw"},"sources":[{"srcSet":"/static/88cd10ac409b693c61b6456a06ecb1e8/988c1/beoffice.webp 14w,\\n/static/88cd10ac409b693c61b6456a06ecb1e8/0a1c4/beoffice.webp 27w,\\n/static/88cd10ac409b693c61b6456a06ecb1e8/f3f27/beoffice.webp 54w","type":"image/webp","sizes":"(min-width: 54px) 54px, 100vw"}]},"width":54,"height":76}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3695052009.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3695052009.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#181818","images":{"fallback":{"src":"/static/4c0261b35e092202428da5199c3ff44b/21107/foto_senso_de_colabora%C3%A7%C3%A3o_full.jpg","srcSet":"/static/4c0261b35e092202428da5199c3ff44b/067c4/foto_senso_de_colabora%C3%A7%C3%A3o_full.jpg 514w,\\n/static/4c0261b35e092202428da5199c3ff44b/d6e56/foto_senso_de_colabora%C3%A7%C3%A3o_full.jpg 1028w,\\n/static/4c0261b35e092202428da5199c3ff44b/21107/foto_senso_de_colabora%C3%A7%C3%A3o_full.jpg 2055w","sizes":"(min-width: 2055px) 2055px, 100vw"},"sources":[{"srcSet":"/static/4c0261b35e092202428da5199c3ff44b/847ac/foto_senso_de_colabora%C3%A7%C3%A3o_full.webp 514w,\\n/static/4c0261b35e092202428da5199c3ff44b/1514c/foto_senso_de_colabora%C3%A7%C3%A3o_full.webp 1028w,\\n/static/4c0261b35e092202428da5199c3ff44b/6db79/foto_senso_de_colabora%C3%A7%C3%A3o_full.webp 2055w","type":"image/webp","sizes":"(min-width: 2055px) 2055px, 100vw"}]},"width":2055,"height":1363}');
 
 /***/ }),
 
@@ -231,6 +454,17 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/3820932184.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3820932184.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e85848","images":{"fallback":{"src":"/static/54590a5c361cdffd247c42aaef19a189/88208/icon_instagram_orange.png","srcSet":"/static/54590a5c361cdffd247c42aaef19a189/47ee7/icon_instagram_orange.png 6w,\\n/static/54590a5c361cdffd247c42aaef19a189/86ee2/icon_instagram_orange.png 13w,\\n/static/54590a5c361cdffd247c42aaef19a189/88208/icon_instagram_orange.png 25w","sizes":"(min-width: 25px) 25px, 100vw"},"sources":[{"srcSet":"/static/54590a5c361cdffd247c42aaef19a189/eee53/icon_instagram_orange.webp 6w,\\n/static/54590a5c361cdffd247c42aaef19a189/68795/icon_instagram_orange.webp 13w,\\n/static/54590a5c361cdffd247c42aaef19a189/2fa99/icon_instagram_orange.webp 25w","type":"image/webp","sizes":"(min-width: 25px) 25px, 100vw"}]},"width":25,"height":25}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3911715305.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3911715305.json ***!
@@ -239,17 +473,6 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/a1f1455672587858091baf545c0f42e7/66b71/logo_notredame.png","srcSet":"/static/a1f1455672587858091baf545c0f42e7/f9b14/logo_notredame.png 36w,\\n/static/a1f1455672587858091baf545c0f42e7/ae92c/logo_notredame.png 72w,\\n/static/a1f1455672587858091baf545c0f42e7/66b71/logo_notredame.png 143w","sizes":"(min-width: 143px) 143px, 100vw"},"sources":[{"srcSet":"/static/a1f1455672587858091baf545c0f42e7/3300d/logo_notredame.webp 36w,\\n/static/a1f1455672587858091baf545c0f42e7/522ac/logo_notredame.webp 72w,\\n/static/a1f1455672587858091baf545c0f42e7/b1b9e/logo_notredame.webp 143w","type":"image/webp","sizes":"(min-width: 143px) 143px, 100vw"}]},"width":143,"height":41}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3914013465.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3914013465.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/48452629de0738db54256d86a870b9de/88208/icon_linkedin.png","srcSet":"/static/48452629de0738db54256d86a870b9de/47ee7/icon_linkedin.png 6w,\\n/static/48452629de0738db54256d86a870b9de/86ee2/icon_linkedin.png 13w,\\n/static/48452629de0738db54256d86a870b9de/88208/icon_linkedin.png 25w","sizes":"(min-width: 25px) 25px, 100vw"},"sources":[{"srcSet":"/static/48452629de0738db54256d86a870b9de/eee53/icon_linkedin.webp 6w,\\n/static/48452629de0738db54256d86a870b9de/68795/icon_linkedin.webp 13w,\\n/static/48452629de0738db54256d86a870b9de/2fa99/icon_linkedin.webp 25w","type":"image/webp","sizes":"(min-width: 25px) 25px, 100vw"}]},"width":25,"height":25}');
 
 /***/ }),
 
@@ -264,14 +487,69 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/46304761.json":
-/*!*********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/46304761.json ***!
-  \*********************************************************/
+/***/ "./.cache/caches/gatsby-plugin-image/4141725776.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4141725776.json ***!
+  \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/ce18c82131552e9c12cc44895325445e/88208/icon_instagram.png","srcSet":"/static/ce18c82131552e9c12cc44895325445e/47ee7/icon_instagram.png 6w,\\n/static/ce18c82131552e9c12cc44895325445e/86ee2/icon_instagram.png 13w,\\n/static/ce18c82131552e9c12cc44895325445e/88208/icon_instagram.png 25w","sizes":"(min-width: 25px) 25px, 100vw"},"sources":[{"srcSet":"/static/ce18c82131552e9c12cc44895325445e/eee53/icon_instagram.webp 6w,\\n/static/ce18c82131552e9c12cc44895325445e/68795/icon_instagram.webp 13w,\\n/static/ce18c82131552e9c12cc44895325445e/2fa99/icon_instagram.webp 25w","type":"image/webp","sizes":"(min-width: 25px) 25px, 100vw"}]},"width":25,"height":25}');
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#184878","images":{"fallback":{"src":"/static/fd952f1ed6c8ed08a2b6bba8619506f8/79f06/image_copa_full.png","srcSet":"/static/fd952f1ed6c8ed08a2b6bba8619506f8/232c5/image_copa_full.png 83w,\\n/static/fd952f1ed6c8ed08a2b6bba8619506f8/e98c4/image_copa_full.png 166w,\\n/static/fd952f1ed6c8ed08a2b6bba8619506f8/79f06/image_copa_full.png 331w","sizes":"(min-width: 331px) 331px, 100vw"},"sources":[{"srcSet":"/static/fd952f1ed6c8ed08a2b6bba8619506f8/e3bd4/image_copa_full.webp 83w,\\n/static/fd952f1ed6c8ed08a2b6bba8619506f8/e9d9e/image_copa_full.webp 166w,\\n/static/fd952f1ed6c8ed08a2b6bba8619506f8/f5b93/image_copa_full.webp 331w","type":"image/webp","sizes":"(min-width: 331px) 331px, 100vw"}]},"width":331,"height":355}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4147038536.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4147038536.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/31f5d16d5518db5d03cdaee086f9e89c/bbc9f/discount-coupon.png","srcSet":"/static/31f5d16d5518db5d03cdaee086f9e89c/e317b/discount-coupon.png 22w,\\n/static/31f5d16d5518db5d03cdaee086f9e89c/78b85/discount-coupon.png 44w,\\n/static/31f5d16d5518db5d03cdaee086f9e89c/bbc9f/discount-coupon.png 88w","sizes":"(min-width: 88px) 88px, 100vw"},"sources":[{"srcSet":"/static/31f5d16d5518db5d03cdaee086f9e89c/42570/discount-coupon.webp 22w,\\n/static/31f5d16d5518db5d03cdaee086f9e89c/ee92e/discount-coupon.webp 44w,\\n/static/31f5d16d5518db5d03cdaee086f9e89c/aa8de/discount-coupon.webp 88w","type":"image/webp","sizes":"(min-width: 88px) 88px, 100vw"}]},"width":88,"height":88}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4214251286.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4214251286.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#e85848","images":{"fallback":{"src":"/static/7dddada8ef1840ba6f197d4f4e4fc0dc/88208/icon_linkedin_orange.png","srcSet":"/static/7dddada8ef1840ba6f197d4f4e4fc0dc/47ee7/icon_linkedin_orange.png 6w,\\n/static/7dddada8ef1840ba6f197d4f4e4fc0dc/86ee2/icon_linkedin_orange.png 13w,\\n/static/7dddada8ef1840ba6f197d4f4e4fc0dc/88208/icon_linkedin_orange.png 25w","sizes":"(min-width: 25px) 25px, 100vw"},"sources":[{"srcSet":"/static/7dddada8ef1840ba6f197d4f4e4fc0dc/eee53/icon_linkedin_orange.webp 6w,\\n/static/7dddada8ef1840ba6f197d4f4e4fc0dc/68795/icon_linkedin_orange.webp 13w,\\n/static/7dddada8ef1840ba6f197d4f4e4fc0dc/2fa99/icon_linkedin_orange.webp 25w","type":"image/webp","sizes":"(min-width: 25px) 25px, 100vw"}]},"width":25,"height":25}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4275440337.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4275440337.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/33e66a96b3bfd84c03dbfcff4b92cda2/4de46/foto_gabriella_alves.png","srcSet":"/static/33e66a96b3bfd84c03dbfcff4b92cda2/88208/foto_gabriella_alves.png 25w,\\n/static/33e66a96b3bfd84c03dbfcff4b92cda2/c37e7/foto_gabriella_alves.png 51w,\\n/static/33e66a96b3bfd84c03dbfcff4b92cda2/4de46/foto_gabriella_alves.png 101w","sizes":"(min-width: 101px) 101px, 100vw"},"sources":[{"srcSet":"/static/33e66a96b3bfd84c03dbfcff4b92cda2/2fa99/foto_gabriella_alves.webp 25w,\\n/static/33e66a96b3bfd84c03dbfcff4b92cda2/1e77b/foto_gabriella_alves.webp 51w,\\n/static/33e66a96b3bfd84c03dbfcff4b92cda2/bbc1e/foto_gabriella_alves.webp 101w","type":"image/webp","sizes":"(min-width: 101px) 101px, 100vw"}]},"width":101,"height":100}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/439683407.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/439683407.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/16fa953ca767b3003f61a28524c9c4c8/fcdb9/open-quote.png","srcSet":"/static/16fa953ca767b3003f61a28524c9c4c8/29278/open-quote.png 12w,\\n/static/16fa953ca767b3003f61a28524c9c4c8/2391d/open-quote.png 24w,\\n/static/16fa953ca767b3003f61a28524c9c4c8/fcdb9/open-quote.png 48w","sizes":"(min-width: 48px) 48px, 100vw"},"sources":[{"srcSet":"/static/16fa953ca767b3003f61a28524c9c4c8/30aa9/open-quote.webp 12w,\\n/static/16fa953ca767b3003f61a28524c9c4c8/4e704/open-quote.webp 24w,\\n/static/16fa953ca767b3003f61a28524c9c4c8/e78b1/open-quote.webp 48w","type":"image/webp","sizes":"(min-width: 48px) 48px, 100vw"}]},"width":48,"height":48}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/442178213.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/442178213.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/28bc56fb02f5c1751c3587a34b2a5750/2afb1/imagem_dos_diretores_card_de_visao_4x.jpg","srcSet":"/static/28bc56fb02f5c1751c3587a34b2a5750/5fe2c/imagem_dos_diretores_card_de_visao_4x.jpg 375w,\\n/static/28bc56fb02f5c1751c3587a34b2a5750/04295/imagem_dos_diretores_card_de_visao_4x.jpg 750w,\\n/static/28bc56fb02f5c1751c3587a34b2a5750/2afb1/imagem_dos_diretores_card_de_visao_4x.jpg 1500w","sizes":"(min-width: 1500px) 1500px, 100vw"},"sources":[{"srcSet":"/static/28bc56fb02f5c1751c3587a34b2a5750/8918d/imagem_dos_diretores_card_de_visao_4x.webp 375w,\\n/static/28bc56fb02f5c1751c3587a34b2a5750/d4396/imagem_dos_diretores_card_de_visao_4x.webp 750w,\\n/static/28bc56fb02f5c1751c3587a34b2a5750/b5bfe/imagem_dos_diretores_card_de_visao_4x.webp 1500w","type":"image/webp","sizes":"(min-width: 1500px) 1500px, 100vw"}]},"width":1500,"height":1100}');
 
 /***/ }),
 
@@ -308,6 +586,28 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/542218391.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/542218391.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#180808","images":{"fallback":{"src":"/static/0ea991a122231f7626a54d7c8841986c/5c77b/foto_pensamento_e_acao_com_socio_full.jpg","srcSet":"/static/0ea991a122231f7626a54d7c8841986c/10550/foto_pensamento_e_acao_com_socio_full.jpg 512w,\\n/static/0ea991a122231f7626a54d7c8841986c/f797f/foto_pensamento_e_acao_com_socio_full.jpg 1024w,\\n/static/0ea991a122231f7626a54d7c8841986c/5c77b/foto_pensamento_e_acao_com_socio_full.jpg 2048w","sizes":"(min-width: 2048px) 2048px, 100vw"},"sources":[{"srcSet":"/static/0ea991a122231f7626a54d7c8841986c/723e5/foto_pensamento_e_acao_com_socio_full.webp 512w,\\n/static/0ea991a122231f7626a54d7c8841986c/1b9c8/foto_pensamento_e_acao_com_socio_full.webp 1024w,\\n/static/0ea991a122231f7626a54d7c8841986c/8ccad/foto_pensamento_e_acao_com_socio_full.webp 2048w","type":"image/webp","sizes":"(min-width: 2048px) 2048px, 100vw"}]},"width":2048,"height":1358}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/548869756.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/548869756.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#d8c8c8","images":{"fallback":{"src":"/static/80d2e5a38374d3212b5fbc1a388658bf/0a0ff/foto_etica_e_respeito_full.jpg","srcSet":"/static/80d2e5a38374d3212b5fbc1a388658bf/bcf70/foto_etica_e_respeito_full.jpg 511w,\\n/static/80d2e5a38374d3212b5fbc1a388658bf/56a62/foto_etica_e_respeito_full.jpg 1021w,\\n/static/80d2e5a38374d3212b5fbc1a388658bf/0a0ff/foto_etica_e_respeito_full.jpg 2042w","sizes":"(min-width: 2042px) 2042px, 100vw"},"sources":[{"srcSet":"/static/80d2e5a38374d3212b5fbc1a388658bf/644f6/foto_etica_e_respeito_full.webp 511w,\\n/static/80d2e5a38374d3212b5fbc1a388658bf/269c0/foto_etica_e_respeito_full.webp 1021w,\\n/static/80d2e5a38374d3212b5fbc1a388658bf/660f9/foto_etica_e_respeito_full.webp 2042w","type":"image/webp","sizes":"(min-width: 2042px) 2042px, 100vw"}]},"width":2042,"height":1350}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/632239634.json":
 /*!**********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/632239634.json ***!
@@ -327,6 +627,17 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 "use strict";
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/9c9276265c637d65986f7f88f0c82943/b4b01/logo_icatu.png","srcSet":"/static/9c9276265c637d65986f7f88f0c82943/255ab/logo_icatu.png 14w,\\n/static/9c9276265c637d65986f7f88f0c82943/aa0e3/logo_icatu.png 29w,\\n/static/9c9276265c637d65986f7f88f0c82943/b4b01/logo_icatu.png 57w","sizes":"(min-width: 57px) 57px, 100vw"},"sources":[{"srcSet":"/static/9c9276265c637d65986f7f88f0c82943/6412b/logo_icatu.webp 14w,\\n/static/9c9276265c637d65986f7f88f0c82943/4c897/logo_icatu.webp 29w,\\n/static/9c9276265c637d65986f7f88f0c82943/e8582/logo_icatu.webp 57w","type":"image/webp","sizes":"(min-width: 57px) 57px, 100vw"}]},"width":57,"height":57}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/988071754.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/988071754.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#081818","images":{"fallback":{"src":"/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/cf5b0/foto_renate_mattos_full.png","srcSet":"/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/dc131/foto_renate_mattos_full.png 128w,\\n/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/f8254/foto_renate_mattos_full.png 257w,\\n/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/cf5b0/foto_renate_mattos_full.png 513w","sizes":"(min-width: 513px) 513px, 100vw"},"sources":[{"srcSet":"/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/53954/foto_renate_mattos_full.webp 128w,\\n/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/7d241/foto_renate_mattos_full.webp 257w,\\n/static/b4b9b9dc4d3da5ea7476defe5f0a3ce5/5cf12/foto_renate_mattos_full.webp 513w","type":"image/webp","sizes":"(min-width: 513px) 513px, 100vw"}]},"width":513,"height":413}');
 
 /***/ }),
 
@@ -7467,6 +7778,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Layout */ "./src/pages/components/Layout.js");
 /* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/SEO */ "./src/pages/components/SEO/index.js");
+/* harmony import */ var _images_404_gif_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/404-gif.gif */ "./src/images/404-gif.gif");
+/* harmony import */ var _images_adesivo_top_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/adesivo_top.svg */ "./src/images/adesivo_top.svg");
+/* harmony import */ var _images_adesivo_bottom_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/adesivo_bottom.svg */ "./src/images/adesivo_bottom.svg");
+
+
+
 
 
  // markup
@@ -7474,18 +7791,709 @@ __webpack_require__.r(__webpack_exports__);
 const NotFoundPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_SEO__WEBPACK_IMPORTED_MODULE_2__.default, {
     title: "404 Not Found"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "header--error"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "section__title not-page__title"
-  }, "Parece que a gente n\xE3o esperava por essa..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "not-page__info"
+  }, "Parece que a gente n\xE3o esperava por essa...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "section section__error-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("figure", {
+    className: "error-page__figure"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "adesivo-top",
+    src: _images_adesivo_top_svg__WEBPACK_IMPORTED_MODULE_4__.default,
+    alt: "adesivo superior para segurar o gif",
+    width: "81",
+    height: "56"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _images_404_gif_gif__WEBPACK_IMPORTED_MODULE_3__.default,
+    alt: "Error 404",
+    width: "250",
+    height: "143",
+    className: "error-page__image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "adesivo-bottom",
+    src: _images_adesivo_bottom_svg__WEBPACK_IMPORTED_MODULE_5__.default,
+    alt: "adesivo inferior para segurar o gif",
+    width: "61",
+    height: "60"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "error-page__info"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "paragraph"
   }, "Relaxa, nossos desenvolvedores est\xE3o trabalhando assiduamente para construir mais essa p\xE1gina."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "title"
-  }, "Enquanto isso, pra onde voc\xEA quer ir? ")));
+  }, "Enquanto isso, pra onde voc\xEA quer ir? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: "social__items"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "social__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://t.me/becapitalresearch",
+    className: "social__link",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: "48",
+    height: "47",
+    viewBox: "0 0 48 47",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    x: "0.837891",
+    y: "0.716003",
+    width: "46.284",
+    height: "46.284",
+    rx: "13.6129",
+    fill: "#EA5E45"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M23.6269 31.8692C22.7772 32.6827 21.9398 33.4833 21.0963 34.2904C20.9288 34.4505 20.7676 34.617 20.5939 34.7708C20.0481 35.2447 19.3038 35.1294 18.944 34.4953C18.7641 34.1751 18.6339 33.8228 18.5284 33.4705C17.9454 31.5169 17.3748 29.5569 16.8103 27.5969C16.7483 27.3856 16.6553 27.2895 16.4568 27.219C14.8937 26.6746 13.3307 26.1237 11.7739 25.5665C11.3459 25.4128 10.9675 25.1822 10.7132 24.7786C10.3287 24.1637 10.3969 23.4976 10.9241 23.0172C11.1474 22.8186 11.4079 22.6521 11.6808 22.5304C18.6773 19.4303 25.68 16.3366 32.6764 13.2493C32.8935 13.1532 33.1168 13.0635 33.3463 13.0123C34.4318 12.7753 35.2443 13.5055 35.1016 14.6392C34.9838 15.5679 34.7977 16.4903 34.624 17.4062C33.7061 22.3767 32.7757 27.3471 31.8577 32.324C31.7088 33.1118 31.5724 33.8932 31.4173 34.6811C31.225 35.6803 30.1396 36.3336 29.0976 36.0454C28.8185 35.9685 28.5393 35.8148 28.3098 35.6291C26.8274 34.4505 25.3574 33.2591 23.8812 32.0742C23.8068 32.0037 23.72 31.9461 23.6269 31.8692ZM21.9522 29.0637C21.9895 29.1086 22.0081 29.1342 22.0267 29.1534C24.365 31.0173 26.7034 32.8876 29.0417 34.7515C29.6124 35.2063 30.2202 34.9501 30.3567 34.2199C30.6172 32.8172 30.8715 31.4144 31.132 30.0117C32.0686 24.9644 33.0114 19.9235 33.948 14.8762C33.979 14.7225 33.979 14.5559 33.9852 14.3958C33.9914 14.21 33.8921 14.114 33.7123 14.146C33.5138 14.1844 33.3029 14.2293 33.1168 14.3061C26.9329 17.0347 20.7427 19.7698 14.5588 22.4984C13.6967 22.8827 12.8283 23.2542 11.9724 23.6513C11.4948 23.8691 11.4886 24.042 11.9227 24.3367C12.0344 24.4135 12.1584 24.4776 12.2825 24.5224C13.7835 25.0541 15.2907 25.5793 16.7917 26.1237C17.0212 26.207 17.1825 26.1878 17.3872 26.0469C21.3072 23.3375 25.2396 20.6345 29.1658 17.9315C29.5504 17.6625 29.9349 17.3934 30.3257 17.1372C30.5862 16.9643 30.8715 17.0091 31.0576 17.2141C31.2499 17.4255 31.2561 17.7137 31.0762 17.9763C31.0328 18.034 30.9831 18.0916 30.9397 18.1492C30.0838 19.1933 29.2278 20.2309 28.3719 21.2686C26.2382 23.8627 24.1045 26.4568 21.9522 29.0637ZM17.84 27.1229C18.4354 29.1598 19.0246 31.1838 19.6201 33.2079C19.6883 33.163 19.7007 33.1246 19.7131 33.0862C19.9798 31.8372 20.2403 30.5882 20.5257 29.3455C20.5877 29.0893 20.7055 28.8203 20.873 28.6218C22.5787 26.5337 24.2968 24.452 26.0087 22.3703C26.5049 21.7682 27.0011 21.1597 27.4973 20.5576C27.4849 20.5448 27.4725 20.5256 27.4601 20.5128C24.2534 22.7033 21.0529 24.9067 17.84 27.1229ZM20.9226 32.7787C20.9474 32.7851 20.9722 32.798 20.997 32.8044C21.5677 32.2599 22.1321 31.7155 22.7276 31.1454C22.3058 30.8187 21.915 30.5177 21.4808 30.1846C21.2886 31.0878 21.1087 31.9333 20.9226 32.7787Z",
+    fill: "white"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "social__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://www.youtube.com/channel/UCLImIm6777cZiGmjaRuFcwQ?view_as=subscriber",
+    className: "social__link",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: "47",
+    height: "47",
+    viewBox: "0 0 47 47",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    x: "0.461914",
+    y: "0.715973",
+    width: "46.284",
+    height: "46.284",
+    rx: "13.6129",
+    fill: "#EA5E45"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M31.8393 13.8298H15.0058C13.8082 13.8298 12.6596 14.3306 11.8128 15.2219C10.966 16.1133 10.4902 17.3223 10.4902 18.583L10.4902 28.9288C10.4902 30.1894 10.966 31.3984 11.8128 32.2898C12.6596 33.1812 13.8082 33.682 15.0058 33.682H31.8393C32.4323 33.682 33.0195 33.559 33.5673 33.3202C34.1152 33.0813 34.613 32.7312 35.0323 32.2898C35.4516 31.8484 35.7842 31.3244 36.0111 30.7478C36.238 30.1711 36.3548 29.553 36.3548 28.9288V18.583C36.3548 17.9588 36.238 17.3407 36.0111 16.764C35.7842 16.1873 35.4516 15.6633 35.0323 15.2219C34.613 14.7806 34.1152 14.4305 33.5673 14.1916C33.0195 13.9527 32.4323 13.8298 31.8393 13.8298ZM34.7383 28.9288C34.7383 29.3295 34.6633 29.7264 34.5176 30.0966C34.3719 30.4668 34.1584 30.8032 33.8892 31.0866C33.62 31.3699 33.3004 31.5947 32.9487 31.7481C32.597 31.9014 32.22 31.9804 31.8393 31.9804H15.0058C14.2369 31.9804 13.4995 31.6589 12.9559 31.0866C12.4122 30.5143 12.1068 29.7381 12.1068 28.9288V18.583C12.1068 17.7736 12.4122 16.9975 12.9559 16.4252C13.4995 15.8529 14.2369 15.5314 15.0058 15.5314H31.8393C32.22 15.5314 32.597 15.6103 32.9487 15.7637C33.3004 15.917 33.62 16.1418 33.8892 16.4252C34.1584 16.7085 34.3719 17.0449 34.5176 17.4152C34.6633 17.7854 34.7383 18.1822 34.7383 18.583V28.9288Z",
+    fill: "white"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M21.1583 17.6868C21.0364 17.6059 20.8961 17.5608 20.752 17.5561C20.6079 17.5515 20.4653 17.5874 20.3389 17.6603C20.2124 17.7332 20.1068 17.8404 20.033 17.9707C19.9592 18.101 19.9198 18.2498 19.9189 18.4015V28.2255C19.9198 28.3772 19.9592 28.526 20.033 28.6563C20.1068 28.7866 20.2124 28.8938 20.3389 28.9667C20.4653 29.0396 20.6079 29.0756 20.752 29.0709C20.8961 29.0663 21.0364 29.0211 21.1583 28.9402L28.4543 24.0282C28.5677 23.9511 28.661 23.8452 28.7256 23.7204C28.7901 23.5956 28.824 23.4557 28.824 23.3135C28.824 23.1714 28.7901 23.0315 28.7256 22.9066C28.661 22.7818 28.5677 22.676 28.4543 22.5988L21.1583 17.6868ZM21.5355 26.6714V19.9556L26.5252 23.3589L21.5355 26.6714Z",
+    fill: "white"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "social__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://twitter.com/beresearch_",
+    className: "social__link",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: "47",
+    height: "47",
+    viewBox: "0 0 47 47",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    x: "0.0869141",
+    y: "0.715973",
+    width: "46.284",
+    height: "46.284",
+    rx: "13.6129",
+    fill: "#EA5E45"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M10.994 31.6322C10.9557 31.8212 10.981 32.0181 11.0658 32.19C11.1506 32.3619 11.2897 32.4984 11.4598 32.5766C14.2747 33.9426 17.3339 34.6818 20.4406 34.7467C23.2242 34.79 25.9588 33.9847 28.3056 32.4305C30.2081 31.1386 31.7734 29.3785 32.862 27.307C33.9507 25.2355 34.5291 22.9167 34.5456 20.5571V20.0512L36.4848 18.6007C36.6074 18.5143 36.705 18.3948 36.7669 18.255C36.8288 18.1152 36.8527 17.9605 36.836 17.8076C36.8192 17.6548 36.7625 17.5096 36.672 17.3877C36.5814 17.2659 36.4605 17.1721 36.3223 17.1165L34.8164 16.4419L35.6614 14.5305C35.7201 14.3821 35.7369 14.2195 35.7097 14.0616C35.6824 13.9037 35.6124 13.7572 35.5078 13.6392C35.4032 13.5211 35.2683 13.4365 35.119 13.3953C34.9697 13.354 34.8121 13.3577 34.6648 13.4061L32.3139 14.2157C31.325 13.4098 30.1046 12.9704 28.8473 12.9676C27.3397 12.9706 25.8948 13.5935 24.8288 14.6998C23.7628 15.8062 23.1626 17.3059 23.1598 18.8706V19.2753C20.2131 19.6351 17.3965 18.0723 14.2981 14.3843C14.198 14.2658 14.0679 14.1788 13.9226 14.1331C13.7773 14.0874 13.6225 14.0849 13.4759 14.1259C13.3292 14.1668 13.1966 14.2497 13.093 14.3649C12.9894 14.4801 12.919 14.6232 12.8898 14.7779C12.4446 16.6897 12.6316 18.7014 13.4206 20.4897L11.9148 20.2873C11.7854 20.2664 11.6531 20.2784 11.5291 20.3221C11.4051 20.3658 11.2931 20.4399 11.2027 20.5382C11.1123 20.6364 11.0461 20.7559 11.0097 20.8865C10.9734 21.017 10.968 21.1548 10.994 21.288C11.1148 22.1991 11.4342 23.0696 11.9279 23.8334C12.4216 24.5971 13.0766 25.234 13.8431 25.6955L13.139 25.9653C13.0373 26.0071 12.9449 26.0698 12.8671 26.1495C12.7893 26.2293 12.7279 26.3245 12.6864 26.4295C12.6449 26.5344 12.6243 26.647 12.6257 26.7605C12.6272 26.8739 12.6507 26.9859 12.6948 27.0897C13.063 27.8646 13.6058 28.5359 14.2772 29.0467C14.9485 29.5576 15.7287 29.8929 16.5515 30.0243C15.0356 30.6348 13.4215 30.9401 11.7956 30.9238C11.6027 30.9239 11.4162 30.9952 11.2693 31.125C11.1224 31.2548 11.0248 31.4345 10.994 31.6322ZM19.5631 30.2379C19.6956 30.1362 19.7952 29.995 19.8486 29.8331C19.902 29.6712 19.9066 29.4963 19.862 29.3316C19.8173 29.1668 19.7254 29.0201 19.5985 28.9109C19.4716 28.8017 19.3157 28.7351 19.1514 28.72C16.8548 28.5289 15.5006 28.2366 14.634 27.1797L16.6598 26.4151C16.8318 26.3502 16.9778 26.227 17.0739 26.0653C17.17 25.9036 17.2107 25.713 17.1894 25.5243C17.1681 25.3356 17.086 25.1599 16.9564 25.0257C16.8269 24.8914 16.6575 24.8065 16.4756 24.7848C15.7007 24.7539 14.9512 24.4899 14.3184 24.0247C13.6855 23.5595 13.1967 22.9134 12.9115 22.165L15.2298 22.5248C15.4024 22.551 15.5787 22.5189 15.7324 22.4332C15.8861 22.3474 16.0091 22.2126 16.0832 22.0486C16.1573 21.8847 16.1786 21.7003 16.1439 21.5228C16.1092 21.3453 16.0204 21.1841 15.8906 21.0631C15.3327 20.5355 14.8989 19.882 14.6228 19.1529C14.3467 18.4238 14.2356 17.6386 14.2981 16.8579C17.5481 20.2311 20.7981 21.5466 24.1456 20.827C24.3282 20.7883 24.4925 20.6856 24.6108 20.5362C24.7292 20.3867 24.7944 20.1996 24.7956 20.0062V18.8818C24.7917 18.0635 25.0185 17.2619 25.4481 16.5758C25.8777 15.8897 26.4913 15.349 27.2133 15.0203C27.9354 14.6916 28.7343 14.5893 29.5116 14.7261C30.2889 14.8628 31.0107 15.2326 31.5881 15.7898C31.6954 15.8929 31.8275 15.964 31.9705 15.9957C32.1135 16.0273 32.2621 16.0184 32.4006 15.9697L33.4081 15.6211L32.9964 16.5544C32.9532 16.6592 32.9309 16.772 32.9309 16.8861C32.9309 17.0001 32.9532 17.1129 32.9964 17.2177C33.0939 17.4763 33.1156 17.5326 34.3831 18.106L33.2998 18.938C33.1954 19.0165 33.1105 19.1196 33.0521 19.2389C32.9937 19.3582 32.9635 19.4901 32.9639 19.6239V20.5571C32.9498 22.6349 32.441 24.6768 31.4827 26.5012C30.5244 28.3256 29.1465 29.8757 27.4714 31.0138C24.2214 33.2625 19.9423 33.6335 15.3165 32.2393C16.8442 31.866 18.2868 31.1861 19.5631 30.2379Z",
+    fill: "white"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "social__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://www.linkedin.com/company/71399542/",
+    className: "social__link",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: "47",
+    height: "47",
+    viewBox: "0 0 47 47",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    x: "0.724609",
+    y: "0.747437",
+    width: "46.1791",
+    height: "46.1791",
+    rx: "13.6136",
+    fill: "#EA5E45"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", {
+    "clip-path": "url(#clip0)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M11.5092 19.3842C11.2905 19.3842 11.0807 19.471 10.9261 19.6257C10.7715 19.7803 10.6846 19.9901 10.6846 20.2088V35.5248C10.6846 35.7435 10.7715 35.9533 10.9261 36.1079C11.0807 36.2626 11.2905 36.3495 11.5092 36.3495H16.8528C17.0715 36.3495 17.2812 36.2626 17.4359 36.1079C17.5905 35.9533 17.6774 35.7435 17.6774 35.5248V20.2088C17.6774 19.9901 17.5905 19.7803 17.4359 19.6257C17.2812 19.471 17.0715 19.3842 16.8528 19.3842H11.5092ZM16.0281 34.7002H12.3338V21.0334H16.0281V34.7002Z",
+    fill: "white"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M30.2893 19.3732C28.9302 19.3822 27.5953 19.7339 26.4081 20.3957V20.2088C26.4081 19.9901 26.3212 19.7803 26.1666 19.6257C26.0119 19.471 25.8022 19.3841 25.5835 19.3841H19.976C19.7573 19.3841 19.5475 19.471 19.3929 19.6257C19.2382 19.7803 19.1514 19.9901 19.1514 20.2088V35.5248C19.1514 35.7435 19.2382 35.9533 19.3929 36.1079C19.5475 36.2626 19.7573 36.3495 19.976 36.3495H25.5944C25.8132 36.3495 26.0229 36.2626 26.1775 36.1079C26.3322 35.9533 26.4191 35.7435 26.4191 35.5248V27.5534C26.4191 27.1467 26.5807 26.7565 26.8683 26.4689C27.156 26.1812 27.5461 26.0196 27.9529 26.0196C28.3597 26.0196 28.7498 26.1812 29.0374 26.4689C29.3251 26.7565 29.4867 27.1467 29.4867 27.5534V35.5248C29.4867 35.7435 29.5736 35.9533 29.7282 36.1079C29.8829 36.2626 30.0926 36.3495 30.3113 36.3495H36.2046C36.4233 36.3495 36.6331 36.2626 36.7877 36.1079C36.9424 35.9533 37.0293 35.7435 37.0293 35.5248V27.6854C37.0073 22.5507 34.4454 19.3732 30.2893 19.3732ZM35.369 34.7002H31.1249V27.5534C31.1249 26.7092 30.7896 25.8996 30.1926 25.3027C29.5957 24.7057 28.7861 24.3704 27.9419 24.3704C27.0977 24.3704 26.2881 24.7057 25.6911 25.3027C25.0942 25.8996 24.7588 26.7092 24.7588 27.5534V34.7002H20.8006V21.0334H24.7698V21.957C24.7698 22.1174 24.8166 22.2744 24.9045 22.4087C24.9924 22.5429 25.1175 22.6487 25.2646 22.7128C25.4116 22.777 25.5742 22.7969 25.7324 22.7701C25.8906 22.7432 26.0375 22.6708 26.1552 22.5617C27.3218 21.5925 28.7838 21.0496 30.3003 21.0224C33.5219 21.0224 35.38 23.4523 35.38 27.6854L35.369 34.7002Z",
+    fill: "white"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M14.1815 18.4827C14.8887 18.4849 15.5807 18.2772 16.1698 17.8859C16.7589 17.4945 17.2186 16.9372 17.4907 16.2845C17.7629 15.6317 17.8352 14.9129 17.6986 14.219C17.5619 13.5251 17.2225 12.8874 16.7232 12.3865C16.2239 11.8857 15.5872 11.5442 14.8937 11.4055C14.2002 11.2667 13.4812 11.3368 12.8276 11.607C12.174 11.8771 11.6153 12.3351 11.2221 12.923C10.829 13.5108 10.6191 14.2021 10.6191 14.9094C10.6191 15.8552 10.9941 16.7624 11.6619 17.4322C12.3296 18.1021 13.2357 18.4798 14.1815 18.4827ZM14.1815 12.9852C14.5621 12.9852 14.9341 13.0981 15.2505 13.3095C15.5669 13.5209 15.8136 13.8214 15.9592 14.173C16.1048 14.5246 16.1429 14.9115 16.0687 15.2847C15.9944 15.658 15.8112 16.0008 15.5421 16.2699C15.273 16.539 14.9301 16.7223 14.5569 16.7965C14.1837 16.8708 13.7968 16.8327 13.4452 16.687C13.0936 16.5414 12.7931 16.2948 12.5817 15.9784C12.3702 15.6619 12.2574 15.2899 12.2574 14.9094C12.2574 14.3991 12.4601 13.9096 12.821 13.5488C13.1818 13.188 13.6712 12.9852 14.1815 12.9852Z",
+    fill: "white"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("clipPath", {
+    id: "clip0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    width: "26.388",
+    height: "26.388",
+    fill: "white",
+    transform: "translate(10.6191 10.643)"
+  }))))))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFoundPage);
+
+/***/ }),
+
+/***/ "./src/pages/blog.js":
+/*!***************************!*\
+  !*** ./src/pages/blog.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_237673085_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/237673085.json */ "./public/page-data/sq/d/237673085.json");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/SEO */ "./src/pages/components/SEO/index.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Layout */ "./src/pages/components/Layout.js");
+/* harmony import */ var _components_Banners_BannerSecondary__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Banners/BannerSecondary */ "./src/pages/components/Banners/BannerSecondary/index.js");
+
+
+
+
+
+
+
+
+const Blog = () => {
+  const data = _public_page_data_sq_d_237673085_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  const allPosts = data.allStrapiArticles.edges;
+  const {
+    0: list,
+    1: setList
+  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([...allPosts.slice(0, 6)]);
+  const {
+    0: loadMore,
+    1: setLoadMore
+  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+  const {
+    0: hasMore,
+    1: setHasMore
+  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(allPosts.length > 6);
+
+  const handleLoadMore = () => {
+    setLoadMore(true);
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
+    if (loadMore && hasMore) {
+      const currentLength = list.length;
+      const isMore = currentLength < allPosts.length;
+      const nextResults = isMore ? allPosts.slice(currentLength, currentLength + 6) : [];
+      setList([...list, ...nextResults]);
+      setLoadMore(false);
+    }
+  }, [loadMore, hasMore]); //eslint-disable-line
+
+  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
+    const isMore = list.length < allPosts.length;
+    setHasMore(isMore);
+  }, [list]); //eslint-disable-line
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_components_SEO__WEBPACK_IMPORTED_MODULE_3__.default, {
+    title: "Blog",
+    description: "Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir \xE9 para todos."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_components_Banners_BannerSecondary__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    src: "../images/banner_blog.png",
+    alt: "Banner do Blog",
+    className: "banner__figure",
+    imgClassName: "banner__image",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3045283503.json */ "./.cache/caches/gatsby-plugin-image/3045283503.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("section", {
+    className: "section section__posts"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h1", {
+    className: "section__title"
+  }, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", {
+    className: "section__subtitle"
+  }, "Investimos em informa\xE7\xE3o pra voc\xEA investir em voc\xEA. Toda semana, um novo artigo sobre educa\xE7\xE3o financeira e investimentos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
+    className: "section__content posts posts--grid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("ul", {
+    className: "posts__items"
+  }, list.map(article => {
+    const {
+      strapiId,
+      slug,
+      title,
+      thumbnail,
+      excerpt
+    } = article.node;
+    const image = (0,gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.getImage)(thumbnail.localFile);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("li", {
+      key: strapiId,
+      className: "posts__item"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+      to: slug
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("article", {
+      className: "posts__article"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.GatsbyImage, {
+      image: image,
+      alt: title,
+      as: "figure",
+      className: "posts__figure",
+      imgClassName: "posts__image"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h2", {
+      className: "posts__title"
+    }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", {
+      className: "posts__excerpt"
+    }, excerpt), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
+      href: slug,
+      className: "button button__primary"
+    }, "LER ARTIGO"))));
+  })), hasMore ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("button", {
+    onClick: handleLoadMore,
+    className: "button button__tertiary"
+  }, "MAIS ARTIGOS") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Blog);
+
+/***/ }),
+
+/***/ "./src/pages/carreiras.js":
+/*!********************************!*\
+  !*** ./src/pages/carreiras.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Layout */ "./src/pages/components/Layout.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _components_Advantage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Advantage */ "./src/pages/components/Advantage/index.js");
+/* harmony import */ var _components_Peoples__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Peoples */ "./src/pages/components/Peoples/index.js");
+/* harmony import */ var _components_Slides_SlidesValues__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Slides/SlidesValues */ "./src/pages/components/Slides/SlidesValues/index.js");
+/* harmony import */ var _components_WordsEffect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/WordsEffect */ "./src/pages/components/WordsEffect/index.js");
+/* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/SEO */ "./src/pages/components/SEO/index.js");
+
+
+
+
+
+
+
+
+
+const Carreiras = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_SEO__WEBPACK_IMPORTED_MODULE_6__.default, {
+    title: "Carreiras",
+    description: "Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir \xE9 para todos."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "banner banner__secondary banner--carreiras"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "banner__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "banner__text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section__title"
+  }, "Ser BeCapital \xE9 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_WordsEffect__WEBPACK_IMPORTED_MODULE_5__.default, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "section__subtitle"
+  }, "Conhe\xE7a o Jeito ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Be"), " de trabalhar, viver e compartilhar")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    src: "../images/banner_carreiras_4x_v2.jpg",
+    alt: "Banner Somos BeCapital",
+    className: "banner__figure",
+    imgClassName: "banner__image",
+    objectFit: "contain",
+    loading: "eager",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3391317925.json */ "./.cache/caches/gatsby-plugin-image/3391317925.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "section section__values"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section__container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "values__items"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "values__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+    className: "values__article"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    src: "../images/imagem_dos_diretores_card_de_visao_4x.jpg",
+    alt: "Imagem dos diretores da becapital, card de vis\xE3o da empresa",
+    className: "values__figure",
+    imgClassName: "values_image",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/442178213.json */ "./.cache/caches/gatsby-plugin-image/442178213.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "values__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "values__title"
+  }, "Vis\xE3o"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "values__text"
+  }, "Colocar a Asset listada entre as ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "10 maiores da Am\xE9rica Latina")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "values__text"
+  }, "Criar um banco digital at\xE9 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "2022")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "values__text"
+  }, "Lan\xE7ar nosso IPO na ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "bolsa de Nova Iorque"), " at\xE9 2030")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "values__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+    className: "values__article"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    src: "../images/imagem_de_alvo_card_missao_4x.jpg",
+    alt: "Imagem dos diretores da becapital, card de vis\xE3o da empresa",
+    className: "values__figure",
+    imgClassName: "values_image",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3296995490.json */ "./.cache/caches/gatsby-plugin-image/3296995490.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "values__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "values__title"
+  }, "Miss\xE3o"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "values__text"
+  }, "O que a BeCapital impacta na vida de todas as pessoas que s\xE3o e fazem parte dela? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "values__text"
+  }, "\u201CSer algo maior que uma empresa \xE9 te enxergar como algo maior que um cliente.\u201D"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "values__terms"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "41",
+    height: "594",
+    viewBox: "0 0 41 594",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M3 594V422.074L38 365.244L3 306.327V0",
+    stroke: "#EA5E45",
+    "stroke-width": "5",
+    "stroke-miterlimit": "10"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "values__terms-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "terms__title"
+  }, "Temos personalidade!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "terms__text"
+  }, "Voc\xEA acha que j\xE1 viu todo tipo de empresa do mercado financeiro?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "terms__text"
+  }, "A partir de agora, voc\xEA vai conhecer o que h\xE1 de diferente na gest\xE3o de investimentos e planejamento financeiro."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "terms__video"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+    width: "1206",
+    height: "678",
+    src: "https://www.youtube.com/embed/a5ApMPYlENI",
+    title: "YouTube video player",
+    frameborder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+    allowfullscreen: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "terms__subtitle"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/asd/"
+  }, "clique aqui"), " e veja o making of")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Slides_SlidesValues__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "section section__career"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section__title"
+  }, "Entre para o time"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section__container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "career__items"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "career__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://linktr.ee/rhbe",
+    className: "career__button",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    src: "../images/job-choose-cadidate.png",
+    alt: "Bot\xE3o Carreiras na BeCapital",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1552545735.json */ "./.cache/caches/gatsby-plugin-image/1552545735.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "career__title"
+  }, "Carreiras na BeCapital")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "career__text"
+  }, "confira as vagas dispon\xEDveis hoje")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "career__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://forms.office.com/Pages/ResponsePage.aspx?id=Y6n2Qln7RUaT8Hnrpa__QzyS7CobnhNJlt7veeNqQ9NURVZIQUtDM1FVUk0zNjVNQ1ZLSE1QN0NQTS4u",
+    className: "career__button",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    src: "../images/task-checklist-write.png",
+    alt: "Bot\xE3o como fazer parte do time BeCapital",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2223858755.json */ "./.cache/caches/gatsby-plugin-image/2223858755.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "career__title"
+  }, "Como fazer parte?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "career__text"
+  }, "caso n\xE3o tenha a vaga pra voc\xEA, deixe seu curr\xEDculo aqui"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Advantage__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Peoples__WEBPACK_IMPORTED_MODULE_3__.default, null));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Carreiras);
+
+/***/ }),
+
+/***/ "./src/pages/components/Advantage/index.js":
+/*!*************************************************!*\
+  !*** ./src/pages/components/Advantage/index.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ AdvantageClub)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+
+
+
+
+function SampleNextArrow(props) {
+  const {
+    className,
+    onClick
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: className,
+    onClick: onClick,
+    onKeyDown: onClick,
+    role: "button",
+    tabIndex: "0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "41",
+    height: "43",
+    viewBox: "0 0 41 43",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
+    filter: "url(#filter0_d)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "28.7607",
+    y: "30",
+    width: "16.521",
+    height: "16.9999",
+    rx: "8.26051",
+    transform: "rotate(-180 28.7607 30)",
+    fill: "white"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M22.7421 21.7875C22.9502 21.5794 22.9502 21.2419 22.7421 21.0338L19.3505 17.6422C19.1424 17.4341 18.8049 17.4341 18.5968 17.6422C18.3887 17.8503 18.3887 18.1878 18.5968 18.3959L21.6115 21.4106L18.5968 24.4254C18.3887 24.6335 18.3887 24.9709 18.5968 25.1791C18.8049 25.3872 19.1424 25.3872 19.3505 25.1791L22.7421 21.7875ZM22.1876 21.9436L22.3652 21.9436L22.3652 20.8777L22.1876 20.8777L22.1876 21.9436Z",
+    fill: "#1A4A73"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("filter", {
+    id: "filter0_d",
+    x: "0.0280638",
+    y: "0.788806",
+    width: "40.9434",
+    height: "41.4223",
+    filterUnits: "userSpaceOnUse",
+    "color-interpolation-filters": "sRGB"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feFlood", {
+    "flood-opacity": "0",
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feOffset", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feGaussianBlur", {
+    stdDeviation: "6.1056"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in2: "BackgroundImageFix",
+    result: "effect1_dropShadow"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_dropShadow",
+    result: "shape"
+  })))));
+}
+
+function SamplePrevArrow(props) {
+  const {
+    className,
+    onClick
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: className,
+    onClick: onClick,
+    onKeyDown: onClick,
+    role: "button",
+    tabIndex: "0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "42",
+    height: "43",
+    viewBox: "0 0 42 43",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
+    filter: "url(#filter0_d)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "13",
+    y: "13",
+    width: "16.521",
+    height: "16.9999",
+    rx: "8.26051",
+    fill: "white"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M19.0187 21.2125C18.8105 21.4206 18.8105 21.7581 19.0187 21.9662L22.4103 25.3578C22.6184 25.5659 22.9558 25.5659 23.1639 25.3578C23.3721 25.1497 23.3721 24.8122 23.1639 24.6041L20.1492 21.5894L23.1639 18.5746C23.3721 18.3665 23.3721 18.0291 23.1639 17.8209C22.9558 17.6128 22.6184 17.6128 22.4103 17.8209L19.0187 21.2125ZM19.5732 21.0564H19.3955V22.1223H19.5732V21.0564Z",
+    fill: "#1A4A73"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("filter", {
+    id: "filter0_d",
+    x: "0.788806",
+    y: "0.788806",
+    width: "40.9434",
+    height: "41.4223",
+    filterUnits: "userSpaceOnUse",
+    "color-interpolation-filters": "sRGB"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feFlood", {
+    "flood-opacity": "0",
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feOffset", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feGaussianBlur", {
+    stdDeviation: "6.1056"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in2: "BackgroundImageFix",
+    result: "effect1_dropShadow"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_dropShadow",
+    result: "shape"
+  })))));
+}
+
+class AdvantageClub extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+  render() {
+    const settings = {
+      infinite: true,
+      slidesToShow: 1,
+      fade: true,
+      speed: 500,
+      dots: false,
+      arrows: true,
+      nextArrow: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SampleNextArrow, null),
+      prevArrow: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SamplePrevArrow, null)
+    };
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+      className: "section section__advantage"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "section__title"
+    }, "Conhe\xE7a o Clu", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("mark", null, "Be"), " de vantagens!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__items"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__item"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__button"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/discount-coupon.png",
+      alt: "\xCDcone de Descontos em restaurantes e cursos",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4147038536.json */ "./.cache/caches/gatsby-plugin-image/4147038536.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+      className: "advantage__title"
+    }, "Descontos em restaurantes e cursos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      id: "float1",
+      className: "advantage__slide-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__slide-custom"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/image_descount_hover.png",
+      alt: "\xCDcone de Descontos em restaurantes e cursos",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3155191525.json */ "./.cache/caches/gatsby-plugin-image/3155191525.json")
+    })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__item"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__button"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/logo_gympass.png",
+      alt: "\xCDcone de Descontos em restaurantes e cursos",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3372862731.json */ "./.cache/caches/gatsby-plugin-image/3372862731.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+      className: "advantage__title"
+    }, "Modo #BeFit ativado para qualidade de vida e bem-estar!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__item"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__button"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/beoffice.png",
+      alt: "\xCDcone de Descontos em restaurantes e cursos",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3687290802.json */ "./.cache/caches/gatsby-plugin-image/3687290802.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+      className: "advantage__title"
+    }, "BeOffice", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      id: "float2",
+      className: "advantage__slide-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "advantage__slide-custom"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__.default, settings, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/image_copa_full.png",
+      alt: "Uma copa pra chamar de nossa",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4141725776.json */ "./.cache/caches/gatsby-plugin-image/4141725776.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/image_luz_camera_acao_full.png",
+      alt: "Um est\xFAdio Luz, Camera e A\xE7\xF5es para brilhar no conte\xFAdo",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/159302358.json */ "./.cache/caches/gatsby-plugin-image/159302358.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/image_troca_copartilhar_full.png",
+      alt: "Um espa\xE7o caf\xE9 para trocar ideias e compartilhar",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3065505624.json */ "./.cache/caches/gatsby-plugin-image/3065505624.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/image_beclioteca_full.png",
+      alt: "Uma Beblioteca colaborativa cheia de plantinhas",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2667919101.json */ "./.cache/caches/gatsby-plugin-image/2667919101.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../images/image_receber_todos_full.png",
+      alt: "E salas criativas e acolhedoras para receber todos!",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1166260721.json */ "./.cache/caches/gatsby-plugin-image/1166260721.json")
+    })))))));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/pages/components/Banners/BannerSecondary/index.js":
+/*!***************************************************************!*\
+  !*** ./src/pages/components/Banners/BannerSecondary/index.js ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ BannerSecondary)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function BannerSecondary({
+  children
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "banner banner__secondary banner--blog"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "banner__content"
+  }, children));
+}
 
 /***/ }),
 
@@ -7546,7 +8554,10 @@ function CardBlog() {
         className: "posts__title"
       }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", {
         className: "posts__excerpt"
-      }, excerpt))));
+      }, excerpt), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
+        href: `/blog/${slug}`,
+        className: "button button__primary"
+      }, "LER ARTIGO"))));
     })))),
     data: _public_page_data_sq_d_2182024055_json__WEBPACK_IMPORTED_MODULE_0__
   });
@@ -7714,9 +8725,9 @@ const Footer = () => {
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../../images/icon_instagram.png",
+    src: "../../../images/icon_instagram_orange.png",
     alt: "Logo Instagram",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/46304761.json */ "./.cache/caches/gatsby-plugin-image/46304761.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3820932184.json */ "./.cache/caches/gatsby-plugin-image/3820932184.json")
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "social__item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -7725,9 +8736,9 @@ const Footer = () => {
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../../images/icon_youtube.png",
+    src: "../../../images/icon_youtube_orange.png",
     alt: "Logo Youtube",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/147100514.json */ "./.cache/caches/gatsby-plugin-image/147100514.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3613412705.json */ "./.cache/caches/gatsby-plugin-image/3613412705.json")
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "social__item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -7736,9 +8747,9 @@ const Footer = () => {
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../../images/icon_linkedin.png",
+    src: "../../../images/icon_linkedin_orange.png",
     alt: "Logo Linkedin",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3914013465.json */ "./.cache/caches/gatsby-plugin-image/3914013465.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4214251286.json */ "./.cache/caches/gatsby-plugin-image/4214251286.json")
   }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "footer__section--column"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
@@ -7753,7 +8764,18 @@ const Footer = () => {
     className: "footer__text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "tel:+552139939670"
-  }, "(21) 3993 - 9670"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  }, "(21) 3993 - 9670"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "footer__section--column"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www2.susep.gov.br/safe/Corretores/pesquisa",
+    className: "social__link",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../../images/logo_susep_1x.png",
+    alt: "Logo SUSEP",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2980252819.json */ "./.cache/caches/gatsby-plugin-image/2980252819.json")
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "footer__section footer__end"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "footer__title"
@@ -7767,6 +8789,41 @@ const Footer = () => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
+/***/ "./src/pages/components/Form/index.js":
+/*!********************************************!*\
+  !*** ./src/pages/components/Form/index.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+class FormRdStation extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+  componentDidMount() {
+    if (window.RDStationForms) {
+      new window.RDStationForms('formulario-produtos-becapital-3dd21692f9f67ed2ec77', 'UA-180628568-1').createForm();
+    }
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      role: "main",
+      id: "formulario-produtos-becapital-3dd21692f9f67ed2ec77"
+    });
+  }
+
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FormRdStation);
 
 /***/ }),
 
@@ -7986,6 +9043,106 @@ function Layout({
 
 /***/ }),
 
+/***/ "./src/pages/components/Peoples/index.js":
+/*!***********************************************!*\
+  !*** ./src/pages/components/Peoples/index.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ PeoplesBecapital)
+/* harmony export */ });
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function PeoplesBecapital() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "section section__peoples"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section__container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section__title"
+  }, "BeCapitals por eles"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__grid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+    className: "peoples__card--primary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/foto_renate_mattos_full.png",
+    alt: "Foto de Renata Mattos, Coordenadora de Conte\xFAdo",
+    className: "peoples__image--card-primary",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/988071754.json */ "./.cache/caches/gatsby-plugin-image/988071754.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/open-quote.png",
+    alt: "\xCDcone de cita\xE7\xE3o",
+    className: "icon-quote",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/439683407.json */ "./.cache/caches/gatsby-plugin-image/439683407.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "Quem acredita no trabalho como a soma de a\xE7\xF5es concretizadas tem um terreno f\xE9rtil na BeCapital para se realizar. Aqui, temos autonomia para propor, criar e avan\xE7ar com as mais improv\xE1veis ideias. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "Vivemos em um ambiente coerente de discurso e pr\xE1tica, conectando a ess\xEAncia da empresa com o of\xEDcio di\xE1rio de se desafiar como pessoas e profissionais."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "Ser BeCapital \xE9 ser voc\xEA em sua melhor pot\xEAncia."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "peoples__name"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Renata Mattos"), " | Coordenadora de Conte\xFAdo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__grid--block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+    className: "peoples__card--secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/open-quote.png",
+    alt: "\xCDcone de cita\xE7\xE3o",
+    className: "icon-quote",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/439683407.json */ "./.cache/caches/gatsby-plugin-image/439683407.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "Aqui na BeCapital, sou acolhida desde o primeiro dia. A estrutura de feedback e o plano de desenvolvimento pessoal est\xE3o contribuindo para que eu possa enxergar minhas potencialidades e fraquezas em um processo rico de autoconhecimento.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__author"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/foto_mylena_santos.png",
+    alt: "Foto de Mylena Santos, Analista Financeiro",
+    className: "peoples__image--card-primary",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2962295881.json */ "./.cache/caches/gatsby-plugin-image/2962295881.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "peoples__name"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Mylena Santos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " Analista Financeiro"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+    className: "peoples__card--secondary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/open-quote.png",
+    alt: "\xCDcone de cita\xE7\xE3o",
+    className: "icon-quote",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/439683407.json */ "./.cache/caches/gatsby-plugin-image/439683407.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "O modelo de gest\xE3o de pessoas que criamos na BeCapital \xE9 muito inspirador! Temos uma cultura que conecta as pessoas com uma gest\xE3o horizontal e totalmente colaborativa. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "O desenvolvimento pessoal e profissional de cada BeCapital \xE9 uma prioridade para n\xF3s, por isso, criamos um plano de desenvolvimento individual que busca estabelecer uma conex\xE3o entre a performance e os soft skills fazendo com que cada um saiba exatamente onde est\xE1 e onde pode e deve chegar dentro da empresa."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "Tudo acontece da forma mais transparente poss\xEDvel."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "peoples__paragraph"
+  }, "Aqui, voc\xEA \xE9 protagonista da sua carreira em todos os sentidos!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "peoples__author"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/foto_gabriella_alves.png",
+    alt: "Foto de Gabriella Alves, Analista de Recursos Humanos",
+    className: "peoples__image--card-primary",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4275440337.json */ "./.cache/caches/gatsby-plugin-image/4275440337.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "peoples__name"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Gabriella Alves"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " Analista de Recursos Humanos")))))));
+}
+
+/***/ }),
+
 /***/ "./src/pages/components/SEO/index.js":
 /*!*******************************************!*\
   !*** ./src/pages/components/SEO/index.js ***!
@@ -8095,6 +9252,16 @@ function SectionMidia() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "logos__item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://forbes.com.br/forbes-money/2021/07/ipos-impulsionam-flippers-conheca-estrategias-e-riscos-da-pratica/",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
+    src: "../../../images/logo_forbes_1x.png",
+    alt: "Logo Forbes",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3647830063.json */ "./.cache/caches/gatsby-plugin-image/3647830063.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "logos__item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://virtz.r7.com/criancas-com-deficiencia-ganham-festa-do-hamburguer-em-ong-08062021",
     target: "_blank",
     rel: "noopener noreferrer"
@@ -8105,13 +9272,13 @@ function SectionMidia() {
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "logos__item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://forbes.com.br/forbes-money/2021/07/ipos-impulsionam-flippers-conheca-estrategias-e-riscos-da-pratica/",
+    href: "http://revistapress.com.br/advertising/becapital-lanca-campanha-digital-que-incentiva-as-pessoas-a-realizarem-seus-sonhos/",
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_1__.StaticImage, {
-    src: "../../../images/logo_forbes_1x.png",
-    alt: "Logo Forbes",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3647830063.json */ "./.cache/caches/gatsby-plugin-image/3647830063.json")
+    src: "../../../images/logo_press_1x.png",
+    alt: "Logo revista press",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1072432378.json */ "./.cache/caches/gatsby-plugin-image/1072432378.json")
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "logos__item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -8764,6 +9931,318 @@ class CenterMode extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 
 /***/ }),
 
+/***/ "./src/pages/components/Slides/SlidesValues/index.js":
+/*!***********************************************************!*\
+  !*** ./src/pages/components/Slides/SlidesValues/index.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ SlidesValuesBecapital)
+/* harmony export */ });
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+
+
+
+
+function SampleNextArrow(props) {
+  const {
+    className,
+    onClick
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: className,
+    onClick: onClick,
+    onKeyDown: onClick,
+    role: "button",
+    tabIndex: "0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "171",
+    height: "173",
+    viewBox: "0 0 171 173",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
+    filter: "url(#filter0_d)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "120",
+    y: "122",
+    width: "69",
+    height: "71",
+    rx: "19",
+    transform: "rotate(-180 120 122)",
+    fill: "white"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M98.1213 88.1213C99.2929 86.9497 99.2929 85.0503 98.1213 83.8787L79.0294 64.7868C77.8579 63.6152 75.9584 63.6152 74.7868 64.7868C73.6152 65.9584 73.6152 67.8579 74.7868 69.0294L91.7574 86L74.7868 102.971C73.6152 104.142 73.6152 106.042 74.7868 107.213C75.9584 108.385 77.8579 108.385 79.0294 107.213L98.1213 88.1213ZM95 89L96 89L96 83L95 83L95 89Z",
+    fill: "#1A4A73"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("filter", {
+    id: "filter0_d",
+    x: "0",
+    y: "0",
+    width: "171",
+    height: "173",
+    filterUnits: "userSpaceOnUse",
+    "color-interpolation-filters": "sRGB"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feFlood", {
+    "flood-opacity": "0",
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feOffset", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feGaussianBlur", {
+    stdDeviation: "25.5"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in2: "BackgroundImageFix",
+    result: "effect1_dropShadow"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_dropShadow",
+    result: "shape"
+  })))));
+}
+
+function SamplePrevArrow(props) {
+  const {
+    className,
+    onClick
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: className,
+    onClick: onClick,
+    onKeyDown: onClick,
+    role: "button",
+    tabIndex: "0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "171",
+    height: "173",
+    viewBox: "0 0 171 173",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
+    filter: "url(#filter0_d)"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "51",
+    y: "50.9995",
+    width: "69",
+    height: "71",
+    rx: "19",
+    fill: "white"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M72.8787 84.8782C71.7071 86.0498 71.7071 87.9493 72.8787 89.1208L91.9706 108.213C93.1421 109.384 95.0416 109.384 96.2132 108.213C97.3848 107.041 97.3848 105.142 96.2132 103.97L79.2426 86.9995L96.2132 70.0289C97.3848 68.8574 97.3848 66.9579 96.2132 65.7863C95.0416 64.6147 93.1421 64.6147 91.9706 65.7863L72.8787 84.8782ZM76 83.9995H75V89.9995H76V83.9995Z",
+    fill: "#1A4A73"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("filter", {
+    id: "filter0_d",
+    x: "0",
+    y: "-0.000488281",
+    width: "171",
+    height: "173",
+    filterUnits: "userSpaceOnUse",
+    "color-interpolation-filters": "sRGB"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feFlood", {
+    "flood-opacity": "0",
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feOffset", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feGaussianBlur", {
+    stdDeviation: "25.5"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in2: "BackgroundImageFix",
+    result: "effect1_dropShadow"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_dropShadow",
+    result: "shape"
+  })))));
+}
+
+class SlidesValuesBecapital extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+  render() {
+    const pagingItems = [{
+      id: 1,
+      text: 'Ética e Respeito'
+    }, {
+      id: 2,
+      text: 'Excelência e qualidade nas entregas'
+    }, {
+      id: 3,
+      text: 'Resultados de alta performance'
+    }, {
+      id: 4,
+      text: 'Senso de colaboração'
+    }, {
+      id: 5,
+      text: 'Autonomia com responsabilidade'
+    }, {
+      id: 6,
+      text: 'Pensamento e ação como sócio'
+    }];
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      nextArrow: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SampleNextArrow, null),
+      prevArrow: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SamplePrevArrow, null),
+      appendDots: dots => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: "custom-dots__container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+        className: "custom-dots__items"
+      }, dots)),
+      customPaging: i => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, pagingItems.map(item => {
+        if (i + 1 === item.id) {
+          return item.text;
+        }
+
+        return ''; // para remover o erro no console, em que reforça que o map precisa retornar algum valor
+      }))
+    };
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+      className: "section section__slide-values"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "section__title"
+    }, "Nossos valores"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "section__slide-container"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__.default, settings, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+      className: "slide-values__card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../../images/foto_etica_e_respeito_full.jpg",
+      alt: "\xC9tica e Respeito",
+      className: "slide-values__image",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/548869756.json */ "./.cache/caches/gatsby-plugin-image/548869756.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "slide-values__description"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "slide-values__title"
+    }, "\xC9tica e Respeito"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: "slide-values__text"
+    }, "Prezamos pelo compromisso \xE9tico entre empresa e os colaboradores. Respeitar as diferen\xE7as, viv\xEAncias e experi\xEAncias faz parte da nossa cultura, que preza pela pluralidade. Evitamos levantar bandeiras s\xF3cio-pol\xEDticas, e manifesta\xE7\xF5es religiosas. As diferen\xE7as nos unem e, por isso, adotamos a imparcialidade no que diz respeito \xE0 cren\xE7a, pol\xEDtica e religi\xE3o."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+      className: "slide-values__card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../../images/foto_excelencia_e_qualidade_full.jpg",
+      alt: "Excel\xEAncia e qualidade nas entregas",
+      className: "slide-values__image",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1795765734.json */ "./.cache/caches/gatsby-plugin-image/1795765734.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "slide-values__description"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "slide-values__title"
+    }, "Excel\xEAncia e qualidade nas entregas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: "slide-values__text"
+    }, "Priorizamos a qualifica\xE7\xE3o em todos os processos: embasamento das ideias e argumentos, desenvolvimento t\xE9cnico, aprendizagem constante, compromisso com prazos e mensura\xE7\xE3o dos resultados."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+      className: "slide-values__card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../../images/foto_resultado_de_alta_performance_full.jpg",
+      alt: "Resultados de alta performance",
+      className: "slide-values__image",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2542273403.json */ "./.cache/caches/gatsby-plugin-image/2542273403.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "slide-values__description"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "slide-values__title"
+    }, "Resultados de alta performance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: "slide-values__text"
+    }, "Somamos conhecimento para multiplicar sonhos. Nosso compromisso \xE9 com resultados e entregas que v\xE3o al\xE9m do esperado e do trivial."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+      className: "slide-values__card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../../images/foto_senso_de_colabora\xE7\xE3o_full.jpg",
+      alt: "Senso de colabora\xE7\xE3o",
+      className: "slide-values__image",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3695052009.json */ "./.cache/caches/gatsby-plugin-image/3695052009.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "slide-values__description"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "slide-values__title"
+    }, "Senso de colabora\xE7\xE3o"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: "slide-values__text"
+    }, "Uma empresa forte tem uma marca forte. E ambas s\xF3 s\xE3o poss\xEDveis porque h\xE1 um trabalho de equipe baseado em trocas produtivas e na colabora\xE7\xE3o entre todos os membros e todas as \xE1reas."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+      className: "slide-values__card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../../images/foto_autonomia_com_responsabilidade_full.jpg",
+      alt: "Autonomia com responsabilidade",
+      className: "slide-values__image",
+      objectPosition: "top",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3382444784.json */ "./.cache/caches/gatsby-plugin-image/3382444784.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "slide-values__description"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "slide-values__title"
+    }, "Autonomia com responsabilidade"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: "slide-values__text"
+    }, "Raras s\xE3o as empresas que d\xE3o autonomia para seus colaboradores, independente do n\xEDvel hier\xE1rquico. Na BeCapital, acreditamos que o sucesso acontece a partir do protagonismo de seus BeCapitals na proposi\xE7\xE3o de ideias, projetos e melhorias. Autonomia com responsabilidade \xE9 reconhecer a capacidade de cada colaborador."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+      className: "slide-values__card"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+      src: "../../../../images/foto_pensamento_e_acao_com_socio_full.jpg",
+      alt: "Pensamento e a\xE7\xE3o como s\xF3cio",
+      className: "slide-values__image",
+      objectPosition: "top",
+      __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/542218391.json */ "./.cache/caches/gatsby-plugin-image/542218391.json")
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "slide-values__description"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+      className: "slide-values__title"
+    }, "Pensamento e a\xE7\xE3o como s\xF3cio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: "slide-values__text"
+    }, "\u201CEu sou porque n\xF3s somos\u201D. A proatividade de um BeCapital \xE9 amplamente incentivada para projetar todo o time em oportunidades executivas e estrat\xE9gicas."))))));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/pages/components/WordsEffect/index.js":
+/*!***************************************************!*\
+  !*** ./src/pages/components/WordsEffect/index.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_typical__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-typical */ "./node_modules/react-typical/dist/index.es.js");
+
+
+
+class wordMarkEffect extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
+  render() {
+    const time = 2000;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_typical__WEBPACK_IMPORTED_MODULE_1__.default, {
+      steps: ['ser você', time, 'ser proativo', time, 'ser autêntico', time, 'ser eficiente', time, 'ser prestativo', time, 'ser criativo', time],
+      loop: Infinity,
+      wrapper: "mark"
+    });
+  }
+
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (wordMarkEffect);
+
+/***/ }),
+
 /***/ "./src/pages/index.js":
 /*!****************************!*\
   !*** ./src/pages/index.js ***!
@@ -8824,6 +10303,120 @@ const Home = () => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
+
+/***/ }),
+
+/***/ "./src/templates/service.js":
+/*!**********************************!*\
+  !*** ./src/templates/service.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _pages_components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/components/Layout */ "./src/pages/components/Layout.js");
+/* harmony import */ var _pages_components_SEO__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/components/SEO */ "./src/pages/components/SEO/index.js");
+/* harmony import */ var _pages_components_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/components/Form */ "./src/pages/components/Form/index.js");
+
+
+
+
+
+
+const ServicesTemplate = ({
+  data
+}) => {
+  const bannerImage = (0,gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.getImage)(data.strapiServices.thumbnail.localFile);
+  const bodyImage = (0,gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.getImage)(data.strapiServices.subBanner.image.localFile);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_pages_components_Layout__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_pages_components_SEO__WEBPACK_IMPORTED_MODULE_2__.default, {
+    title: data.strapiServices.title,
+    description: data.strapiServices.metaTags.Description
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+    className: "single-service single-service__article"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
+    className: "single-service__header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.GatsbyImage, {
+    image: bannerImage,
+    alt: data.strapiServices.title,
+    as: "figure",
+    className: "single-service__figure",
+    imgClassName: "single-service__image"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "single-service__section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "section__title"
+  }, data.strapiServices.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "single-service__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.GatsbyImage, {
+    image: bodyImage,
+    alt: data.strapiServices.subBanner.text,
+    as: "figure",
+    className: "single-service__body-figure",
+    imgClassName: "single-service__body-image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "description__text"
+  }, data.strapiServices.subBanner.text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "single-service__partner"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "single-service__partner-title"
+  }, "Empresas Parceiras"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "single-service__partner-items"
+  }, data.strapiServices.partnerLogos.map(element => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+      key: element.localFile.childImageSharp.id,
+      className: "single-service__partner-item"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.GatsbyImage, {
+      image: (0,gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.getImage)(element.localFile),
+      alt: element.alternativeText,
+      className: "single-service__partner-figure"
+    }));
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "single-service__content editor__style--default",
+    dangerouslySetInnerHTML: {
+      __html: data.strapiServices.content
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "button__container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://conteudo.be.capital/quero-investir-becapital",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    class: "button button__secondary"
+  }, "Fale com um de nossos especialistas"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
+    className: "single-service__footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "single-service__section section__form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section__title"
+  }, "Comece a investir agora mesmo!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "form__container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "form__description"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../images/icon_invista_agora.png",
+    alt: "invista agora",
+    as: "figure",
+    className: "form__description-figure",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1044568156.json */ "./.cache/caches/gatsby-plugin-image/1044568156.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "form__description-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "form__description-paragraph"
+  }, "Este \xE9 o seu primeiro passo para come\xE7ar a investir com a BeCapital."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "form__description-paragraph"
+  }, "Seu cadastro conosco \xE9 100% seguro."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "form__embed"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_pages_components_Form__WEBPACK_IMPORTED_MODULE_3__.default, null)))))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ServicesTemplate);
+const query = "1523770311";
 
 /***/ }),
 
@@ -22736,6 +24329,154 @@ exports.canUseDOM = canUseDOM;
 
 /***/ }),
 
+/***/ "./node_modules/react-typical/dist/index.es.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/react-typical/dist/index.es.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+async function type(node, ...args) {
+    for (const arg of args) {
+        switch (typeof arg) {
+            case 'string':
+                await edit(node, arg);
+                break;
+            case 'number':
+                await wait(arg);
+                break;
+            case 'function':
+                await arg(node, ...args);
+                break;
+            default:
+                await arg;
+        }
+    }
+}
+
+async function edit(node, text) {
+    const overlap = getOverlap(node.textContent, text);
+    await perform(node, [...deleter(node.textContent, overlap), ...writer(text, overlap)]);
+}
+
+async function wait(ms) {
+    await new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function perform(node, edits, speed = 60) {
+    for (const op of editor(edits)) {
+        op(node);
+        await wait(speed + speed * (Math.random() - 0.5));
+    }
+}
+
+function* editor(edits) {
+    for (const edit of edits) {
+        yield (node) => requestAnimationFrame(() => node.textContent = edit);
+    }
+}
+
+function* writer([...text], startIndex = 0, endIndex = text.length) {
+    while (startIndex < endIndex) {
+        yield text.slice(0, ++startIndex).join('');
+    }
+}
+
+function* deleter([...text], startIndex = 0, endIndex = text.length) {
+    while (endIndex > startIndex) {
+        yield text.slice(0, --endIndex).join('');
+    }
+}
+
+function getOverlap(start, [...end]) {
+    return [...start, NaN].findIndex((char, i) => end[i] !== char);
+}
+
+function styleInject(css, ref) {
+  if ( ref === void 0 ) ref = {};
+  var insertAt = ref.insertAt;
+
+  if (!css || typeof document === 'undefined') { return; }
+
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (insertAt === 'top') {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
+    }
+  } else {
+    head.appendChild(style);
+  }
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var css = ".styles_typicalWrapper__1_Uvh::after {\n  content: \"|\";\n  animation: styles_blink__2CKyC 1s infinite step-start;\n}\n\n@keyframes styles_blink__2CKyC {\n  50% { opacity: 0; }\n}";
+var styles = { "typicalWrapper": "styles_typicalWrapper__1_Uvh", "blink": "styles_blink__2CKyC" };
+styleInject(css);
+
+var toConsumableArray = function (arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+
+    return arr2;
+  } else {
+    return Array.from(arr);
+  }
+};
+
+var Typical = function Typical(_ref) {
+  var steps = _ref.steps,
+      loop = _ref.loop,
+      className = _ref.className,
+      _ref$wrapper = _ref.wrapper,
+      wrapper = _ref$wrapper === undefined ? "p" : _ref$wrapper;
+
+  var typicalRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  var Component = wrapper;
+  var classNames = [styles.typicalWrapper];
+
+  if (className) {
+    classNames.unshift(className);
+  }
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    if (loop === Infinity) {
+      type.apply(undefined, [typicalRef.current].concat(toConsumableArray(steps), [type]));
+    } else if (typeof loop === "number") {
+      type.apply(undefined, [typicalRef.current].concat(toConsumableArray(Array(loop).fill(steps).flat())));
+    } else {
+      type.apply(undefined, [typicalRef.current].concat(toConsumableArray(steps)));
+    }
+  });
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Component, { ref: typicalRef, className: classNames.join(' ') });
+};
+
+var index = (0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(Typical);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (index);
+//# sourceMappingURL=index.es.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js ***!
@@ -23743,6 +25484,51 @@ module.exports = camel2hyphen;
 
 /***/ }),
 
+/***/ "./src/images/404-gif.gif":
+/*!********************************!*\
+  !*** ./src/images/404-gif.gif ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/404-gif-dfe77cb7b5a1900359d3e4d4e33d31f4.gif");
+
+/***/ }),
+
+/***/ "./src/images/adesivo_bottom.svg":
+/*!***************************************!*\
+  !*** ./src/images/adesivo_bottom.svg ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/adesivo_bottom-ca2de5f609a6b25c25ba8509a22a31c4.svg");
+
+/***/ }),
+
+/***/ "./src/images/adesivo_top.svg":
+/*!************************************!*\
+  !*** ./src/images/adesivo_top.svg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/adesivo_top-3c5467cb1bddde8515f499689864eb8c.svg");
+
+/***/ }),
+
 /***/ "./public/page-data/sq/d/1160770390.json":
 /*!***********************************************!*\
   !*** ./public/page-data/sq/d/1160770390.json ***!
@@ -23762,6 +25548,17 @@ module.exports = JSON.parse('{"data":{"allStrapiTestimonies":{"edges":[{"node":{
 
 "use strict";
 module.exports = JSON.parse('{"data":{"allStrapiArticles":{"edges":[{"node":{"strapiId":1,"title":"O que são Investimentos de Renda Variável?","excerpt":"Veja tudo sobre os Investimentos de Renda Fixa. Entenda por que se trata de uma aplicação segura e estável. Veja alguns exemplos desta modalidade.","slug":"o-que-sao-investimentos-de-renda-variavel","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b8c8","images":{"fallback":{"src":"/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg","srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/6decd/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/1e120/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/a5fb7/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/e58db/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/eae78/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":4,"title":"Sinal verde para a bolsa","excerpt":"O que comprar nesse momento?","slug":"sinal-verde-para-a-bolsa","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#082818","images":{"fallback":{"src":"/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg","srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e2169/capa_sinal_verde_2_40f3e5f4b7.jpg 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/33ece/capa_sinal_verde_2_40f3e5f4b7.jpg 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg 612w","sizes":"(min-width: 612px) 612px, 100vw"},"sources":[{"srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e39bf/capa_sinal_verde_2_40f3e5f4b7.webp 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/d2477/capa_sinal_verde_2_40f3e5f4b7.webp 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/cc785/capa_sinal_verde_2_40f3e5f4b7.webp 612w","type":"image/webp","sizes":"(min-width: 612px) 612px, 100vw"}]},"width":612,"height":176}}}}}}]}}}');
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/237673085.json":
+/*!**********************************************!*\
+  !*** ./public/page-data/sq/d/237673085.json ***!
+  \**********************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"data":{"allStrapiArticles":{"edges":[{"node":{"strapiId":1,"title":"O que são Investimentos de Renda Variável?","excerpt":"Veja tudo sobre os Investimentos de Renda Fixa. Entenda por que se trata de uma aplicação segura e estável. Veja alguns exemplos desta modalidade.","slug":"o-que-sao-investimentos-de-renda-variavel","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b8c8","images":{"fallback":{"src":"/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg","srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/6decd/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/1e120/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/a5fb7/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/e58db/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/eae78/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":4,"title":"Sinal verde para a bolsa","excerpt":"O que comprar nesse momento?","slug":"sinal-verde-para-a-bolsa","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#082818","images":{"fallback":{"src":"/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg","srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e2169/capa_sinal_verde_2_40f3e5f4b7.jpg 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/33ece/capa_sinal_verde_2_40f3e5f4b7.jpg 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg 612w","sizes":"(min-width: 612px) 612px, 100vw"},"sources":[{"srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e39bf/capa_sinal_verde_2_40f3e5f4b7.webp 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/d2477/capa_sinal_verde_2_40f3e5f4b7.webp 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/cc785/capa_sinal_verde_2_40f3e5f4b7.webp 612w","type":"image/webp","sizes":"(min-width: 612px) 612px, 100vw"}]},"width":612,"height":176}}}}}},{"node":{"strapiId":2,"title":"A escolha de Sofia4","excerpt":"\\nO problema disso tudo é que em meio a aventureiros da análise técnica e pessoas que difamam a palavra “fundamentalista” fica a incerteza de que recomendação seguir, ou, se vale a pena aderir ao risco de seguir seus próprios instintos.","slug":"a-escolha-de-sofia-4","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8d858","images":{"fallback":{"src":"/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg","srcSet":"/static/d749169e9e1d92ed0c4e611735864117/6decd/capa_sofia_d76c0d0e04.jpg 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/1e120/capa_sofia_d76c0d0e04.jpg 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/d749169e9e1d92ed0c4e611735864117/a5fb7/capa_sofia_d76c0d0e04.webp 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/e58db/capa_sofia_d76c0d0e04.webp 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/eae78/capa_sofia_d76c0d0e04.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":6,"title":"Sinal verde para a bolsa3","excerpt":"O que comprar nesse momento?","slug":"sinal-verde-para-a-bolsa-3","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#082818","images":{"fallback":{"src":"/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg","srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e2169/capa_sinal_verde_2_40f3e5f4b7.jpg 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/33ece/capa_sinal_verde_2_40f3e5f4b7.jpg 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg 612w","sizes":"(min-width: 612px) 612px, 100vw"},"sources":[{"srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e39bf/capa_sinal_verde_2_40f3e5f4b7.webp 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/d2477/capa_sinal_verde_2_40f3e5f4b7.webp 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/cc785/capa_sinal_verde_2_40f3e5f4b7.webp 612w","type":"image/webp","sizes":"(min-width: 612px) 612px, 100vw"}]},"width":612,"height":176}}}}}},{"node":{"strapiId":7,"title":"O que são Investimentos de Renda Variável?2","excerpt":"Veja tudo sobre os Investimentos de Renda Fixa. Entenda por que se trata de uma aplicação segura e estável. Veja alguns exemplos desta modalidade.","slug":"o-que-sao-investimentos-de-renda-variavel-2","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b8c8","images":{"fallback":{"src":"/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg","srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/6decd/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/1e120/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/a5fb7/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/e58db/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/eae78/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":8,"title":"O que são Investimentos de Renda Variável?3","excerpt":"Veja tudo sobre os Investimentos de Renda Fixa. Entenda por que se trata de uma aplicação segura e estável. Veja alguns exemplos desta modalidade.","slug":"o-que-sao-investimentos-de-renda-variavel-3","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b8c8","images":{"fallback":{"src":"/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg","srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/6decd/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/1e120/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/a5fb7/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/e58db/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/eae78/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":9,"title":"Sinal verde para a bolsa4","excerpt":"O que comprar nesse momento?","slug":"sinal-verde-para-a-bolsa-4","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#082818","images":{"fallback":{"src":"/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg","srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e2169/capa_sinal_verde_2_40f3e5f4b7.jpg 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/33ece/capa_sinal_verde_2_40f3e5f4b7.jpg 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg 612w","sizes":"(min-width: 612px) 612px, 100vw"},"sources":[{"srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e39bf/capa_sinal_verde_2_40f3e5f4b7.webp 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/d2477/capa_sinal_verde_2_40f3e5f4b7.webp 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/cc785/capa_sinal_verde_2_40f3e5f4b7.webp 612w","type":"image/webp","sizes":"(min-width: 612px) 612px, 100vw"}]},"width":612,"height":176}}}}}},{"node":{"strapiId":10,"title":"Sinal verde para a bolsa5","excerpt":"O que comprar nesse momento?","slug":"sinal-verde-para-a-bolsa-5","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#082818","images":{"fallback":{"src":"/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg","srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e2169/capa_sinal_verde_2_40f3e5f4b7.jpg 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/33ece/capa_sinal_verde_2_40f3e5f4b7.jpg 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg 612w","sizes":"(min-width: 612px) 612px, 100vw"},"sources":[{"srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e39bf/capa_sinal_verde_2_40f3e5f4b7.webp 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/d2477/capa_sinal_verde_2_40f3e5f4b7.webp 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/cc785/capa_sinal_verde_2_40f3e5f4b7.webp 612w","type":"image/webp","sizes":"(min-width: 612px) 612px, 100vw"}]},"width":612,"height":176}}}}}},{"node":{"strapiId":11,"title":"A escolha de Sofia3","excerpt":"\\nO problema disso tudo é que em meio a aventureiros da análise técnica e pessoas que difamam a palavra “fundamentalista” fica a incerteza de que recomendação seguir, ou, se vale a pena aderir ao risco de seguir seus próprios instintos.","slug":"a-escolha-de-sofia-3","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8d858","images":{"fallback":{"src":"/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg","srcSet":"/static/d749169e9e1d92ed0c4e611735864117/6decd/capa_sofia_d76c0d0e04.jpg 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/1e120/capa_sofia_d76c0d0e04.jpg 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/d749169e9e1d92ed0c4e611735864117/a5fb7/capa_sofia_d76c0d0e04.webp 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/e58db/capa_sofia_d76c0d0e04.webp 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/eae78/capa_sofia_d76c0d0e04.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":12,"title":"A escolha de Sofia5","excerpt":"\\nO problema disso tudo é que em meio a aventureiros da análise técnica e pessoas que difamam a palavra “fundamentalista” fica a incerteza de que recomendação seguir, ou, se vale a pena aderir ao risco de seguir seus próprios instintos.","slug":"a-escolha-de-sofia-5","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8d858","images":{"fallback":{"src":"/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg","srcSet":"/static/d749169e9e1d92ed0c4e611735864117/6decd/capa_sofia_d76c0d0e04.jpg 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/1e120/capa_sofia_d76c0d0e04.jpg 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/d749169e9e1d92ed0c4e611735864117/a5fb7/capa_sofia_d76c0d0e04.webp 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/e58db/capa_sofia_d76c0d0e04.webp 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/eae78/capa_sofia_d76c0d0e04.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":13,"title":"A escolha de Sofia6","excerpt":"\\nO problema disso tudo é que em meio a aventureiros da análise técnica e pessoas que difamam a palavra “fundamentalista” fica a incerteza de que recomendação seguir, ou, se vale a pena aderir ao risco de seguir seus próprios instintos.","slug":"a-escolha-de-sofia-6","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8d858","images":{"fallback":{"src":"/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg","srcSet":"/static/d749169e9e1d92ed0c4e611735864117/6decd/capa_sofia_d76c0d0e04.jpg 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/1e120/capa_sofia_d76c0d0e04.jpg 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/16f8c/capa_sofia_d76c0d0e04.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/d749169e9e1d92ed0c4e611735864117/a5fb7/capa_sofia_d76c0d0e04.webp 292w,\\n/static/d749169e9e1d92ed0c4e611735864117/e58db/capa_sofia_d76c0d0e04.webp 583w,\\n/static/d749169e9e1d92ed0c4e611735864117/eae78/capa_sofia_d76c0d0e04.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":14,"title":"O que são Investimentos de Renda Variável?5","excerpt":"Veja tudo sobre os Investimentos de Renda Fixa. Entenda por que se trata de uma aplicação segura e estável. Veja alguns exemplos desta modalidade.","slug":"o-que-sao-investimentos-de-renda-variavel-5","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#f8b8c8","images":{"fallback":{"src":"/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg","srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/6decd/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/1e120/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/16f8c/o_que_sao_investimentos_de_renda_variavel_e703e75811.jpg 1166w","sizes":"(min-width: 1166px) 1166px, 100vw"},"sources":[{"srcSet":"/static/cd45a5bfb96f43530c4545cee1b6496b/a5fb7/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 292w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/e58db/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 583w,\\n/static/cd45a5bfb96f43530c4545cee1b6496b/eae78/o_que_sao_investimentos_de_renda_variavel_e703e75811.webp 1166w","type":"image/webp","sizes":"(min-width: 1166px) 1166px, 100vw"}]},"width":1166,"height":336}}}}}},{"node":{"strapiId":15,"title":"Sinal verde para a bolsa8","excerpt":"O que comprar nesse momento?","slug":"sinal-verde-para-a-bolsa-8","thumbnail":{"localFile":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","backgroundColor":"#082818","images":{"fallback":{"src":"/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg","srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e2169/capa_sinal_verde_2_40f3e5f4b7.jpg 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/33ece/capa_sinal_verde_2_40f3e5f4b7.jpg 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/b1cbd/capa_sinal_verde_2_40f3e5f4b7.jpg 612w","sizes":"(min-width: 612px) 612px, 100vw"},"sources":[{"srcSet":"/static/f6c986e51f26d65ef5955945b5085319/e39bf/capa_sinal_verde_2_40f3e5f4b7.webp 153w,\\n/static/f6c986e51f26d65ef5955945b5085319/d2477/capa_sinal_verde_2_40f3e5f4b7.webp 306w,\\n/static/f6c986e51f26d65ef5955945b5085319/cc785/capa_sinal_verde_2_40f3e5f4b7.webp 612w","type":"image/webp","sizes":"(min-width: 612px) 612px, 100vw"}]},"width":612,"height":176}}}}}}]}}}');
 
 /***/ }),
 
@@ -23908,6 +25705,11 @@ module.exports = require("path");
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /************************************************************************/

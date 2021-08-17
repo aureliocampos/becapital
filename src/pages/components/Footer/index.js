@@ -65,19 +65,19 @@ const Footer = () => {
                 <li className="social__item">
                   <a href="https://www.instagram.com/becapital.oficial/" className="social__link"
                   target="_blank" rel="noopener noreferrer">
-                  <StaticImage src="../../../images/icon_instagram.png" alt="Logo Instagram"/>
+                  <StaticImage src="../../../images/icon_instagram_orange.png" alt="Logo Instagram"/>
                   </a>
                 </li>
                 <li className="social__item">
                   <a href="https://www.youtube.com/channel/UCLImIm6777cZiGmjaRuFcwQ?view_as=subscriber" className="social__link"
                   target="_blank" rel="noopener noreferrer">
-                  <StaticImage src="../../../images/icon_youtube.png" alt="Logo Youtube"/>
+                  <StaticImage src="../../../images/icon_youtube_orange.png" alt="Logo Youtube"/>
                   </a>
                 </li>
                 <li className="social__item">
                   <a href="https://www.linkedin.com/company/71399542/" className="social__link"
                   target="_blank" rel="noopener noreferrer">
-                  <StaticImage src="../../../images/icon_linkedin.png" alt="Logo Linkedin" />
+                  <StaticImage src="../../../images/icon_linkedin_orange.png" alt="Logo Linkedin" />
                   </a>
                 </li>
               </ul>
@@ -89,6 +89,12 @@ const Footer = () => {
             <div className="footer__section--column">
               <h3 className="footer__title">Contato para atendimento</h3>
               <p className="footer__text"><a href="tel:+552139939670">(21) 3993 - 9670</a></p>
+            </div>
+            <div className="footer__section--column">
+              <a href="https://www2.susep.gov.br/safe/Corretores/pesquisa" className="social__link"
+                target="_blank" rel="noopener noreferrer">
+                <StaticImage src="../../../images/logo_susep_1x.png" alt="Logo SUSEP" />
+              </a>
             </div>
           </div>
         </section>

@@ -6,6 +6,9 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\src\\pages\\404.js")),
-  "component---src-pages-index-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\src\\pages\\index.js"))
+  "component---src-pages-blog-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\src\\pages\\blog.js")),
+  "component---src-pages-carreiras-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\src\\pages\\carreiras.js")),
+  "component---src-pages-index-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\src\\pages\\index.js")),
+  "component---src-templates-service-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\becapital\\src\\templates\\service.js"))
   }
 

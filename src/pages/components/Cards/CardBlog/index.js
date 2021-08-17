@@ -50,6 +50,7 @@ export default function CardBlog() {
                         />
                         <h2 className="posts__title">{title}</h2>
                         <p className="posts__excerpt">{excerpt}</p>
+                        <a href={`/blog/${slug}`} className="button button__primary">LER ARTIGO</a>
                       </article>
                     </Link>
                   </li>
