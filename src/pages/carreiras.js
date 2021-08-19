@@ -18,7 +18,7 @@ const Carreiras = () => {
       <section className="banner banner__secondary banner--carreiras">
         <div className="banner__content">
           <div className="banner__text">
-            <h2 className="section__title">Ser BeCapital é <WordsEffect /></h2> 
+            <h2 className="section__title">Ser BeCapital é <br/> <WordsEffect /></h2> 
             <p className="section__subtitle">Conheça o Jeito <strong>Be</strong> de trabalhar, viver e compartilhar</p>
           </div>
           <StaticImage src="../images/banner_carreiras_4x_v2.jpg" alt="Banner Somos BeCapital" className="banner__figure" imgClassName="banner__image" objectFit="contain" loading="eager" />
@@ -62,7 +62,7 @@ const Carreiras = () => {
           </div>
           <div className="terms__video">
             <iframe width="1206" height="678" src="https://www.youtube.com/embed/a5ApMPYlENI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p className="terms__subtitle"><a href="/asd/">clique aqui</a> e veja o making of</p>
+            <p className="terms__subtitle"><a href="https://www.youtube.com/watch?v=qM4zknWm2wQ" target="_blank" rel="noopener noreferrer">clique aqui</a> e veja o making of</p>
           </div>
         </div>
       </section>

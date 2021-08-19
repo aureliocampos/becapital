@@ -36,6 +36,9 @@
     border-radius: 24px;
     height: 480px;
     cursor: pointer;
+    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+      height: 530px;
+    }
   }
   &__title {
     font: 700 0.9375em $font-primary;

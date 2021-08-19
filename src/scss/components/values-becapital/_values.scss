@@ -126,6 +126,9 @@
     top: -250px;
     left: 20px;
     z-index: -1;
+    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+      top: -240px;
+    }
     @include tablet {
       position: absolute;
       top: -250px;
@@ -142,6 +145,9 @@
   .values__terms-text {
     width: 261px;
     margin-left: auto;
+    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+      width: 230px;
+    }
     @include tablet {
       margin-left: 120px;
     }
@@ -154,6 +160,9 @@
       line-height: 49px;
       text-align: left;
       color: #2E2E2E;
+      @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+        line-height: 1;
+      }
       @include notebook {
         font-size: 4.625em;
         margin-bottom: 0.5em;
@@ -187,7 +196,7 @@
   }
 }
 .terms__video {
-  width: 340px;
+  width: 100%;
   height: 192px;
   margin: 52px auto;
   @include tablet {

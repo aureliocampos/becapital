@@ -55,6 +55,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "orderMenu": {
+      "type": "integer",
+      "default": 0
     }
   }
 }

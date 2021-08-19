@@ -21,6 +21,9 @@
     width: 260px;
     color: $blue-dark;
     margin-top: 11px;
+    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+      width: 100%;
+    }
   }
   &__name {
     font: 700 1.125em $font-secondary;
@@ -34,7 +37,11 @@
     line-height: 12px;
     text-align: left;    
   }
-
+  .slick-slide > div {
+    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+      margin-right: 15px;
+    }
+  }
 }
 
 /* Ações que apoiamos*/

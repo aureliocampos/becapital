@@ -9,16 +9,16 @@ const SubMenu = () => (
    <StaticQuery
    query={graphql`
      query {
-      allStrapiServices {
-        edges {
-          node {
-            id
-            title
-            slug
+      allStrapiServices(sort: {order: ASC, fields: orderMenu}) {
+          edges {
+            node {
+              orderMenu
+              title
+              slug
+            }
           }
         }
       }
-     }
    `}
    render={data => (
     <ul className="header__submenu_items">

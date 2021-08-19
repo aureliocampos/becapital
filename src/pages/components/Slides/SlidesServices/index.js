@@ -74,9 +74,9 @@ export default class CenterMode extends Component {
                     </svg>
 
                   </span>
-                  <h2 className="slide-services__title">Consórcio Imobiliário</h2>
-                  <p className="slide-services__text">Ao adquirir um consórcio, você planeja a aquisição do seu imóvel sem precisar se descapitalizar por completo. Você se une a um grupo de pessoas que têm o mesmo objetivo que o seu, criando um formato de “poupança”, ou seja, cada um compra uma cota e paga em parcelas mensais, sem juros. Ao ser contemplado, você pode resgatar o valor integral necessário para a sua aquisição.</p>
-                  <Link to="/consorcio-imobiliario/" className="slide-services__link">saiba mais</Link>
+                  <h2 className="slide-services__title">Consórcios</h2>
+                  <p className="slide-services__text">Ao adquirir um consórcio, você planeja a aquisição de um serviço, produto ou bem sem precisar se descapitalizar por completo. Você se une a um grupo de pessoas que têm o mesmo objetivo que o seu, criando um formato de "poupança", ou seja, cada um compra uma cota e paga em parcelas mensais, sem juros. Ao ser contemplado (a), você resgata o valor integral necessário para sua aquisição. </p>
+                  <Link to="/consorcios/" className="slide-services__link">saiba mais</Link>
                 </article>
                 <section className="section section__logos">
                   <div className="section__container">

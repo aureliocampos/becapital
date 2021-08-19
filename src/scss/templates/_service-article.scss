@@ -75,6 +75,9 @@
     justify-content: center;
     .button {
       font-size: 14px;
+      @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+        font-size: 12px;
+      }
     }
   }
   &__partner {

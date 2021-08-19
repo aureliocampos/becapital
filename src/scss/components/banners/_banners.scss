@@ -36,6 +36,9 @@
       position: absolute;
       bottom: 115px;
       padding: 0 2.5rem;
+      @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+        padding: 0 1.5rem;
+      }
       @include tablet {
         top: 120px;
         left: 20px;
@@ -97,6 +100,7 @@
   .section__subtitle {
     text-align: justify;
     margin: 1em 0;
+    padding: 0;
     strong {
       color: $orange;
     }
@@ -143,6 +147,9 @@
     font-size: 3rem;
     text-align: left;
     line-height: 1;
+    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+      font-size: 2.75rem;
+    }
     mark {
       background-color: transparent;
       color: $orange;
@@ -154,6 +161,7 @@
   }
   .section__subtitle {
     text-align: left;
+    padding: 0;
     strong{
       color: $orange;
     }

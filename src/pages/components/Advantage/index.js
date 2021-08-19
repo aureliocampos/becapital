@@ -100,7 +100,9 @@ export default class AdvantageClub extends Component {
         </div>
         <div className="advantage__item">
           <div className="advantage__button">
-            <StaticImage src="../../../images/logo_gympass.png" alt="Ícone de Descontos em restaurantes e cursos" />
+            <a href="https://site.gympass.com/br" target="_blank" rel="noopener noreferrer">
+              <StaticImage src="../../../images/logo_gympass.png" alt="Ícone de Descontos em restaurantes e cursos" />
+            </a>
             <h3 className="advantage__title">Modo #BeFit ativado para qualidade de vida e bem-estar!</h3>
           </div>
         </div>
