@@ -67,7 +67,9 @@
   }
   .custom-dots__items {
     margin-top: 4em;
+    display: -webkit-flex; /* NEW */
     display: flex;
+    -webkit-flex-wrap: wrap; /* NEW */
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;

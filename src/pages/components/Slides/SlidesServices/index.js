@@ -50,7 +50,7 @@ export default class CenterMode extends Component {
       centerPadding: "50px",
       slidesToShow: 1,
       speed: 500,
-      dots: true,
+      dots: false,
       nav: false,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />

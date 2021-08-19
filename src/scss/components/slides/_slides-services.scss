@@ -34,7 +34,7 @@
     padding: 44px 27px;
     box-shadow: 0px 0px 21.6476px rgba(0, 0, 0, 0.14);
     border-radius: 24px;
-    height: 420px;
+    height: 480px;
     cursor: pointer;
   }
   &__title {
@@ -44,8 +44,8 @@
     margin: 1.25rem 0;
   }
   &__text {
-    font: 400 0.625em $font-secondary;
-    line-height: 15px;
+    font: 400 0.725em $font-secondary;
+    line-height: 148.1%;
     text-align: justify;
   }
   &__link {
