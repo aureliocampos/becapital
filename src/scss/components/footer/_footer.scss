@@ -66,12 +66,23 @@
 }
 .footer__end {
   text-align: center;
-  padding: 2.75rem 0;
+  padding: 2.75rem 1.5em;
   border: none;
   .footer__title {
+    display: block;
+    font-size: 70%;
     text-align: center;
     strong {
       color: $orange;
+    }
+  }
+  .footer__text {
+    font-size: 60%;
+    line-height: 148%;
+    @include notebook {
+      display: block;
+      max-width: 60%;
+      margin: 0 auto;
     }
   }
 }

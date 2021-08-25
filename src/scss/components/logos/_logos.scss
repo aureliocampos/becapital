@@ -45,6 +45,7 @@
   .section__container {
     background: rgba(108, 108, 108, 0.2);
     .logos__items {
+      justify-content: space-between;
       gap: 40px;
       flex-wrap: wrap;
       max-width: 1114px;
@@ -52,7 +53,7 @@
       padding: 50px;
       margin: 0 auto;
       .logos__item {
-        width: 20%;
+        width: 15%;
       }
     }
   }

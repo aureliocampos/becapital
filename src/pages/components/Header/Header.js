@@ -33,18 +33,22 @@ const Header = () => {
           className="header__logo header__logo--desktop"
           />
         </Link>
+        <button className='burguer__container'  onClick={toggleClass} 
+            onKeyDown={toggleClass}>
+          <span />
+          <span />
+          <span />
+        </button>
         <div className={isActive ? 'header__menu active': 'header__menu'}>
-          <div 
+          <button 
             className={isActive ? 'burguer__container active': 'burguer__container'}
             onClick={toggleClass} 
             onKeyDown={toggleClass}
-            role="button"
-            tabIndex="0" 
           >
             <span />
             <span />
             <span />
-          </div>
+          </button>
           <nav className="header__menu_nav">
             <ul className="header__menu_items">
               <li className="header__menu_item">

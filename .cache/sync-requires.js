@@ -4,7 +4,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-caches-gatsby-plugin-offline-app-shell-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\_SITES\\becapital\\.cache\\caches\\gatsby-plugin-offline\\app-shell.js")),
+  "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\_SITES\\becapital\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\_SITES\\becapital\\src\\pages\\404.js")),
   "component---src-pages-blog-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\_SITES\\becapital\\src\\pages\\blog.js")),
   "component---src-pages-carreiras-js": preferDefault(require("C:\\Users\\home\\OneDrive\\Desktop\\WORKSPACE\\freelancer\\_SITES\\becapital\\src\\pages\\carreiras.js")),

@@ -100,8 +100,11 @@ const Footer = () => {
           </div>
         </section>
         <section className="footer__section footer__end">
-          <p className="footer__title">BeCapital <strong>®</strong> Todos os direitos reservados</p>
-          <p  className="footer__text">CNPJ: 36.664.223/0001-09</p>
+          <small className="footer__title">BeCapital <strong>®</strong> Todos os direitos reservados - CNPJ: 36.664.223/0001-09</small>
+          <small  className="footer__text">A BeCapital Live Corretora de Seguros LTDA  (CNPJ 29.761.563/0001-84) está registrada na Susep com o código 212113018, estando autorizada a comercializar produtos como: micro-seguros, plano de capitalização, seguro de pessoas, plano de previdência complementar e seguro de danos.</small>
+
+
+
         </section>
       </div>
     </footer>

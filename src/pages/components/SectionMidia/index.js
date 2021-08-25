@@ -19,6 +19,11 @@ export default function SectionMidia() {
             </a>
           </li>
           <li className="logos__item">
+            <a href="https://economia.estadao.com.br/noticias/geral,o-dilema-do-mundo-imobiliario,70003817015" target="_blank" rel="noopener noreferrer">
+              <StaticImage src="../../../images/logo_estadao_1x.png" alt="Logo Estadão" />
+            </a>
+          </li>
+          <li className="logos__item">
             <a href="http://revistapress.com.br/advertising/becapital-lanca-campanha-digital-que-incentiva-as-pessoas-a-realizarem-seus-sonhos/" target="_blank" rel="noopener noreferrer">
               <StaticImage src="../../../images/logo_press_1x.png" alt="Logo revista press" />
             </a>

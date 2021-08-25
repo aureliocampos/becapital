@@ -1,2 +1,0 @@
-(self.webpackChunkbecapital=self.webpackChunkbecapital||[]).push([[800],{2341:function(e,n,a){"use strict";a.r(n),a.d(n,{default:function(){return c}});var t=a(7294);function c(e){var n=e.children;return t.createElement("section",{className:"banner banner__secondary banner--blog"},t.createElement("div",{className:"banner__content"},n))}}}]);
-//# sourceMappingURL=component---src-pages-components-banners-banner-secondary-index-js-a7951c1aec6f43365144.js.map

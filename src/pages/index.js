@@ -16,7 +16,7 @@ const Home = () => {
       />
       <section className="banner banner__primary">
         <div className="banner__content">
-          <StaticImage src="../images/banner_home_desktop_2x.jpg" alt="Banner image" className="banner__figure" imgClassName="banner__image banner__image-background"/>
+          <StaticImage src="../images/foto-banner.jpg" alt="Mulher fazendo seu planejamento financeiro na becapital" className="banner__figure" imgClassName="banner__image banner__image-background"/>
           <div className="banner__primary-description">
             <h1 className="banner__title">Faça seu planejamento financeiro agora</h1>
             <p className="banner__subtitle">Nosso orientador financeiro te ajudará a encontrar o título mais adequado para você atingir seu objetivo. </p>

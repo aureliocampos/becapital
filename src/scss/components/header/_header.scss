@@ -248,12 +248,14 @@
 }
 
 .burguer__container {
-  position: fixed;
-  top: 8px;
-  right: 20px;
   width: 30px;
   height: 30px;
   transition: all 0.3s ease-in-out;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+
   @include tablet {
     display: none;
   }
