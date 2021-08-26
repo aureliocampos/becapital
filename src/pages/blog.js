@@ -10,7 +10,7 @@ const Blog = () => {
 
   const data = useStaticQuery(graphql`
     {
-      allStrapiArticles {
+      allStrapiArticles(sort: {fields: date, order: DESC}) {
         edges {
           node {
             strapiId
@@ -24,6 +24,7 @@ const Blog = () => {
                 }
               }
             }
+            date(formatString: "DD/MM/YYYY")
           }
         }
       }

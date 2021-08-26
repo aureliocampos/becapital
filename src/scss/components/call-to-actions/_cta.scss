@@ -3,6 +3,10 @@
 .cta-contact {
   padding: 0 1.25em;
   margin-top: 52px;
+  .gatsby-image-wrapper {
+    width: 100px;
+    height: auto;
+  }
   .section__description {
     display: flex;
     align-items: center;

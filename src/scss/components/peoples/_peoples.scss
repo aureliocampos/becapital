@@ -36,7 +36,13 @@
       height: max-content;
     }
     .peoples__image--card-primary{
+      border-top-right-radius:28px;
+      border-top-left-radius:28px;
       z-index: -1;
+      @include notebook {
+        border-top-right-radius: 44px;
+        border-top-left-radius: 44px;
+      }
     }
     .peoples__description {
       background: #FFFFFF;
@@ -130,8 +136,10 @@
       }
       .gatsby-image-wrapper {
         width: 55px;
+        height: auto;
         @include notebook {
-          width: auto;
+          width: 110px;
+          height: auto;
         }
       }
       .peoples__name {

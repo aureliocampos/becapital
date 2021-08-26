@@ -9,7 +9,7 @@ export default function CardSupportCause() {
 
         <div className="card-support__items">
           <article className="card-support__item">
-            <StaticImage src="../../../../images/image_quadro_de_colaboradores.jpg" alt="imagem sobre a plataforma de ensino que forma refugiados e imigrantes da BeCapital" />
+            <StaticImage src="../../../../images/image_quadro_de_colaboradores_2x.jpg" alt="imagem sobre a plataforma de ensino que forma refugiados e imigrantes da BeCapital" />
             <div className="card-support__description">
               <a href="https://totidiversidade.com.br/" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../../../../images/logo_toti.png" alt="Logo Toti" />
@@ -18,7 +18,7 @@ export default function CardSupportCause() {
             </div>
           </article>
           <article className="card-support__item">
-            <StaticImage src="../../../../images/image_pratocinadores_hamburguer.jpg" alt="imagem Patrocinadores do Dia Mundial do Hambúrguer da BeCapital" />
+            <StaticImage src="../../../../images/image_pratocinadores_hamburguer_2x.jpg" alt="imagem Patrocinadores do Dia Mundial do Hambúrguer da BeCapital" />
             <div className="card-support__description">
               <a href="https://osdm.org.br/" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../../../../images/logo_dona_meca.png" alt="Logo Dona Meca" />

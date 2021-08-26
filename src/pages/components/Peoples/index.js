@@ -10,7 +10,7 @@ export default function PeoplesBecapital() {
         <h2 className="section__title">BeCapitals por eles</h2>
         <div className="peoples__grid">
           <article className="peoples__card--primary">
-            <StaticImage src="../../../images/foto_renate_mattos_full.png" alt="Foto de Renata Mattos, Coordenadora de Conteúdo" className="peoples__image--card-primary"/>
+            <StaticImage src="../../../images/foto_renata_mattos_full_2x.jpg" alt="Foto de Renata Mattos, Coordenadora de Conteúdo" className="peoples__image--card-primary"/>
             <div className="peoples__description">
               <StaticImage src="../../../images/open-quote.png" alt="Ícone de citação" className="icon-quote"/>
               <p className="peoples__paragraph">Quem acredita no trabalho como a soma de ações concretizadas tem um terreno fértil na BeCapital para se realizar. Aqui, temos autonomia para propor, criar e avançar com as mais improváveis ideias. </p>
@@ -27,7 +27,7 @@ export default function PeoplesBecapital() {
               <p className="peoples__paragraph">Aqui na BeCapital, sou acolhida desde o primeiro dia. A estrutura de feedback e o plano de desenvolvimento pessoal estão contribuindo para que eu possa enxergar minhas potencialidades e fraquezas em um processo rico de autoconhecimento.</p>
             </div>
             <div className="peoples__author">
-              <StaticImage src="../../../images/foto_mylena_santos.png" alt="Foto de Mylena Santos, Analista Financeiro" className="peoples__image--card-primary"/>
+              <StaticImage src="../../../images/foto_mylena_santos_2x.png" alt="Foto de Mylena Santos, Analista Financeiro" className="peoples__image--card-primary"/>
               <h3 className="peoples__name"><strong>Mylena Santos</strong><br/> Analista Financeiro</h3>
             </div>
           </article>
@@ -40,7 +40,7 @@ export default function PeoplesBecapital() {
               <p className="peoples__paragraph">Aqui, você é protagonista da sua carreira em todos os sentidos!</p>
             </div>
             <div className="peoples__author">
-              <StaticImage src="../../../images/foto_gabriella_alves.png" alt="Foto de Gabriella Alves, Analista de Recursos Humanos" className="peoples__image--card-primary"/>
+              <StaticImage src="../../../images/foto_gabriella_alves_2x.png" alt="Foto de Gabriella Alves, Analista de Recursos Humanos" className="peoples__image--card-primary"/>
               <h3 className="peoples__name"><strong>Gabriella Alves</strong><br/> Analista de Recursos Humanos</h3>
             </div>
           </article>

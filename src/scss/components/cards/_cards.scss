@@ -12,6 +12,15 @@
     .slick-slider {
       max-width: 915px;
       margin: 0 auto;
+      .slick-slide > div {
+        width: 262px;
+        @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
+          margin-right: 15px;
+        }
+        .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+          border-radius: 1em;
+        }
+      }
     }
   }
   &__information {
@@ -36,11 +45,6 @@
     color: currentColor;
     line-height: 12px;
     text-align: left;    
-  }
-  .slick-slide > div {
-    @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
-      margin-right: 15px;
-    }
   }
 }
 

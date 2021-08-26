@@ -118,14 +118,14 @@ export default class SlidesValuesBecapital extends Component {
               </div>
             </article>
             <article className="slide-values__card"> 
-              <StaticImage src="../../../../images/foto_excelencia_e_qualidade_full.jpg" alt="Excelência e qualidade nas entregas" className="slide-values__image"/>
+              <StaticImage src="../../../../images/foto_excelencia_e_qualidade_full_2x.jpg" alt="Excelência e qualidade nas entregas" className="slide-values__image"/>
               <div className="slide-values__description">
                 <h2 className="slide-values__title">Excelência e qualidade nas entregas</h2>
                 <p className="slide-values__text">Priorizamos a qualificação em todos os processos: embasamento das ideias e argumentos, desenvolvimento técnico, aprendizagem constante, compromisso com prazos e mensuração dos resultados.</p> 
               </div>
             </article>
             <article className="slide-values__card"> 
-              <StaticImage src="../../../../images/foto_resultado_de_alta_performance_full.jpg" alt="Resultados de alta performance" className="slide-values__image"/>
+              <StaticImage src="../../../../images/foto_resultado_de_alta_performance_full_2x.jpg" alt="Resultados de alta performance" className="slide-values__image"/>
               <div className="slide-values__description">
                 <h2 className="slide-values__title">Resultados de alta performance</h2>
                 <p className="slide-values__text">Somamos conhecimento para multiplicar sonhos. Nosso compromisso é com resultados e entregas que vão além do esperado e do trivial.</p> 

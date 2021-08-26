@@ -50,7 +50,7 @@ export default class DirectorsSlide extends Component {
           <div className="directors__items">
             <Slider {...settings}>
               <article className="directors__item">
-                <StaticImage src="../../../../images/dir_paulo_paiva.jpg" alt="Foto de Paulo Paiva, Diretor Executivo da BeCapital" />
+                <StaticImage src="../../../../images/dir_paulo_paiva_2x.png" alt="Foto de Paulo Paiva, Diretor Executivo da BeCapital" />
                 <footer className="directors__information">
                   <div className="directors__description">
                     <h2 className="directors__name">Paulo Paiva</h2>
@@ -62,7 +62,7 @@ export default class DirectorsSlide extends Component {
                 </footer>
               </article>
               <article className="directors__item">
-                <StaticImage src="../../../../images/dir_tom_santos.jpg" alt="Foto de Tom Santos, Diretor de Marketing da BeCapital" />
+                <StaticImage src="../../../../images/dir_tom_santos_2x.png" alt="Foto de Tom Santos, Diretor de Marketing da BeCapital" />
                 <footer className="directors__information">
                   <div className="directors__description">
                     <h2 className="directors__name">Tom Santos</h2>
@@ -74,7 +74,8 @@ export default class DirectorsSlide extends Component {
                 </footer>
               </article>
               <article className="directors__item">
-                <StaticImage src="../../../../images/dir_calebe_vieira.jpg" alt="Foto de Calebe Vieira, Diretor Comercial da BeCapital" />
+ 
+              <StaticImage src="../../../../images/dir_calebe_vieira_2x.png" alt="Foto de Calebe Vieira, Diretor Comercial da BeCapital" />
                 <footer className="directors__information">
                   <div className="directors__description">
                     <h2 className="directors__name">Calebe Vieira</h2>

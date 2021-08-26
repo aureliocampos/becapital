@@ -31,29 +31,32 @@
   }
 
   &__primary {
+    display: flex;
+    align-items: center;
     height: 100vh;
+    background-size: cover;
+    background-position: right center;
+    background-position-x: 80%;
+    background-repeat: no-repeat;
+   
+    .banner__content {
+      margin: 0 auto;
+      @include notebook {
+        width: 1114px;
+      }
+      .banner__title {
+        margin-top: 0;
+      }
+    }
+    
     &-description {
-      position: absolute;
-      bottom: 115px;
       padding: 0 2.5rem;
       @media screen and (max-width: 330px){ /* Para Iphone 5 e SE*/
         padding: 0 1.5rem;
       }
-      @include tablet {
-        top: 120px;
-        left: 20px;
-        width: 400px;
-        margin: 0 auto;
-        padding: 0;
-      }
-      @include tablet-landscape {
-        left: 90px;
-      }
       @include notebook {
-        left: 120px;
-      }
-      @include desktop {
-        left: 390px;
+        width: 400px;
+        padding: 0;
       }
     }
   }
