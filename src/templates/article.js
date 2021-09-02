@@ -1,17 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 import Layout from "../pages/components/Layout";
 import Seo from "../pages/components/SEO";
 
+
+
 const ArticleTemplate = ({ data, pageContext }) => {
 
   const image = getImage(data.strapiArticles.thumbnail.localFile)
   const { next, previous } = pageContext;
 
-  // const content = document.querySelector('.single-article__content').innerText.split(' ').length;
-  // const readingTimeEstimated = Math.ceil(content / 200);
+  useEffect(() => {
+
+      document.querySelectorAll( 'oembed[url]' ).forEach( element => {
+        // Create the <a href="..." class="embedly-card"></a> element that Embedly uses
+        // to discover the media.
+        const anchor = document.createElement( 'a' );
+      
+        anchor.setAttribute( 'href', element.getAttribute( 'url' ) );
+        anchor.className = 'embedly-card';
+
+        element.appendChild( anchor );
+        
+    } );
+  });
 
   return(
     <Layout>
