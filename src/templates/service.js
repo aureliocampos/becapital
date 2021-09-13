@@ -13,7 +13,7 @@ const ServicesTemplate = ({ data }) => {
 
   return(
     <Layout>
-      <Seo title={data.strapiServices.title} description={data.strapiServices.metaTags.Description} />
+      <Seo title={`${data.strapiServices.title} |`} description={data.strapiServices.metaTags.Description} />
       <article className="single-service single-service__article">
         <header className="single-service__header">
           <GatsbyImage 

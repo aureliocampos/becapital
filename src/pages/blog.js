@@ -63,7 +63,7 @@ const Blog = () => {
   return(
     <Layout>
       <Seo
-        title="Blog"
+        title="Blog |"
         description="Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos."
       />
       <BannerSecondary>

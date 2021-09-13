@@ -29,7 +29,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
 
   return(
     <Layout>
-      <Seo title={data.strapiArticles.title}  description={data.strapiArticles.MetaTags.Description} />
+      <Seo title={`${data.strapiArticles.title} |`}  description={data.strapiArticles.MetaTags.Description} />
       <article className="post__single single-article">
         <header className="single-article__header">
           <GatsbyImage 

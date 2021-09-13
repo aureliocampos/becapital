@@ -14,7 +14,7 @@ const Home = () => {
   return(
     <Layout>
       <Seo
-        title="Home"
+        title=" "
         description="Uma nova maneira de pensar e agir no mercado de capitais. Acreditamos que investir é para todos."
       />
       <section className="banner banner__primary" style={styleBackgroundImage}>
